@@ -79,10 +79,10 @@ Khi ứng dụng chạy trong User Space cần thao tác phần cứng (ví dụ
 ```mermaid
 sequenceDiagram
     autonumber
-    participant App as Ứng dụng (User Space / User Mode)
-    participant CPU as Bộ vi xử lý (CPU)
-    participant Kernel as Nhân OS (Kernel Space / Kernel Mode)
-    participant HW as Phần cứng (RAM, Disk, NIC...)
+    participant App as "Ứng dụng (User Space / User Mode)"
+    participant CPU as "Bộ vi xử lý (CPU)"
+    participant Kernel as "Nhân OS (Kernel Space / Kernel Mode)"
+    participant HW as "Phần cứng (RAM, Disk, NIC...)"
 
     App->>CPU: Thực thi logic ứng dụng thông thường
     App->>CPU: Gọi System Call (Ví dụ: đọc file)
@@ -322,6 +322,31 @@ Khi thực hiện tác vụ Vào/Ra truyền thống, luồng xử lý của ứ
 *   Soft Link sở hữu **một số hiệu Inode độc lập** và nội dung bên trong nó chỉ chứa đường dẫn (path) trỏ tới tập tin gốc.
 *   Nếu tập tin gốc bị xóa, di chuyển hoặc đổi tên, Soft Link sẽ bị hỏng (**Broken Link**) vì đường dẫn không còn tồn tại.
 
+```mermaid
+graph TD
+    subgraph Directory_Entries ["Directory Entries (Tên File)"]
+        FileA["file_goc.txt"]
+        FileB["file_hardlink.txt (Hard Link)"]
+        FileC["file_softlink.txt (Soft Link)"]
+    end
+
+    subgraph Inodes ["Các Inode (Siêu dữ liệu)"]
+        Inode1["Inode 1001 <br/> (Chứa Metadata của file gốc)"]
+        Inode2["Inode 1002 <br/> (Chứa đường dẫn 'file_goc.txt')"]
+    end
+
+    subgraph Disk_Blocks ["Khối dữ liệu trên đĩa (Data Blocks)"]
+        DataBlock["Dữ liệu thực tế của file <br/> 'Hello World'"]
+    end
+
+    FileA --> Inode1
+    FileB --> Inode1
+    FileC --> Inode2
+    
+    Inode1 --> DataBlock
+    Inode2 -.->|Trỏ tới tên file| FileA
+```
+
 ---
 
 ## 5.5. Quản lý quyền truy cập (Access Control)
@@ -394,7 +419,7 @@ graph TD
     subgraph Epoll ["Mô hình epoll (Độ phức tạp O(1))"]
         App2["Ứng dụng"] -->|1. Thêm Socket vào Cây Đỏ-Đen| RBTree["Red-Black Tree trong Kernel"]
         NetworkEvent["Sự kiện Mạng xảy ra"] -->|2. Kích hoạt Callback| EventList["Ready List (Danh sách Socket sẵn sàng)"]
-        App2 -->|3. Gọi epoll_wait()| EventList
+        App2 -->|3. Gọi epoll_wait| EventList
         EventList -->|4. Chỉ trả về các Socket có dữ liệu| App2
     end
 ```
