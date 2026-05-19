@@ -84,16 +84,16 @@ Cache có thể được đặt ở rất nhiều tầng khác nhau trong một 
 
 ```mermaid
 graph LR
-    Client[Client<br/>(Cache: Responses)]
+    Client["Client<br/>(Cache: Responses)"]
     
-    CDN[CDN<br/>(Cache: Static & Media files)]
-    Proxy[Proxy<br/>(Cache: Static files)]
+    CDN["CDN<br/>(Cache: Static & Media files)"]
+    Proxy["Proxy<br/>(Cache: Static files)"]
     
     Server[Server]
-    LocalCache[(Local Cache<br/>Cache: Configs)]
+    LocalCache[("Local Cache<br/>Cache: Configs")]
     
-    RemoteCache[(Remote Cache<br/>Cache: Configs, Query Result,<br/>Calc Result, Shared Info)]
-    DB[(Database<br/>Cache: Query Cache)]
+    RemoteCache[("Remote Cache<br/>Cache: Configs, Query Result,<br/>Calc Result, Shared Info")]
+    DB[("Database<br/>Cache: Query Cache")]
     
     Client --> CDN
     Client --> Proxy
