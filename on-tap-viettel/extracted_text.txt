@@ -1,0 +1,4219 @@
+--- PAGE 1 ---
+Bộ 10 đề luyện thi tuyển dụng Kỹ sư DEV vào Viettel năm
+ 2025
+ ptit pdf course for entertain (Học viện Công nghệ Bưu chính Viễn thông)
+messages.pdf_cover_qr_code_label
+messages.studocu_not_sponsored_or_endorsed_by_college
+ Bộ 10 đề luyện thi tuyển dụng Kỹ sư DEV vào Viettel năm
+ 2025
+ ptit pdf course for entertain (Học viện Công nghệ Bưu chính Viễn thông)
+messages.pdf_cover_qr_code_label
+messages.studocu_not_sponsored_or_endorsed_by_college
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 2 ---
+ 
+1 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Bộ 10 đề luyện thi tuyển dụng Kỹ sư 
+DEV vào Viettel năm 2025 
+ 
+ ................................ ................................ ................................ ................................ ............. 1 
+Đề thi thử số 1: Kỹ sư Dev vào Viettel 2025 ................................ ................................ .......... 1 
+Đề thi thử số 2: Kỹ sư Dev vào Viettel 2025 ................................ ................................ ........ 11 
+Đề thi thử số 3: Kỹ sư Dev vào Viettel 2025 ................................ ................................ ........ 22 
+Đề thi thử số 4: Kỹ sư Dev vào Viettel 2025 ................................ ................................ ........ 32 
+Đề thi thử số 5: Kỹ sư Dev vào Viettel 2025 ................................ ................................ ........ 42 
+ 
+ 
+Đề thi thử số 1: Kỹ sư Dev vào Viettel 2025 
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+Yêu cầu: Chọn đáp án đúng nhất cho mỗi câu hỏi. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 3 ---
+ 
+2 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Phần I: Lập trình và Cấu trúc dữ liệu (10 câu) 
+Câu 1: Trong Python, đâu là cách đúng để tạo một danh sách (list) rỗng? 
+A. list = {} 
+B. list = () 
+C. list = [] 
+D. list = "" 
+Câu 2: Lập trình hướng đối tượng (OOP) có mấy tính chất cơ bản? 
+A. 2 
+B. 3 
+C. 4 
+D. 5 
+Câu 3: Cấu trúc dữ liệu nào được sử dụng phổ biến nhất để triển khai thuật toán BFS (tìm 
+kiếm theo chiều rộng)? 
+A. Stack (Ngăn xếp) 
+B. Queue (Hàng đợi) 
+C. Linked List (Danh sách liên kết) 
+D. Hash Table (Bảng băm) 
+Câu 4: Trong lập trình, "Đệ quy" (Recursion) là gì? 
+A. Một hàm gọi chính nó để giải quyết một bài toán. 
+B. Một vòng lặp vô hạn. 
+C. Một kỹ thuật lưu trữ dữ liệu. 
+D. Một phương thức để tối ưu hóa bộ nhớ. 
+Câu 5: "Big O" Notation trong phân tích thuật toán dùng để làm gì? 
+A. Đo lường tốc độ thực thi của một thuật toán. 
+B. Biểu diễn độ phức tạp thời gian và không gian của thuật toán. 
+C. Đánh giá chất lượng của mã nguồn. 
+D. Chỉ ra lỗi cú pháp. 
+Câu 6: Trong Python, từ khóa self trong một lớp (class) có ý nghĩa gì? 
+A. Đại diện cho chính lớp đó. 
+B. Đại diện cho một phương thức tĩnh. 
+C. Đại diện cho một thuộc tính của lớp. 
+D. Đại diện cho thể hiện (instance) của lớp đó. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 4 ---
+ 
+3 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 7: Cấu trúc dữ liệu nào dưới đây có thể được sử dụng để kiểm tra sự trùng lặp của các 
+phần tử trong thời gian O(1) trung bình? 
+A. Mảng (Array) 
+B. Danh sách liên kết (Linked List) 
+C. Tập hợp (Set) 
+D. Cây (Tree) 
+Câu 8: Đâu là lợi ích chính của việc sử dụng một hệ thống kiểm soát phiên bản (như Git)? 
+A. Tự động biên dịch mã nguồn. 
+B. Sao lưu dữ liệu trên đám mây. 
+C. Quản lý các thay đổi của mã nguồn và cho phép cộng tác hiệu quả. 
+D. Giảm dung lượng tệp tin. 
+Câu 9: Trong Java, đâu là cách khai báo một biến hằng số (constant)? 
+A. var x = 10; 
+B. final int x = 10; 
+C. const int x = 10; 
+D. static int x = 10; 
+Câu 10: Trong C++, sự khác biệt giữa struct và class là gì? 
+A. struct không thể chứa phương thức. 
+B. class không thể kế thừa. 
+C. Mặc định, thành viên của struct là public và của class là private. 
+D. struct chỉ dùng cho C, class chỉ dùng cho C++. 
+Phần II: Cơ sở dữ liệu (10 câu) 
+Câu 11: Trong SQL, câu lệnh nào được sử dụng để truy vấn dữ liệu từ một bảng? 
+A. UPDATE 
+B. INSERT 
+C. SELECT 
+D. DELETE 
+Câu 12: Khóa chính (Primary Key) trong cơ sở dữ liệu có đặc điểm gì? 
+A. Không được chứa giá trị NULL. 
+B. Có thể trùng lặp. 
+C. Có thể chứa nhiều trường. 
+D. Chỉ được sử dụng trong các bảng liên kết. 
+Câu 13: Mục đích chính của việc chuẩn hóa (Normalization) cơ sở dữ liệu là gì? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 5 ---
+ 
+4 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Tăng tốc độ truy vấn. 
+B. Giảm sự dư thừa dữ liệu và cải thiện tính toàn vẹn. 
+C. Bảo mật dữ liệu. 
+D. Tạo các bảng tạm thời. 
+Câu 14: Trong SQL, câu lệnh JOIN được sử dụng để làm gì? 
+A. Thêm một cột mới vào bảng. 
+B. Kết hợp các hàng từ hai hoặc nhiều bảng dựa trên một cột liên quan. 
+C. Xóa các hàng trùng lặp. 
+D. Thay đổi dữ liệu trong một bảng. 
+Câu 15: MongoDB là một loại cơ sở dữ liệu nào? 
+A. Cơ sở dữ liệu quan hệ (Relational) 
+B. Cơ sở dữ liệu NoSQL 
+C. Cơ sở dữ liệu đồ thị (Graph) 
+D. Cơ sở dữ liệu thời gian thực (Real-time) 
+Câu 16: Đâu là điểm khác biệt chính giữa VARCHAR và CHAR trong SQL? 
+A. VARCHAR lưu trữ chuỗi có độ dài cố định. 
+B. CHAR lưu trữ chuỗi có độ dài thay đổi. 
+C. VARCHAR sử dụng ít bộ nhớ hơn cho các chuỗi ngắn. 
+D. CHAR nhanh hơn VARCHAR khi truy xuất dữ liệu. 
+Câu 17: ACID trong giao dịch cơ sở dữ liệu bao gồm những thuộc tính nào? 
+A. Atomicity, Consistency, Isolation, Durability 
+B. Availability, Consistency, Integrity, Durability 
+C. Atomicity, Consistency, Indexing, Durability 
+D. Availability, Compatibility, Integrity, Durability 
+Câu 18: Lệnh DROP TABLE trong SQL có chức năng gì? 
+A. Xóa tất cả dữ liệu trong bảng nhưng giữ lại cấu trúc. 
+B. Xóa một cột khỏi bảng. 
+C. Xóa hoàn toàn một bảng và tất cả dữ liệu của nó. 
+D. Thay đổi tên của một bảng. 
+Câu 19: Khóa ngoại (Foreign Key) được sử dụng để làm gì? 
+A. Cấm các giá trị trùng lặp. 
+B. Thiết lập mối quan hệ giữa hai bảng. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 6 ---
+ 
+5 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Tăng tốc độ truy cập dữ liệu. 
+D. Đảm bảo tính duy nhất của dữ liệu. 
+Câu 20: Chỉ mục (Index) trong cơ sở dữ liệu có tác dụng gì? 
+A. Giảm dung lượng lưu trữ của bảng. 
+B. Tăng tốc độ truy vấn dữ liệu. 
+C. Ngăn chặn việc thêm các hàng mới. 
+D. Tăng tính bảo mật cho cơ sở dữ liệu. 
+Phần III: Mạng máy tính và An toàn thông tin (10 câu) 
+Câu 21: Mô hình TCP/IP có bao nhiêu tầng? 
+A. 3 
+B. 4 
+C. 5 
+D. 7 
+Câu 22: Lớp (Layer) nào trong mô hình OSI chịu trách nhiệm định tuyến các gói tin giữa các 
+mạng khác nhau? 
+A. Lớp Vật lý (Physical Layer) 
+B. Lớp Liên kết dữ liệu (Data Link Layer) 
+C. Lớp Mạng (Network Layer) 
+D. Lớp Giao vận (Transport Layer) 
+Câu 23: Giao thức HTTP hoạt động trên lớp nào của mô hình TCP/IP? 
+A. Lớp Mạng (Network Layer) 
+B. Lớp Giao vận (Transport Layer) 
+C. Lớp Ứng dụng (Application Layer) 
+D. Lớp Liên kết dữ liệu (Data Link Layer) 
+Câu 24: Sự khác biệt chính giữa HTTP và HTTPS là gì? 
+A. HTTPS nhanh hơn HTTP. 
+B. HTTPS sử dụng cổng 80 trong khi HTTP sử dụng cổng 443. 
+C. HTTPS có lớp mã hóa SSL/TLS để bảo mật dữ liệu. 
+D. HTTP chỉ dùng cho văn bản, HTTPS dùng cho mọi loại dữ liệu. 
+Câu 25: Mục đích của một Firewall (Tường lửa) là gì? 
+A. Chống virus. 
+B. Ngăn chặn truy cập trái phép và kiểm soát luồng dữ liệu mạng. 
+C. Tăng tốc độ internet. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 7 ---
+ 
+6 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Mã hóa các tệp tin. 
+Câu 26: Địa chỉ IP có vai trò gì trong mạng máy tính? 
+A. Xác định một ứng dụng trên một máy chủ. 
+B. Định danh duy nhất cho một thiết bị trên mạng. 
+C. Mã hóa dữ liệu truyền đi. 
+D. Chỉ định một tên miền. 
+Câu 27: Tấn công "Phishing" (Lừa đảo) là gì? 
+A. Gửi email hàng loạt để quảng cáo. 
+B. Lừa người dùng tiết lộ thông tin nhạy cảm bằng cách giả mạo một thực thể đáng tin cậy. 
+C. Tấn công từ chối dịch vụ. 
+D. Gián điệp trên mạng. 
+Câu 28: Giao thức nào dưới đây thường được sử dụng để truyền tệp tin an toàn? 
+A. FTP 
+B. SFTP 
+C. HTTP 
+D. UDP 
+Câu 29: DNS (Domain Name System) có chức năng gì? 
+A. Phân bổ địa chỉ IP. 
+B. Dịch tên miền thành địa chỉ IP. 
+C. Mã hóa dữ liệu. 
+D. Quản lý tài khoản người dùng. 
+Câu 30: Mục đích của mã hóa (Encryption) là gì? 
+A. Giảm dung lượng tệp tin. 
+B. Biến đổi dữ liệu thành một dạng không thể đọc được nếu không có khóa. 
+C. Tăng tốc độ truyền dữ liệu. 
+D. Nén dữ liệu. 
+Phần IV: Hệ điều hành và DevOps (10 câu) 
+Câu 31: Lệnh ls -l trong Linux có chức năng gì? 
+A. Liệt kê các tệp tin và thư mục ở chế độ chi tiết. 
+B. Xóa một tệp tin. 
+C. Tạo một thư mục mới. 
+D. Sao chép một tệp tin. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 8 ---
+ 
+7 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 32: Docker là gì? 
+A. Một hệ điều hành. 
+B. Một công cụ quản lý cơ sở dữ liệu. 
+C. Một nền tảng để đóng gói ứng dụng và các phụ thuộc vào một container. 
+D. Một ngôn ngữ lập trình. 
+Câu 33: Lợi ích chính của việc sử dụng container (như Docker) là gì? 
+A. Giảm dung lượng bộ nhớ. 
+B. Đảm bảo ứng dụng chạy nhất quán trên mọi môi trường. 
+C. Tăng hiệu suất CPU. 
+D. Thay thế hoàn toàn máy ảo (Virtual Machine). 
+Câu 34: CICD (Continuous Integration/Continuous Delivery) là một khái niệm trong lĩnh vực 
+nào? 
+A. Lập trình Game. 
+B. Phát triển phần mềm theo mô hình Agile. 
+C. DevOps. 
+D. Bảo mật thông tin. 
+Câu 35: Trong DevOps, mục tiêu chính của việc tự động hóa là gì? 
+A. Giảm nhân sự. 
+B. Tăng tốc độ và độ tin cậy của quy trình phát triển và triển khai phần mềm. 
+C. Giảm chi phí phần cứng. 
+D. Nâng cao chất lượng mã nguồn. 
+Câu 36: Lệnh git clone được sử dụng để làm gì? 
+A. Đẩy các thay đổi lên kho lưu trữ từ xa. 
+B. Kéo các thay đổi từ kho lưu trữ từ xa. 
+C. Sao chép một kho lưu trữ từ xa xuống máy tính cục bộ. 
+D. Khởi tạo một kho lưu trữ mới. 
+Câu 37: Mục đích của một tệp Dockerfile là gì? 
+A. Chứa mã nguồn của ứng dụng. 
+B. Định nghĩa cách xây dựng một Docker image. 
+C. Chạy một container. 
+D. Quản lý cơ sở dữ liệu. 
+Câu 38: Lệnh chmod trong Linux được sử dụng để làm gì? 
+A. Thay đổi chủ sở hữu của một tệp tin. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 9 ---
+ 
+8 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Thay đổi quyền truy cập của một tệp tin hoặc thư mục. 
+C. Xóa một tệp tin. 
+D. Thay đổi tên của một tệp tin. 
+Câu 39: Đâu là lợi ích chính của một hệ thống quản lý cấu hình (như Ansible, Puppet)? 
+A. Phân tích mã nguồn. 
+B. Tự động hóa việc cấu hình và quản lý các máy chủ. 
+C. Tạo các bản sao lưu. 
+D. Quản lý cơ sở dữ liệu. 
+Câu 40: Trong phát triển phần mềm, "Agile" là một khái niệm gì? 
+A. Một mô hình quản lý dự án cứng nhắc. 
+B. Một phương pháp luận tập trung vào sự hợp tác và thích ứng với thay đổi. 
+C. Một loại ngôn ngữ lập trình. 
+D. Một kỹ thuật kiểm thử phần mềm. 
+Phần V: Tổng hợp và Kiến thức chung (10 câu) 
+Câu 41: "API" là viết tắt của cụm từ nào? 
+A. Application Program Interface 
+B. Automated Protocol Integration 
+C. Application Process Interface 
+D. All Programs Included 
+Câu 42: Lợi ích chính của việc sử dụng các dịch vụ đám mây (Cloud Computing) như AWS, 
+Azure, Google Cloud là gì? 
+A. Giảm chi phí phần cứng và mở rộng linh hoạt. 
+B. Tăng tốc độ internet. 
+C. Bảo mật dữ liệu tuyệt đối. 
+D. Không cần quản lý cơ sở dữ liệu. 
+Câu 43: Trong phát triển web, "Frontend" là gì? 
+A. Phần mã xử lý logic nghiệp vụ trên máy chủ. 
+B. Phần giao diện người dùng mà người dùng tương tác trực tiếp. 
+C. Cơ sở dữ liệu của ứng dụng. 
+D. Tương tác giữa máy chủ và máy khách. 
+Câu 44: "RESTful API" là một kiến trúc thiết kế API dựa trên giao thức nào? 
+A. TCP 
+B. UDP 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 10 ---
+ 
+9 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. HTTP 
+D. FTP 
+Câu 45: "Serverless Computing" là một mô hình nào? 
+A. Ứng dụng không cần máy chủ. 
+B. Phát triển ứng dụng mà không cần quản lý máy chủ. 
+C. Ứng dụng chỉ chạy trên máy khách. 
+D. Một loại ngôn ngữ lập trình. 
+Câu 46: Microservices là một kiến trúc phần mềm có đặc điểm gì? 
+A. Ứng dụng được xây dựng như một khối monolithic duy nhất. 
+B. Ứng dụng được chia thành nhiều dịch vụ độc lập, nhỏ gọn. 
+C. Ứng dụng chỉ chạy trên một máy chủ duy nhất. 
+D. Ứng dụng không cần cơ sở dữ liệu. 
+Câu 47: "Lập trình bất đồng bộ" (Asynchronous Programming) có lợi ích gì? 
+A. Tăng tốc độ thực thi các tác vụ đồng bộ. 
+B. Cho phép chương trình không bị chặn trong khi chờ đợi một tác vụ I/O hoàn thành. 
+C. Giảm dung lượng bộ nhớ. 
+D. Đơn giản hóa mã nguồn. 
+Câu 48: Đâu là một kỹ thuật bảo mật phổ biến để ngăn chặn tấn công SQL Injection? 
+A. Sử dụng mật khẩu mạnh. 
+B. Kiểm tra mã nguồn. 
+C. Sử dụng Prepared Statements hoặc Parameterized Queries. 
+D. Mã hóa toàn bộ cơ sở dữ liệu. 
+Câu 49: Trong phát triển phần mềm, unit test (kiểm thử đơn vị) là gì? 
+A. Kiểm thử toàn bộ hệ thống. 
+B. Kiểm thử từng phần nhỏ nhất của mã nguồn (ví dụ: một hàm). 
+C. Kiểm thử giao diện người dùng. 
+D. Kiểm thử hiệu suất. 
+Câu 50: Mục tiêu cuối cùng của việc triển khai một hệ thống phần mềm là gì? 
+A. Đảm bảo mã nguồn hoàn hảo. 
+B. Đáp ứng nhu cầu và giải quyết vấn đề của người dùng. 
+C. Tăng số lượng tính năng. 
+D. Giảm chi phí phát triển. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 11 ---
+ 
+10 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Đáp án 
+Phần I: Lập trình và Cấu trúc dữ liệu 
+Câu 1: C. list = [] 
+Câu 2: C. 4 (Tính đóng gói, tính kế thừa, tính đa hình, tính trừu tượng) 
+Câu 3: B. Queue (Hàng đợi) 
+Câu 4: A. Một hàm gọi chính nó để giải quyết một bài toán. 
+Câu 5: B. Biểu diễn độ phức tạp thời gian và không gian của thuật toán. 
+Câu 6: D. Đại diện cho thể hiện (instance) của lớp đó. 
+Câu 7: C. Tập hợp (Set) 
+Câu 8: C. Quản lý các thay đổi của mã nguồn và cho phép cộng tác hiệu quả. 
+Câu 9: B. final int x = 10; 
+Câu 10: C. Mặc định, thành viên của struct là public và của class là private. 
+Phần II: Cơ sở dữ liệu 
+Câu 11: C. SELECT 
+Câu 12: A. Không được chứa giá trị NULL. 
+Câu 13: B. Giảm sự dư thừa dữ liệu và cải thiện tính toàn vẹn. 
+Câu 14: B. Kết hợp các hàng từ hai hoặc nhiều bảng dựa trên một cột liên quan. 
+Câu 15: B. Cơ sở dữ liệu NoSQL 
+Câu 16: C. VARCHAR sử dụng ít bộ nhớ hơn cho các chuỗi ngắn. 
+Câu 17: A. Atomicity, Consistency, Isolation, Durability 
+Câu 18: C. Xóa hoàn toàn một bảng và tất cả dữ liệu của nó. 
+Câu 19: B. Thiết lập mối quan hệ giữa hai bảng. 
+Câu 20: B. Tăng tốc độ truy vấn dữ liệu. 
+Phần III: Mạng máy tính và An toàn thông tin 
+Câu 21: B. 4 (Application, Transport, Internet, Network Access) 
+Câu 22: C. Lớp Mạng (Network Layer) 
+Câu 23: C. Lớp Ứng dụng (Application Layer) 
+Câu 24: C. HTTPS có lớp mã hóa SSL/TLS để bảo mật dữ liệu. 
+Câu 25: B. Ngăn chặn truy cập trái phép và kiểm soát luồng dữ liệu mạng. 
+Câu 26: B. Định danh duy nhất cho một thiết bị trên mạng. 
+Câu 27: B. Lừa người dùng tiết lộ thông tin nhạy cảm bằng cách giả mạo một thực thể đáng 
+tin cậy. 
+Câu 28: B. SFTP 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 12 ---
+ 
+11 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 29: B. Dịch tên miền thành địa chỉ IP. 
+Câu 30: B. Biến đổi dữ liệu thành một dạng không thể đọc được nếu không có khóa. 
+Phần IV: Hệ điều hành và DevOps 
+Câu 31: A. Liệt kê các tệp tin và thư mục ở chế độ chi tiết. 
+Câu 32: C. Một nền tảng để đóng gói ứng dụng và các phụ thuộc vào một container. 
+Câu 33: B. Đảm bảo ứng dụng chạy nhất quán trên mọi môi trường. 
+Câu 34: C. DevOps. 
+Câu 35: B. Tăng tốc độ và độ tin cậy của quy trình phát triển và triển khai phần mềm. 
+Câu 36: C. Sao chép một kho lưu trữ từ xa xuống máy tính cục bộ. 
+Câu 37: B. Định nghĩa cách xây dựng một Docker image. 
+Câu 38: B. Thay đổi quyền truy cập của một tệp tin hoặc thư mục. 
+Câu 39: B. Tự động hóa việc cấu hình và quản lý các máy chủ. 
+Câu 40: B. Một phương pháp luận tập trung vào sự hợp tác và thích ứng với thay đổi. 
+Phần V: Tổng hợp và Kiến thức chung 
+Câu 41: A. Application Program Interface 
+Câu 42: A. Giảm chi phí phần cứng và mở rộng linh hoạt. 
+Câu 43: B. Phần giao diện người dùng mà người dùng tương tác trực tiếp. 
+Câu 44: C. HTTP 
+Câu 45: B. Phát triển ứng dụng mà không cần quản lý máy chủ. 
+Câu 46: B. Ứng dụng được chia thành nhiều dịch vụ độc lập, nhỏ gọn. 
+Câu 47: B. Cho phép chương trình không bị chặn trong khi chờ đợi một tác vụ I/O hoàn 
+thành. 
+Câu 48: C. Sử dụng Prepared Statements hoặc Parameterized Queries. 
+Câu 49: B. Kiểm thử từng phần nhỏ nhất của mã nguồn (ví dụ: một hàm). 
+Câu 50: B. Đáp ứng nhu cầu và giải quyết vấn đề của người dùng. 
+Đề thi thử số 2: Kỹ sư Dev vào Viettel 2025 
+Chuyên đề: Lập trình Hướng đối tượng (OOP) và Thiết kế phần mềm 
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+Yêu cầu: Chọn đáp án đúng nhất cho mỗi câu hỏi. 
+Phần I: Các Khái niệm Cơ bản về OOP (10 câu) 
+Câu 1: Tính chất cơ bản nào của OOP cho phép một lớp (class) kế thừa các thuộc tính và 
+phương thức từ một lớp khác? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 13 ---
+ 
+12 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Trừu tượng (Abstraction) 
+B. Đóng gói (Encapsulation) 
+C. Kế thừa (Inheritance) 
+D. Đa hình (Polymorphism) 
+Câu 2: Tính chất nào của OOP giúp che giấu chi tiết triển khai và chỉ hiển thị các chức năng 
+cần thiết ra bên ngoài? 
+A. Trừu tượng (Abstraction) 
+B. Đóng gói (Encapsulation) 
+C. Kế thừa (Inheritance) 
+D. Đa hình (Polymorphism) 
+Câu 3: Khái niệm "interface" trong OOP có vai trò gì? 
+A. Cung cấp một lớp cơ sở với đầy đủ các phương thức. 
+B. Định nghĩa một hợp đồng về các phương thức mà một lớp phải triển khai. 
+C. Cho phép tạo ra một thể hiện (instance) của lớp. 
+D. Chứa các thuộc tính tĩnh. 
+Câu 4: Sự khác biệt chính giữa một "lớp trừu tượng" (abstract class) và một "interface" là 
+gì? 
+A. Abstract class có thể chứa các phương thức có thân (body) và thuộc tính, interface thì 
+không. 
+B. Interface có thể được khởi tạo, abstract class thì không. 
+C. Một lớp có thể kế thừa nhiều abstract class. 
+D. Abstract class chỉ dùng cho Java, interface chỉ dùng cho Python. 
+Câu 5: Tính đa hình (Polymorphism) trong OOP thể hiện rõ nhất qua khái niệm nào? 
+A. Ghi đè phương thức (Method Overriding) 
+B. Nạp chồng phương thức (Method Overloading) 
+C. Cả A và B 
+D. Chỉ A 
+Câu 6: Trong lập trình hướng đối tượng, "encapsulation" (đóng gói) thường được thực hiện 
+thông qua việc sử dụng các từ khóa nào? 
+A. public và private 
+B. static và final 
+C. abstract và interface 
+D. import và export 
+Câu 7: Một "constructor" (hàm khởi tạo) trong một lớp có chức năng gì? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 14 ---
+ 
+13 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Hủy bỏ một đối tượng khi nó không còn được sử dụng. 
+B. Tạo một thể hiện (instance) mới của lớp. 
+C. Triển khai một phương thức trừu tượng. 
+D. Định nghĩa các thuộc tính của lớp. 
+Câu 8: Sự khác biệt giữa "class" và "object" là gì? 
+A. Class là một thể hiện của object. 
+B. Object là một bản thiết kế, class là một thể hiện. 
+C. Class là một bản thiết kế, object là một thể hiện của class. 
+D. Cả hai đều giống nhau. 
+Câu 9: Từ khóa super trong một lớp con (child class) dùng để làm gì? 
+A. Gọi một phương thức của lớp con. 
+B. Gọi một phương thức hoặc constructor của lớp cha (parent class). 
+C. Tạo một thể hiện mới của lớp. 
+D. Truy cập một thuộc tính tĩnh. 
+Câu 10: Trong Java, các phương thức được khai báo là final có ý nghĩa gì? 
+A. Chúng không thể bị ghi đè (override) bởi lớp con. 
+B. Chúng chỉ có thể được truy cập trong cùng một package. 
+C. Chúng phải được triển khai bởi tất cả các lớp con. 
+D. Chúng là các phương thức trừu tượng. 
+Phần II: Các Mẫu Thiết kế (Design Patterns) (10 câu) 
+Câu 11: Mẫu thiết kế nào dưới đây thuộc nhóm Creational Patterns (Mẫu tạo đối tượng)? 
+A. Singleton 
+B. Observer 
+C. Decorator 
+D. Strategy 
+Câu 12: Mẫu thiết kế Singleton được sử dụng để giải quyết vấn đề gì? 
+A. Tạo ra nhiều thể hiện (instance) của một lớp. 
+B. Đảm bảo rằng chỉ có một thể hiện duy nhất của một lớp được tạo ra. 
+C. Thêm chức năng mới vào một đối tượng một cách linh hoạt. 
+D. Định nghĩa một thuật toán chung cho một loạt các đối tượng. 
+Câu 13: Mẫu thiết kế nào thuộc nhóm Structural Patterns (Mẫu cấu trúc)? 
+A. Factory Method 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 15 ---
+ 
+14 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Adapter 
+C. Command 
+D. State 
+Câu 14: Mẫu thiết kế Adapter có mục đích gì? 
+A. Tạo ra một đối tượng mới từ một đối tượng hiện có. 
+B. Chuyển đổi giao diện của một lớp để nó phù hợp với yêu cầu của một lớp khác. 
+C. Chia một đối tượng phức tạp thành nhiều đối tượng nhỏ hơn. 
+D. Tạo một bản sao của một đối tượng. 
+Câu 15: Mẫu thiết kế nào thuộc nhóm Behavioral Patterns (Mẫu hành vi)? 
+A. Singleton 
+B. Factory Method 
+C. Proxy 
+D. Observer 
+Câu 16: Mẫu thiết kế Observer được sử dụng để làm gì? 
+A. Tách logic xử lý một yêu cầu. 
+B. Định nghĩa một cơ chế thông báo cho các đối tượng phụ thuộc khi một đối tượng chính 
+thay đổi trạng thái. 
+C. Đảm bảo một đối tượng có duy nhất một thể hiện. 
+D. Cung cấp một giao diện thống nhất cho một tập hợp các giao diện khác. 
+Câu 17: Mẫu thiết kế Factory Method có vai trò gì? 
+A. Tạo một đối tượng mới mà không cần chỉ định lớp cụ thể. 
+B. Kiểm soát việc truy cập vào một đối tượng. 
+C. Thêm chức năng mới vào một đối tượng. 
+D. Định nghĩa một thuật toán chung. 
+Câu 18: Mẫu thiết kế Strategy được sử dụng khi nào? 
+A. Khi bạn cần tạo một thể hiện duy nhất của một lớp. 
+B. Khi bạn cần định nghĩa một tập hợp các thuật toán và cho phép client chọn thuật toán để 
+sử dụng. 
+C. Khi bạn cần truy cập một đối tượng thông qua một proxy. 
+D. Khi bạn cần tách giao diện và triển khai. 
+Câu 19: Mẫu thiết kế Decorator có mục đích gì? 
+A. Cho phép thêm các chức năng mới vào một đối tượng mà không thay đổi cấu trúc của 
+nó. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 16 ---
+ 
+15 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Tạo ra một đối tượng mới từ một đối tượng hiện có. 
+C. Cung cấp một giao diện thống nhất cho một tập hợp các giao diện khác. 
+D. Chia một đối tượng phức tạp thành nhiều đối tượng nhỏ hơn. 
+Câu 20: Mẫu thiết kế Command được sử dụng để làm gì? 
+A. Encapsulation (đóng gói) một yêu cầu thành một đối tượng. 
+B. Thêm chức năng mới vào một đối tượng. 
+C. Tạo ra một đối tượng mới từ một đối tượng hiện có. 
+D. Định nghĩa một thuật toán chung. 
+Phần III: SOLID Principles (10 câu) 
+Câu 21: Chữ cái 'S' trong SOLID Principles đại diện cho nguyên tắc gì? 
+A. Single Responsibility Principle 
+B. Static Method Principle 
+C. Singleton Principle 
+D. Service-Oriented Principle 
+Câu 22: Theo Single Responsibility Principle, một lớp (class) nên có bao nhiêu lý do để thay 
+đổi? 
+A. Không có lý do nào 
+B. Chỉ một lý do duy nhất 
+C. Hai lý do 
+D. Nhiều lý do 
+Câu 23: Chữ cái 'O' trong SOLID Principles đại diện cho nguyên tắc gì? 
+A. Object-Oriented Principle 
+B. Open-Closed Principle 
+C. Observer Principle 
+D. Overloading Principle 
+Câu 24: Theo Open-Closed Principle, các thực thể phần mềm nên được thiết kế như thế 
+nào? 
+A. Mở cho việc thay đổi, đóng cho việc mở rộng. 
+B. Đóng cho việc thay đổi, mở cho việc mở rộng. 
+C. Mở cho cả thay đổi và mở rộng. 
+D. Đóng cho cả thay đổi và mở rộng. 
+Câu 25: Chữ cái 'L' trong SOLID Principles đại diện cho nguyên tắc gì? 
+A. Liskov Substitution Principle 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 17 ---
+ 
+16 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Linked List Principle 
+C. Loose Coupling Principle 
+D. Layered Architecture Principle 
+Câu 26: Liskov Substitution Principle khẳng định điều gì? 
+A. Các đối tượng của một lớp con có thể thay thế cho các đối tượng của lớp cha mà không 
+làm hỏng chương trình. 
+B. Một lớp chỉ nên có một lý do để thay đổi. 
+C. Các lớp nên đóng để thay đổi, mở để mở rộng. 
+D. Client không nên phụ thuộc vào các giao diện mà họ không sử dụng. 
+Câu 27: Chữ cái 'I' trong SOLID Principles đại diện cho nguyên tắc gì? 
+A. Interface Segregation Principle 
+B. Implementation Principle 
+C. Inheritance Principle 
+D. Integration Principle 
+Câu 28: Interface Segregation Principle khuyên chúng ta nên thiết kế các giao diện như thế 
+nào? 
+A. Lớn, tổng quát và đa chức năng. 
+B. Nhỏ, cụ thể và tập trung vào một chức năng. 
+C. Có ít phương thức nhất có thể. 
+D. Có nhiều phương thức nhất có thể. 
+Câu 29: Chữ cái 'D' trong SOLID Principles đại diện cho nguyên tắc gì? 
+A. Dependency Inversion Principle 
+B. Dependency Injection Principle 
+C. Delegation Principle 
+D. Decorator Principle 
+Câu 30: Dependency Inversion Principle nói rằng các mô-đun cấp cao không nên phụ thuộc 
+vào các mô-đun cấp thấp. Thay vào đó, cả hai nên phụ thuộc vào cái gì? 
+A. Sự triển khai cụ thể (concrete implementations). 
+B. Các đối tượng. 
+C. Sự trừu tượng (abstractions). 
+D. Lớp cha. 
+Phần IV: Kiến trúc và Thực hành (10 câu) 
+Câu 31: Kiểu kiến trúc phần mềm nào dưới đây là một khối thống nhất (monolithic) và khó 
+mở rộng? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 18 ---
+ 
+17 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Microservices Architecture 
+B. Service-Oriented Architecture (SOA) 
+C. Monolithic Architecture 
+D. Serverless Architecture 
+Câu 32: Kiến trúc Microservices có lợi ích chính là gì? 
+A. Dễ dàng triển khai và quản lý. 
+B. Tăng tính linh hoạt, khả năng mở rộng và khả năng phục hồi. 
+C. Đơn giản hóa quá trình phát triển. 
+D. Giảm chi phí phần cứng. 
+Câu 33: Trong một ứng dụng web, "dependency injection" (DI) là một kỹ thuật được sử dụng 
+để làm gì? 
+A. Thêm các thư viện vào một dự án. 
+B. Tiêm các đối tượng phụ thuộc vào một đối tượng khác. 
+C. Hỗ trợ việc đóng gói dữ liệu. 
+D. Giảm số lượng lớp. 
+Câu 34: Test-Driven Development (TDD) là một phương pháp gì? 
+A. Viết code trước, sau đó viết test. 
+B. Viết test trước, sau đó viết code để pass test. 
+C. Kiểm thử phần mềm sau khi hoàn thành. 
+D. Không cần viết test. 
+Câu 35: Khái niệm "composition over inheritance" (sử dụng composition thay vì kế thừa) 
+trong OOP có ý nghĩa gì? 
+A. Sử dụng composition để tạo mối quan hệ "là một" (is-a). 
+B. Sử dụng inheritance để tạo mối quan hệ "có một" (has-a). 
+C. Ưu tiên sử dụng composition để tạo mối quan hệ "có một" (has-a) vì nó linh hoạt hơn. 
+D. Inheritance và composition là giống nhau. 
+Câu 36: Trong UML (Unified Modeling Language), biểu đồ nào được sử dụng để mô tả các 
+lớp, thuộc tính, và mối quan hệ giữa chúng? 
+A. Biểu đồ trình tự (Sequence Diagram) 
+B. Biểu đồ lớp (Class Diagram) 
+C. Biểu đồ hoạt động (Activity Diagram) 
+D. Biểu đồ trạng thái (State Diagram) 
+Câu 37: Mục đích của việc sử dụng các mô hình MVC (Model-View-Controller) hoặc MVVM 
+(Model-View-ViewModel) là gì? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 19 ---
+ 
+18 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Tăng tốc độ tải trang. 
+B. Phân tách mối quan tâm (Separation of Concerns) của ứng dụng. 
+C. Giảm số lượng dòng code. 
+D. Tạo ra một ứng dụng chỉ dành cho di động. 
+Câu 38: Kiểu kiểm thử nào dưới đây tập trung vào việc kiểm tra một hàm hoặc một phương 
+thức riêng lẻ? 
+A. Integration Test 
+B. End-to-End Test 
+C. Unit Test 
+D. System Test 
+Câu 39: "Refactoring" trong lập trình có nghĩa là gì? 
+A. Thêm các tính năng mới vào code. 
+B. Sửa lỗi trong code. 
+C. Cải thiện cấu trúc của code mà không thay đổi chức năng của nó. 
+D. Viết lại toàn bộ code từ đầu. 
+Câu 40: "Code Smells" (mùi mã) là gì? 
+A. Các lỗi cú pháp nghiêm trọng. 
+B. Các dấu hiệu trong mã nguồn cho thấy có vấn đề về thiết kế và cần được refactoring. 
+C. Các bình luận không cần thiết. 
+D. Các biến có tên dài. 
+Phần V: Các chủ đề Nâng cao (10 câu) 
+Câu 41: "Singleton" có thể gây ra vấn đề gì trong môi trường đa luồng (multi-threaded)? 
+A. Gây ra lỗi bộ nhớ. 
+B. Dẫn đến nhiều hơn một thể hiện được tạo ra. 
+C. Gây ra deadlock. 
+D. Không có vấn đề gì. 
+Câu 42: "Inversion of Control" (IoC) là một nguyên tắc thiết kế gì? 
+A. Cho phép một framework gọi code của bạn thay vì code của bạn gọi framework. 
+B. Cho phép code của bạn gọi một framework. 
+C. Kiểm soát luồng chương trình. 
+D. Một loại container. 
+Câu 43: "Dependency Injection" (DI) là một triển khai cụ thể của nguyên tắc nào? 
+A. Single Responsibility Principle 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 20 ---
+ 
+19 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Dependency Inversion Principle 
+C. Liskov Substitution Principle 
+D. Open-Closed Principle 
+Câu 44: Trong mẫu thiết kế Command, đối tượng nào chịu trách nhiệm biết cách thực thi 
+một yêu cầu? 
+A. Receiver 
+B. Invoker 
+C. Command 
+D. Client 
+Câu 45: Mẫu thiết kế Strategy có thể được sử dụng để thay thế câu lệnh điều kiện if-else 
+hoặc switch-case khi nào? 
+A. Khi bạn cần thêm một hàm mới. 
+B. Khi bạn có nhiều thuật toán khác nhau cho cùng một chức năng. 
+C. Khi bạn cần tạo một đối tượng mới. 
+D. Khi bạn cần xử lý lỗi. 
+Câu 46: Mẫu thiết kế nào được sử dụng để tách một thuật toán khỏi đối tượng chứa nó? 
+A. Singleton 
+B. Factory Method 
+C. Visitor 
+D. Adapter 
+Câu 47: "Lập trình chức năng" (Functional Programming) khác gì so với OOP? 
+A. FP tập trung vào việc sử dụng các hàm bất biến, trong khi OOP tập trung vào các đối 
+tượng có trạng thái. 
+B. FP chỉ dùng cho Python, OOP chỉ dùng cho Java. 
+C. FP không có biến. 
+D. FP chỉ dùng cho các bài toán nhỏ. 
+Câu 48: Lợi ích chính của việc thiết kế theo Design Patterns là gì? 
+A. Giảm số lượng dòng code. 
+B. Tăng tốc độ thực thi của chương trình. 
+C. Cung cấp các giải pháp đã được chứng minh để giải quyết các vấn đề thiết kế phổ biến. 
+D. Giảm chi phí phần cứng. 
+Câu 49: "Inheritance" (kế thừa) có thể dẫn đến những vấn đề nào? 
+A. Tăng tính linh hoạt của code. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 21 ---
+ 
+20 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Tăng tính đóng gói. 
+C. Tạo ra sự phụ thuộc chặt chẽ giữa các lớp, dẫn đến việc khó thay đổi. 
+D. Giảm số lượng lớp. 
+Câu 50: Trong một dự án phần mềm, vai trò của một Senior Developer (lập trình viên cao 
+cấp) liên quan đến thiết kế phần mềm là gì? 
+A. Viết tất cả các dòng code. 
+B. Đánh giá và hướng dẫn đội nhóm về việc áp dụng các nguyên tắc và mẫu thiết kế. 
+C. Chỉ sửa lỗi. 
+D. Thiết kế giao diện người dùng. 
+Đáp án 
+Phần I: Các Khái niệm Cơ bản về OOP 
+Câu 1: C. Kế thừa (Inheritance) 
+Câu 2: B. Đóng gói (Encapsulation) 
+Câu 3: B. Định nghĩa một hợp đồng về các phương thức mà một lớp phải triển khai. 
+Câu 4: A. Abstract class có thể chứa các phương thức có thân (body) và thuộc tính, 
+interface thì không. 
+Câu 5: C. Cả A và B (Ghi đè và nạp chồng phương thức đều là biểu hiện của tính đa hình) 
+Câu 6: A. public và private (hoặc protected) 
+Câu 7: B. Tạo một thể hiện (instance) mới của lớp. 
+Câu 8: C. Class là một bản thiết kế, object là một thể hiện của class. 
+Câu 9: B. Gọi một phương thức hoặc constructor của lớp cha (parent class). 
+Câu 10: A. Chúng không thể bị ghi đè (override) bởi lớp con. 
+Phần II: Các Mẫu Thiết kế (Design Patterns) 
+Câu 11: A. Singleton 
+Câu 12: B. Đảm bảo rằng chỉ có một thể hiện duy nhất của một lớp được tạo ra. 
+Câu 13: B. Adapter 
+Câu 14: B. Chuyển đổi giao diện của một lớp để nó phù hợp với yêu cầu của một lớp khác. 
+Câu 15: D. Observer 
+Câu 16: B. Định nghĩa một cơ chế thông báo cho các đối tượng phụ thuộc khi một đối tượng 
+chính thay đổi trạng thái. 
+Câu 17: A. Tạo một đối tượng mới mà không cần chỉ định lớp cụ thể. 
+Câu 18: B. Khi bạn cần định nghĩa một tập hợp các thuật toán và cho phép client chọn thuật 
+toán để sử dụng. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 22 ---
+ 
+21 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 19: A. Cho phép thêm các chức năng mới vào một đối tượng mà không thay đổi cấu 
+trúc của nó. 
+Câu 20: A. Encapsulation (đóng gói) một yêu cầu thành một đối tượng. 
+Phần III: SOLID Principles 
+Câu 21: A. Single Responsibility Principle 
+Câu 22: B. Chỉ một lý do duy nhất 
+Câu 23: B. Open-Closed Principle 
+Câu 24: B. Đóng cho việc thay đổi, mở cho việc mở rộng. 
+Câu 25: A. Liskov Substitution Principle 
+Câu 26: A. Các đối tượng của một lớp con có thể thay thế cho các đối tượng của lớp cha 
+mà không làm hỏng chương trình. 
+Câu 27: A. Interface Segregation Principle 
+Câu 28: B. Nhỏ, cụ thể và tập trung vào một chức năng. 
+Câu 29: A. Dependency Inversion Principle 
+Câu 30: C. Sự trừu tượng (abstractions). 
+Phần IV: Kiến trúc và Thực hành 
+Câu 31: C. Monolithic Architecture 
+Câu 32: B. Tăng tính linh hoạt, khả năng mở rộng và khả năng phục hồi. 
+Câu 33: B. Tiêm các đối tượng phụ thuộc vào một đối tượng khác. 
+Câu 34: B. Viết test trước, sau đó viết code để pass test. 
+Câu 35: C. Ưu tiên sử dụng composition để tạo mối quan hệ "có một" (has-a) vì nó linh hoạt 
+hơn. 
+Câu 36: B. Biểu đồ lớp (Class Diagram) 
+Câu 37: B. Phân tách mối quan tâm (Separation of Concerns) của ứng dụng. 
+Câu 38: C. Unit Test 
+Câu 39: C. Cải thiện cấu trúc của code mà không thay đổi chức năng của nó. 
+Câu 40: B. Các dấu hiệu trong mã nguồn cho thấy có vấn đề về thiết kế và cần được 
+refactoring. 
+Phần V: Các chủ đề Nâng cao 
+Câu 41: B. Dẫn đến nhiều hơn một thể hiện được tạo ra. 
+Câu 42: A. Cho phép một framework gọi code của bạn thay vì code của bạn gọi framework. 
+Câu 43: B. Dependency Inversion Principle 
+Câu 44: A. Receiver 
+Câu 45: B. Khi bạn có nhiều thuật toán khác nhau cho cùng một chức năng. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 23 ---
+ 
+22 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 46: C. Visitor 
+Câu 47: A. FP tập trung vào việc sử dụng các hàm bất biến, trong khi OOP tập trung vào 
+các đối tượng có trạng thái. 
+Câu 48: C. Cung cấp các giải pháp đã được chứng minh để giải quyết các vấn đề thiết kế 
+phổ biến. 
+Câu 49: C. Tạo ra sự phụ thuộc chặt chẽ giữa các lớp, dẫn đến việc khó thay đổi. 
+Câu 50: B. Đánh giá và hướng dẫn đội nhóm về việc áp dụng các nguyên tắc và mẫu thiết 
+kế. 
+Đề thi thử số 3: Kỹ sư Dev vào Viettel 2025 
+Chuyên đề: Mạng máy tính, Hệ điều hành và DevOps 
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+Yêu cầu: Chọn đáp án đúng nhất cho mỗi câu hỏi. 
+Phần I: Mạng máy tính và Giao thức (15 câu) 
+Câu 1. Mô hình TCP/IP có bao nhiêu tầng? 
+A. 3 
+B. 4 
+C. 5 
+D. 7 
+Câu 2. Giao thức nào dưới đây thuộc lớp Giao vận (Transport Layer) và cung cấp kết nối 
+đáng tin cậy (reliable connection)? 
+A. UDP 
+B. TCP 
+C. ICMP 
+D. IP 
+Câu 3. Giao thức HTTP hoạt động ở tầng nào của mô hình OSI? 
+A. Tầng Ứng dụng (Application Layer) 
+B. Tầng Giao vận (Transport Layer) 
+C. Tầng Mạng (Network Layer) 
+D. Tầng Liên kết dữ liệu (Data Link Layer) 
+Câu 4. Địa chỉ nào được sử dụng để định danh duy nhất một máy tính trên mạng và có thể 
+thay đổi khi máy tính di chuyển sang mạng khác? 
+A. Địa chỉ MAC 
+B. Địa chỉ IP 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 24 ---
+ 
+23 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Cả A và B 
+D. Không có đáp án nào đúng. 
+Câu 5. Cổng (port) mặc định cho giao thức HTTPS là: 
+A. 80 
+B. 443 
+C. 21 
+D. 22 
+Câu 6. DNS (Domain Name System) có vai trò gì trong mạng máy tính? 
+A. Cấp phát địa chỉ IP cho các thiết bị. 
+B. Dịch tên miền (domain name) thành địa chỉ IP. 
+C. Mã hóa dữ liệu truyền đi. 
+D. Điều khiển luồng dữ liệu. 
+Câu 7. Trong mô hình TCP/IP, tầng Internet Layer tương ứng với tầng nào của mô hình 
+OSI? 
+A. Tầng Mạng (Network Layer) 
+B. Tầng Giao vận (Transport Layer) 
+C. Tầng Ứng dụng (Application Layer) 
+D. Tầng Liên kết dữ liệu (Data Link Layer) 
+Câu 8. Ping là một công cụ chẩn đoán mạng sử dụng giao thức nào để kiểm tra khả năng 
+kết nối giữa hai host? 
+A. TCP 
+B. UDP 
+C. ICMP 
+D. ARP 
+Câu 9. "Subnetting" (chia mạng con) là một kỹ thuật được sử dụng để làm gì? 
+A. Mã hóa dữ liệu. 
+B. Phân chia một mạng lớn thành các mạng con nhỏ hơn để quản lý hiệu quả hơn. 
+C. Tăng tốc độ internet. 
+D. Bảo mật dữ liệu. 
+Câu 10. Sự khác biệt chính giữa IPv4 và IPv6 là gì? 
+A. IPv4 sử dụng địa chỉ 128-bit, IPv6 sử dụng 32-bit. 
+B. IPv6 cung cấp không gian địa chỉ lớn hơn nhiều so với IPv4. 
+C. IPv4 có khả năng định tuyến tốt hơn IPv6. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 25 ---
+ 
+24 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. IPv4 có tính bảo mật cao hơn. 
+Câu 11. DHCP (Dynamic Host Configuration Protocol) được sử dụng để làm gì? 
+A. Dịch tên miền. 
+B. Tự động gán địa chỉ IP cho các thiết bị trong mạng. 
+C. Truyền tệp tin an toàn. 
+D. Tạo kết nối giữa hai mạng. 
+Câu 12. Giao thức nào thường được sử dụng trong các hệ thống streaming video và game 
+online do tốc độ và khả năng gửi dữ liệu nhanh, không cần kết nối đáng tin cậy? 
+A. TCP 
+B. UDP 
+C. HTTP 
+D. FTP 
+Câu 13. Một proxy server có tác dụng gì? 
+A. Tăng tốc độ truy cập. 
+B. Hoạt động như một máy chủ trung gian giữa máy khách và máy chủ đích. 
+C. Bảo vệ chống virus. 
+D. Chứa tất cả dữ liệu của một trang web. 
+Câu 14. "Port scanning" (quét cổng) là một kỹ thuật tấn công phổ biến để làm gì? 
+A. Lừa người dùng tiết lộ thông tin. 
+B. Tấn công từ chối dịch vụ. 
+C. Tìm kiếm các cổng mở trên một máy chủ để xác định các lỗ hổng tiềm năng. 
+D. Gián điệp trên mạng. 
+Câu 15. Lớp nào trong mô hình OSI chịu trách nhiệm về việc mã hóa và giải mã dữ liệu? 
+A. Lớp Ứng dụng (Application) 
+B. Lớp Trình bày (Presentation) 
+C. Lớp Giao vận (Transport) 
+D. Lớp Mạng (Network) 
+Phần II: Hệ điều hành (15 câu) 
+Câu 16. Kernel (nhân hệ điều hành) là gì? 
+A. Một chương trình ứng dụng. 
+B. Phần cốt lõi của hệ điều hành, quản lý tài nguyên phần cứng. 
+C. Giao diện người dùng đồ họa (GUI). 
+D. Một tệp tin cấu hình. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 26 ---
+ 
+25 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 17. Multitasking (đa nhiệm) trong hệ điều hành là gì? 
+A. Khả năng chạy nhiều phiên bản của cùng một ứng dụng. 
+B. Khả năng chạy nhiều chương trình cùng một lúc. 
+C. Khả năng xử lý nhiều luồng (thread) trong một tiến trình. 
+D. Khả năng chạy chương trình trên nhiều CPU. 
+Câu 18. Deadlock (tắc nghẽn) xảy ra khi nào? 
+A. Một tiến trình không thể truy cập tài nguyên. 
+B. Hai hoặc nhiều tiến trình đang chờ tài nguyên mà các tiến trình khác đang giữ. 
+C. Bộ nhớ bị đầy. 
+D. CPU bị quá tải. 
+Câu 19. "Virtual Memory" (bộ nhớ ảo) là một kỹ thuật của hệ điều hành để làm gì? 
+A. Tăng dung lượng bộ nhớ vật lý. 
+B. Sử dụng một phần của ổ đĩa cứng như bộ nhớ RAM. 
+C. Mã hóa dữ liệu trong bộ nhớ. 
+D. Tăng tốc độ truy cập dữ liệu. 
+Câu 20. Process (tiến trình) và Thread (luồng) khác nhau ở đâu? 
+A. Thread là một phần của process. 
+B. Process là một phần của thread. 
+C. Process sử dụng ít tài nguyên hơn. 
+D. Thread có không gian địa chỉ riêng. 
+Câu 21. Mục đích của "System Calls" (gọi hệ thống) là gì? 
+A. Cho phép người dùng trực tiếp truy cập phần cứng. 
+B. Cung cấp một giao diện để các ứng dụng yêu cầu dịch vụ từ kernel. 
+C. Thao tác với cơ sở dữ liệu. 
+D. Chạy các chương trình. 
+Câu 22. Lệnh chmod 755 filename trong Linux có ý nghĩa gì? 
+A. Gán quyền đọc và ghi cho chủ sở hữu, đọc và thực thi cho nhóm và những người khác. 
+B. Gán quyền đọc, ghi, thực thi cho chủ sở hữu, đọc và thực thi cho nhóm và những người 
+khác. 
+C. Gán quyền đọc, ghi, thực thi cho tất cả mọi người. 
+D. Gán quyền đọc, ghi cho chủ sở hữu, đọc cho nhóm và những người khác. 
+Câu 23. Vai trò của một File System (hệ thống tệp tin) là gì? 
+A. Quản lý việc lưu trữ và truy cập dữ liệu trên ổ đĩa. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 27 ---
+ 
+26 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Quản lý các tiến trình. 
+C. Cấp phát bộ nhớ. 
+D. Điều khiển các thiết bị ngoại vi. 
+Câu 24. Trong lập trình, "Mutex" (Mutual exclusion) và "Semaphore" được sử dụng để làm 
+gì? 
+A. Tăng tốc độ xử lý. 
+B. Đồng bộ hóa truy cập vào các tài nguyên dùng chung trong môi trường đa luồng. 
+C. Sao lưu dữ liệu. 
+D. Quản lý bộ nhớ. 
+Câu 25. "Context Switching" (chuyển đổi ngữ cảnh) là gì? 
+A. Thay đổi màn hình hiển thị. 
+B. Chuyển đổi quyền kiểm soát CPU từ một tiến trình/luồng sang tiến trình/luồng khác. 
+C. Chuyển đổi giữa các ứng dụng. 
+D. Thay đổi ngôn ngữ của hệ điều hành. 
+Câu 26. Giao thức nào thường được sử dụng để truy cập và quản lý các máy chủ Linux từ 
+xa một cách an toàn? 
+A. Telnet 
+B. SSH 
+C. HTTP 
+D. RDP 
+Câu 27. Lệnh sudo trong Linux có ý nghĩa gì? 
+A. Xóa một tệp tin. 
+B. Thực thi một lệnh với quyền của người dùng thường. 
+C. Thực thi một lệnh với quyền của người dùng root (quản trị viên). 
+D. Chỉnh sửa một tệp tin. 
+Câu 28. "Shell" trong Linux là gì? 
+A. Phần cốt lõi của hệ điều hành. 
+B. Một chương trình dòng lệnh để tương tác với hệ điều hành. 
+C. Giao diện người dùng đồ họa. 
+D. Một tệp tin hệ thống. 
+Câu 29. Đâu là một chức năng chính của hệ điều hành? 
+A. Phát triển phần mềm. 
+B. Quản lý tài nguyên phần cứng và cung cấp môi trường cho các ứng dụng chạy. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 28 ---
+ 
+27 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Tăng tốc độ internet. 
+D. Kiểm tra virus. 
+Câu 30. Lệnh ps trong Linux được sử dụng để làm gì? 
+A. Hiển thị danh sách các tệp tin trong một thư mục. 
+B. Hiển thị danh sách các tiến trình đang chạy. 
+C. Xóa một tiến trình. 
+D. Thay đổi quyền truy cập của một tệp tin. 
+Phần III: DevOps (20 câu) 
+Câu 31. DevOps là sự kết hợp của những lĩnh vực nào? 
+A. Phát triển phần mềm (Development) và Vận hành (Operations) 
+B. Phát triển phần mềm và Marketing 
+C. Thiết kế và Vận hành 
+D. Thiết kế và Phân tích dữ liệu 
+Câu 32. Continuous Integration (CI) là gì? 
+A. Quá trình kiểm tra và triển khai ứng dụng. 
+B. Quá trình tự động hóa việc hợp nhất mã nguồn từ các lập trình viên vào một kho lưu trữ 
+chung. 
+C. Quá trình viết test tự động. 
+D. Quá trình quản lý cơ sở dữ liệu. 
+Câu 33. Continuous Delivery (CD) là gì? 
+A. Tự động hóa việc triển khai ứng dụng lên môi trường production. 
+B. Quá trình xây dựng và kiểm thử phần mềm. 
+C. Tự động hóa việc đưa các thay đổi đã được kiểm thử lên môi trường staging, sẵn sàng 
+cho việc triển khai thủ công. 
+D. Gửi email thông báo cho các lập trình viên. 
+Câu 34. Công cụ nào dưới đây được sử dụng phổ biến cho CI/CD? 
+A. Git 
+B. Jenkins 
+C. Docker 
+D. Kubernetes 
+Câu 35. "Infrastructure as Code" (IaC) có nghĩa là gì? 
+A. Sử dụng phần cứng làm code. 
+B. Quản lý và cung cấp hạ tầng thông qua các tệp mã nguồn. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 29 ---
+ 
+28 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Viết code bằng cách sử dụng các công cụ quản lý hạ tầng. 
+D. Viết mã nguồn cho các ứng dụng đám mây. 
+Câu 36. Docker là một công cụ giúp giải quyết vấn đề gì? 
+A. Tạo ra máy ảo. 
+B. Đóng gói ứng dụng và môi trường chạy vào một container, đảm bảo tính nhất quán trên 
+mọi môi trường. 
+C. Giảm dung lượng tệp tin. 
+D. Phân tích mã nguồn. 
+Câu 37. Sự khác biệt chính giữa Container và Virtual Machine (VM) là gì? 
+A. VM nhanh hơn container. 
+B. Container nhẹ hơn và chia sẻ kernel của hệ điều hành máy chủ, trong khi VM có hệ điều 
+hành riêng. 
+C. VM dễ quản lý hơn container. 
+D. Container tốn nhiều tài nguyên hơn. 
+Câu 38. Công cụ nào dưới đây là một công cụ quản lý cấu hình (Configuration 
+Management) phổ biến? 
+A. Git 
+B. Jenkins 
+C. Ansible 
+D. Jira 
+Câu 39. Kubernetes là một nền tảng được sử dụng để làm gì? 
+A. Quản lý cơ sở dữ liệu. 
+B. Tự động hóa việc triển khai, mở rộng và quản lý các container. 
+C. Phát triển ứng dụng di động. 
+D. Phân tích dữ liệu lớn. 
+Câu 40. Lệnh git push được sử dụng để làm gì? 
+A. Kéo các thay đổi từ kho lưu trữ từ xa. 
+B. Đẩy các thay đổi đã commit lên kho lưu trữ từ xa. 
+C. Sao chép một kho lưu trữ. 
+D. Hợp nhất các nhánh. 
+Câu 41. Monitoring (giám sát) trong DevOps có mục đích gì? 
+A. Theo dõi hành vi của người dùng. 
+B. Thu thập dữ liệu và cảnh báo về hiệu suất, trạng thái của ứng dụng và hạ tầng. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 30 ---
+ 
+29 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Phân tích mã nguồn. 
+D. Quản lý tài nguyên máy tính. 
+Câu 42. Logging (ghi nhật ký) trong DevOps có vai trò gì? 
+A. Lưu trữ mã nguồn. 
+B. Ghi lại các sự kiện và thông tin quan trọng của ứng dụng để phục vụ cho việc gỡ lỗi và 
+phân tích. 
+C. Cải thiện hiệu suất. 
+D. Tăng tính bảo mật. 
+Câu 43. SRE (Site Reliability Engineering) là một khái niệm trong lĩnh vực nào? 
+A. Phát triển phần mềm. 
+B. Vận hành hệ thống. 
+C. DevOps. 
+D. Quản lý dự án. 
+Câu 44. Công cụ nào dưới đây thường được sử dụng để quản lý các task và dự án trong 
+một quy trình Agile/DevOps? 
+A. Jira 
+B. Git 
+C. Docker 
+D. Jenkins 
+Câu 45. Container Orchestration (điều phối container) là gì? 
+A. Quá trình tạo các container. 
+B. Tự động hóa việc quản lý các container trên một quy mô lớn. 
+C. Quá trình sao chép các container. 
+D. Tương tác giữa các container. 
+Câu 46. Lợi ích chính của việc sử dụng Microservices trong DevOps là gì? 
+A. Ứng dụng trở thành một khối duy nhất. 
+B. Mỗi dịch vụ có thể được phát triển và triển khai độc lập, tăng tốc độ và sự linh hoạt. 
+C. Giảm chi phí phần cứng. 
+D. Giảm số lượng dòng code. 
+Câu 47. Tệp cấu hình YAML thường được sử dụng trong các công cụ DevOps như 
+Kubernetes để làm gì? 
+A. Viết code cho ứng dụng. 
+B. Định nghĩa cấu trúc và trạng thái mong muốn của các tài nguyên hệ thống. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 31 ---
+ 
+30 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Tạo ra giao diện người dùng. 
+D. Lưu trữ dữ liệu. 
+Câu 48. GitOps là một phương pháp gì? 
+A. Quản lý code bằng Git. 
+B. Quản lý hạ tầng và ứng dụng bằng cách sử dụng Git làm nguồn sự thật duy nhất. 
+C. Triển khai ứng dụng tự động. 
+D. Một loại ngôn ngữ kịch bản. 
+Câu 49. Trong một hệ thống monitoring, "metrics" (số liệu) là gì? 
+A. Các thông báo lỗi. 
+B. Dữ liệu số được thu thập để đo lường hiệu suất và trạng thái. 
+C. Các bản ghi (logs). 
+D. Các tệp cấu hình. 
+Câu 50. Continuous Feedback (Phản hồi liên tục) là một phần quan trọng của DevOps vì nó 
+giúp: 
+A. Tăng chi phí. 
+B. Cải thiện chất lượng và giảm thời gian giải quyết vấn đề bằng cách nhận phản hồi sớm 
+từ mọi giai đoạn. 
+C. Giảm số lượng tính năng. 
+D. Tăng số lượng mã nguồn. 
+Đáp án 
+Phần I: Mạng máy tính và Giao thức 
+Câu 1: B. 4 
+Câu 2: B. TCP 
+Câu 3: A. Tầng Ứng dụng (Application Layer) 
+Câu 4: B. Địa chỉ IP 
+Câu 5: B. 443 
+Câu 6: B. Dịch tên miền (domain name) thành địa chỉ IP. 
+Câu 7: A. Tầng Mạng (Network Layer) 
+Câu 8: C. ICMP 
+Câu 9: B. Phân chia một mạng lớn thành các mạng con nhỏ hơn để quản lý hiệu quả hơn. 
+Câu 10: B. IPv6 cung cấp không gian địa chỉ lớn hơn nhiều so với IPv4. 
+Câu 11: B. Tự động gán địa chỉ IP cho các thiết bị trong mạng. 
+Câu 12: B. UDP 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 32 ---
+ 
+31 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 13: B. Hoạt động như một máy chủ trung gian giữa máy khách và máy chủ đích. 
+Câu 14: C. Tìm kiếm các cổng mở trên một máy chủ để xác định các lỗ hổng tiềm năng. 
+Câu 15: B. Lớp Trình bày (Presentation) 
+Phần II: Hệ điều hành 
+Câu 16: B. Phần cốt lõi của hệ điều hành, quản lý tài nguyên phần cứng. 
+Câu 17: B. Khả năng chạy nhiều chương trình cùng một lúc. 
+Câu 18: B. Hai hoặc nhiều tiến trình đang chờ tài nguyên mà các tiến trình khác đang giữ. 
+Câu 19: B. Sử dụng một phần của ổ đĩa cứng như bộ nhớ RAM. 
+Câu 20: A. Thread là một phần của process. 
+Câu 21: B. Cung cấp một giao diện để các ứng dụng yêu cầu dịch vụ từ kernel. 
+Câu 22: B. Gán quyền đọc, ghi, thực thi cho chủ sở hữu, đọc và thực thi cho nhóm và 
+những người khác. 
+Câu 23: A. Quản lý việc lưu trữ và truy cập dữ liệu trên ổ đĩa. 
+Câu 24: B. Đồng bộ hóa truy cập vào các tài nguyên dùng chung trong môi trường đa luồng. 
+Câu 25: B. Chuyển đổi quyền kiểm soát CPU từ một tiến trình/luồng sang tiến trình/luồng 
+khác. 
+Câu 26: B. SSH 
+Câu 27: C. Thực thi một lệnh với quyền của người dùng root (quản trị viên). 
+Câu 28: B. Một chương trình dòng lệnh để tương tác với hệ điều hành. 
+Câu 29: B. Quản lý tài nguyên phần cứng và cung cấp môi trường cho các ứng dụng chạy. 
+Câu 30: B. Hiển thị danh sách các tiến trình đang chạy. 
+Phần III: DevOps 
+Câu 31: A. Phát triển phần mềm (Development) và Vận hành (Operations) 
+Câu 32: B. Quá trình tự động hóa việc hợp nhất mã nguồn từ các lập trình viên vào một kho 
+lưu trữ chung. 
+Câu 33: C. Tự động hóa việc đưa các thay đổi đã được kiểm thử lên môi trường staging, 
+sẵn sàng cho việc triển khai thủ công. 
+Câu 34: B. Jenkins 
+Câu 35: B. Quản lý và cung cấp hạ tầng thông qua các tệp mã nguồn. 
+Câu 36: B. Đóng gói ứng dụng và môi trường chạy vào một container, đảm bảo tính nhất 
+quán trên mọi môi trường. 
+Câu 37: B. Container nhẹ hơn và chia sẻ kernel của hệ điều hành máy chủ, trong khi VM có 
+hệ điều hành riêng. 
+Câu 38: C. Ansible 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 33 ---
+ 
+32 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 39: B. Tự động hóa việc triển khai, mở rộng và quản lý các container. 
+Câu 40: B. Đẩy các thay đổi đã commit lên kho lưu trữ từ xa. 
+Câu 41: B. Thu thập dữ liệu và cảnh báo về hiệu suất, trạng thái của ứng dụng và hạ tầng. 
+Câu 42: B. Ghi lại các sự kiện và thông tin quan trọng của ứng dụng để phục vụ cho việc gỡ 
+lỗi và phân tích. 
+Câu 43: C. DevOps. 
+Câu 44: A. Jira 
+Câu 45: B. Tự động hóa việc quản lý các container trên một quy mô lớn. 
+Câu 46: B. Mỗi dịch vụ có thể được phát triển và triển khai độc lập, tăng tốc độ và sự linh 
+hoạt. 
+Câu 47: B. Định nghĩa cấu trúc và trạng thái mong muốn của các tài nguyên hệ thống. 
+Câu 48: B. Quản lý hạ tầng và ứng dụng bằng cách sử dụng Git làm nguồn sự thật duy 
+nhất. 
+Câu 49: B. Dữ liệu số được thu thập để đo lường hiệu suất và trạng thái. 
+Câu 50: B. Cải thiện chất lượng và giảm thời gian giải quyết vấn đề bằng cách nhận phản 
+hồi sớm từ mọi giai đoạn. 
+Đề thi thử số 4: Kỹ sư Dev vào Viettel 2025 
+Chuyên đề: Điện toán Đám mây và các Nền tảng Mới nhất 
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+Yêu cầu: Chọn đáp án đúng nhất cho mỗi câu hỏi. 
+Phần I: Các mô hình dịch vụ đám mây (Cloud Service Models) 
+Câu 1. Mô hình dịch vụ đám mây nào cho phép người dùng thuê cơ sở hạ tầng cơ bản 
+(máy chủ ảo, lưu trữ, mạng)? 
+A. SaaS (Software as a Service) 
+B. PaaS (Platform as a Service) 
+C. IaaS (Infrastructure as a Service) 
+D. CaaS (Container as a Service) 
+Câu 2. Mô hình dịch vụ nào cung cấp một nền tảng hoàn chỉnh để phát triển, chạy và quản 
+lý ứng dụng mà không cần quản lý cơ sở hạ tầng? 
+A. SaaS 
+B. PaaS 
+C. IaaS 
+D. FaaS (Function as a Service) 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 34 ---
+ 
+33 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 3. Google Docs và Microsoft 365 là những ví dụ điển hình của mô hình dịch vụ nào? 
+A. SaaS 
+B. PaaS 
+C. IaaS 
+D. On-premise 
+Câu 4. "Serverless Computing" (Điện toán phi máy chủ) thuộc mô hình dịch vụ nào? 
+A. IaaS 
+B. PaaS 
+C. FaaS 
+D. Cả B và C đều đúng 
+Câu 5. Mô hình đám mây nào cho phép một tổ chức sử dụng cả đám mây công cộng (public 
+cloud) và đám mây riêng (private cloud) để tận dụng lợi thế của cả hai? 
+A. Hybrid Cloud 
+B. Public Cloud 
+C. Private Cloud 
+D. Community Cloud 
+Phần II: Các nhà cung cấp dịch vụ đám mây lớn và dịch vụ của họ 
+Câu 6. AWS (Amazon Web Services) là nhà cung cấp dịch vụ đám mây hàng đầu thế giới. 
+Dịch vụ lưu trữ đối tượng (object storage) phổ biến nhất của họ là gì? 
+A. Amazon EC2 
+B. Amazon S3 
+C. Amazon RDS 
+D. Amazon Lambda 
+Câu 7. Dịch vụ nào của Google Cloud Platform (GCP) tương đương với Amazon EC2? 
+A. Google Cloud Storage 
+B. Google Compute Engine 
+C. Google App Engine 
+D. Google Kubernetes Engine 
+Câu 8. Dịch vụ nào của Microsoft Azure cung cấp nền tảng để chạy các ứng dụng web và 
+API một cách dễ dàng và mở rộng? 
+A. Azure Virtual Machines 
+B. Azure Cosmos DB 
+C. Azure App Service 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 35 ---
+ 
+34 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Azure Functions 
+Câu 9. "Elasticity" (tính co giãn) trong điện toán đám mây có nghĩa là gì? 
+A. Khả năng tự động thay đổi tài nguyên để đáp ứng nhu cầu tải công việc. 
+B. Khả năng bảo mật dữ liệu tuyệt đối. 
+C. Khả năng truy cập từ mọi nơi. 
+D. Khả năng chạy nhiều ứng dụng cùng một lúc. 
+Câu 10. Dịch vụ cơ sở dữ liệu quan hệ được quản lý (managed relational database) của 
+AWS là gì? 
+A. Amazon DynamoDB 
+B. Amazon RDS 
+C. Amazon Redshift 
+D. Amazon S3 
+Phần III: Containerization và Kubernetes 
+Câu 11. Docker là một nền tảng mã nguồn mở được sử dụng để làm gì? 
+A. Quản lý cơ sở dữ liệu 
+B. Tự động hóa việc triển khai ứng dụng dưới dạng container 
+C. Viết các ứng dụng web 
+D. Phát triển các trò chơi 
+Câu 12. Sự khác biệt chính giữa một Container và một Virtual Machine là gì? 
+A. Container nặng hơn và tốn nhiều tài nguyên hơn VM. 
+B. VM chia sẻ hệ điều hành với máy chủ vật lý, trong khi container có hệ điều hành riêng. 
+C. Container nhẹ hơn, khởi động nhanh hơn và chia sẻ kernel của hệ điều hành máy chủ. 
+D. VM chỉ chạy trên Linux. 
+Câu 13. Kubernetes là một hệ thống mã nguồn mở dùng để làm gì? 
+A. Tạo container 
+B. Quản lý mã nguồn (version control) 
+C. Tự động hóa việc triển khai, mở rộng và quản lý các container 
+D. Xây dựng các ứng dụng di động 
+Câu 14. Trong Kubernetes, Pod là gì? 
+A. Một file cấu hình 
+B. Một cụm (cluster) các node 
+C. Một đơn vị triển khai nhỏ nhất, chứa một hoặc nhiều container 
+D. Một dịch vụ 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 36 ---
+ 
+35 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 15. Tệp cấu hình của Kubernetes thường được viết bằng ngôn ngữ nào? 
+A. JSON 
+B. XML 
+C. YAML 
+D. Markdown 
+Phần IV: DevOps và CI/CD 
+Câu 16. CI/CD là viết tắt của: 
+A. Continuous Integration / Continuous Development 
+B. Continuous Implementation / Continuous Deployment 
+C. Continuous Integration / Continuous Deployment 
+D. Continuous Integration / Continuous Delivery 
+Câu 17. Giai đoạn nào trong quy trình CI/CD tập trung vào việc tự động hóa việc hợp nhất 
+mã nguồn từ các lập trình viên? 
+A. Continuous Delivery 
+B. Continuous Deployment 
+C. Continuous Integration 
+D. Continuous Testing 
+Câu 18. Jenkins là một công cụ mã nguồn mở phổ biến được sử dụng cho mục đích nào? 
+A. Quản lý cơ sở dữ liệu 
+B. Xây dựng và tự động hóa các pipeline CI/CD 
+C. Phân tích dữ liệu lớn 
+D. Phát triển web frontend 
+Câu 19. "IaC" (Infrastructure as Code) là một khái niệm trong DevOps dùng để làm gì? 
+A. Viết code cho ứng dụng 
+B. Quản lý và cung cấp hạ tầng bằng các tệp mã nguồn 
+C. Quản lý tài nguyên đám mây 
+D. Cấu hình mạng lưới 
+Câu 20. "GitOps" là một phương pháp gì? 
+A. Quản lý mã nguồn bằng Git 
+B. Triển khai ứng dụng và quản lý hạ tầng bằng cách sử dụng Git làm nguồn sự thật duy 
+nhất 
+C. Gửi email thông báo về các thay đổi trong code 
+D. Một loại ngôn ngữ lập trình 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 37 ---
+ 
+36 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Phần V: Kiến thức tổng hợp về công nghệ mới 
+Câu 21. Microservices là một kiến trúc phần mềm có đặc điểm gì? 
+A. Ứng dụng được xây dựng như một khối thống nhất (monolithic) duy nhất. 
+B. Ứng dụng được chia thành nhiều dịch vụ độc lập, nhỏ gọn, giao tiếp với nhau qua API. 
+C. Ứng dụng không cần cơ sở dữ liệu. 
+D. Ứng dụng chỉ chạy trên một máy chủ duy nhất. 
+Câu 22. Trong một kiến trúc Microservices, giao thức nào thường được sử dụng để các dịch 
+vụ giao tiếp với nhau? 
+A. SOAP 
+B. REST 
+C. FTP 
+D. SMTP 
+Câu 23. "Serverless Computing" có lợi ích chính là gì? 
+A. Không cần trả tiền cho tài nguyên. 
+B. Tự động mở rộng quy mô và người dùng chỉ trả tiền cho tài nguyên họ thực sự sử dụng. 
+C. Mã nguồn được bảo mật tuyệt đối. 
+D. Không cần quan tâm đến code. 
+Câu 24. GraphQL là gì? 
+A. Một ngôn ngữ lập trình. 
+B. Một thư viện để tạo giao diện người dùng. 
+C. Một ngôn ngữ truy vấn cho API và một công cụ để thực hiện các truy vấn đó. 
+D. Một cơ sở dữ liệu đồ thị. 
+Câu 25. "Headless CMS" là gì? 
+A. Một hệ thống quản lý nội dung chỉ có giao diện frontend. 
+B. Một hệ thống quản lý nội dung chỉ có giao diện backend. 
+C. Một hệ thống quản lý nội dung cung cấp nội dung thông qua API, tách biệt với giao diện 
+người dùng. 
+D. Một hệ thống quản lý nội dung không có cơ sở dữ liệu. 
+Phần VI: Các chủ đề nâng cao về Cloud và DevOps 
+Câu 26. "Load Balancer" (bộ cân bằng tải) trong điện toán đám mây có chức năng gì? 
+A. Cân bằng tải trọng của các container. 
+B. Phân phối lưu lượng truy cập mạng đến nhiều máy chủ để tối ưu hóa việc sử dụng tài 
+nguyên và tránh quá tải. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 38 ---
+ 
+37 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Cân bằng tải trọng của CPU. 
+D. Giảm dung lượng tệp tin. 
+Câu 27. "Auto Scaling" là một tính năng của đám mây dùng để làm gì? 
+A. Tự động thay đổi kích thước của một đĩa cứng. 
+B. Tự động điều chỉnh số lượng máy chủ để xử lý các thay đổi về lưu lượng truy cập. 
+C. Tự động thay đổi kích thước của cơ sở dữ liệu. 
+D. Tự động kiểm tra lỗi. 
+Câu 28. "Canary Deployment" (triển khai Canary) là một chiến lược triển khai phần mềm 
+như thế nào? 
+A. Triển khai phiên bản mới cho toàn bộ người dùng cùng một lúc. 
+B. Triển khai phiên bản mới cho một nhóm nhỏ người dùng, sau đó mở rộng dần. 
+C. Triển khai phiên bản mới vào cuối tuần. 
+D. Triển khai phiên bản mới và phiên bản cũ đồng thời. 
+Câu 29. "Monitoring" trong DevOps tập trung vào việc thu thập các loại dữ liệu nào? 
+A. Logs và Metrics 
+B. Mã nguồn 
+C. Tài liệu dự án 
+D. Email và tin nhắn 
+Câu 30. Một "Service Mesh" là gì? 
+A. Một kiến trúc phần mềm chỉ có một dịch vụ duy nhất. 
+B. Một lớp hạ tầng chuyên dụng để xử lý giao tiếp giữa các microservices. 
+C. Một loại cơ sở dữ liệu. 
+D. Một công cụ CI/CD. 
+Phần VII: Các công nghệ khác (20 câu) 
+Câu 31. API Gateway trong một kiến trúc microservices có vai trò gì? 
+A. Cung cấp một điểm truy cập duy nhất cho các client đến các dịch vụ backend. 
+B. Quản lý cơ sở dữ liệu. 
+C. Cân bằng tải. 
+D. Viết các bài kiểm tra. 
+Câu 32. Redis là một loại cơ sở dữ liệu nào? 
+A. Quan hệ (Relational) 
+B. Không quan hệ (NoSQL) và thường được dùng làm cache hoặc message broker 
+C. Đồ thị (Graph) 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 39 ---
+ 
+38 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Thời gian thực (Real-time) 
+Câu 33. "Infrastructure as a Service" (IaaS) thường cung cấp những tài nguyên nào? 
+A. Ứng dụng phần mềm 
+B. Hệ điều hành và runtime 
+C. Máy ảo, lưu trữ, mạng 
+D. Các hàm (functions) 
+Câu 34. Mục đích của "Feature Flags" (cờ tính năng) là gì? 
+A. Cho phép bật/tắt một tính năng cụ thể trong ứng dụng mà không cần triển khai lại code. 
+B. Đánh dấu các lỗi trong code. 
+C. Đánh dấu các tệp tin quan trọng. 
+D. Phân tích mã nguồn. 
+Câu 35. "Observability" (khả năng quan sát) là một khái niệm nâng cao trong DevOps, bao 
+gồm những thành phần nào? 
+A. Logging, Metrics, Tracing 
+B. Testing, Deployment, Security 
+C. Database, Server, Network 
+D. Cả ba thành phần trên. 
+Câu 36. CI/CD pipeline là gì? 
+A. Một quá trình thủ công để triển khai ứng dụng. 
+B. Một chuỗi các bước tự động để xây dựng, kiểm thử và triển khai ứng dụng. 
+C. Một công cụ quản lý dự án. 
+D. Một loại cơ sở dữ liệu. 
+Câu 37. "Statelessness" trong kiến trúc RESTful API có ý nghĩa gì? 
+A. Máy chủ không lưu trữ trạng thái của client giữa các yêu cầu. 
+B. Máy chủ lưu trữ trạng thái của client. 
+C. Mọi yêu cầu đều phải được mã hóa. 
+D. Chỉ sử dụng giao thức HTTP. 
+Câu 38. WebAssembly (Wasm) là gì? 
+A. Một ngôn ngữ lập trình. 
+B. Một định dạng mã nhị phân cấp thấp cho các chương trình web. 
+C. Một thư viện JavaScript. 
+D. Một loại cơ sở dữ liệu. 
+Câu 39. Lợi ích chính của việc sử dụng một Message Broker (như RabbitMQ, Kafka) là gì? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 40 ---
+ 
+39 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Tăng tốc độ tính toán. 
+B. Giảm sự phụ thuộc chặt chẽ giữa các dịch vụ. 
+C. Tăng dung lượng bộ nhớ. 
+D. Tạo giao diện người dùng. 
+Câu 40. GraphQL được phát triển bởi công ty nào? 
+A. Google 
+B. Amazon 
+C. Facebook 
+D. Microsoft 
+Câu 41. "Zero Downtime Deployment" (triển khai không gián đoạn) là một mục tiêu trong 
+DevOps, có nghĩa là gì? 
+A. Ứng dụng có thể được triển khai mà không cần tắt máy chủ. 
+B. Ứng dụng không bao giờ bị lỗi. 
+C. Ứng dụng có thể được triển khai mà không làm gián đoạn dịch vụ của người dùng. 
+D. Triển khai ứng dụng mất 0 phút. 
+Câu 42. API Gateway trong một kiến trúc microservices có vai trò gì? 
+A. Cung cấp một điểm truy cập duy nhất cho các client đến các dịch vụ backend. 
+B. Quản lý cơ sở dữ liệu. 
+C. Cân bằng tải. 
+D. Viết các bài kiểm tra. 
+Câu 43. "Edge Computing" (điện toán biên) là gì? 
+A. Xử lý dữ liệu ở trung tâm dữ liệu. 
+B. Xử lý dữ liệu gần nguồn tạo ra nó. 
+C. Xử lý dữ liệu trên đám mây. 
+D. Xử lý dữ liệu trên máy chủ. 
+Câu 44. NoSQL database là gì? 
+A. Một loại cơ sở dữ liệu quan hệ. 
+B. Một loại cơ sở dữ liệu không sử dụng cấu trúc bảng truyền thống. 
+C. Một loại cơ sở dữ liệu chỉ dùng cho các ứng dụng web. 
+D. Một loại cơ sở dữ liệu không cần lưu trữ dữ liệu. 
+Câu 45. Prometheus là một công cụ mã nguồn mở được sử dụng để làm gì? 
+A. Quản lý mã nguồn. 
+B. Giám sát hệ thống và thu thập metrics. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 41 ---
+ 
+40 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Quản lý cơ sở dữ liệu. 
+D. Xây dựng ứng dụng. 
+Câu 46. "SRE" (Site Reliability Engineering) là một thuật ngữ trong DevOps, có ý nghĩa gì? 
+A. Một người phụ trách vận hành hệ thống. 
+B. Một phương pháp tiếp cận để tự động hóa các tác vụ vận hành, coi chúng như các vấn 
+đề của kỹ sư phần mềm. 
+C. Một công cụ CI/CD. 
+D. Một phương pháp quản lý dự án. 
+Câu 47. Serverless computing có thể được sử dụng cho các trường hợp nào? 
+A. Các ứng dụng có tải ổn định và dự đoán được. 
+B. Các ứng dụng có lượng truy cập cao và không thường xuyên. 
+C. Các ứng dụng cần nhiều tài nguyên CPU liên tục. 
+D. Các ứng dụng có giao diện phức tạp. 
+Câu 48. API Gateway trong một kiến trúc microservices có vai trò gì? 
+A. Cung cấp một điểm truy cập duy nhất cho các client đến các dịch vụ backend. 
+B. Quản lý cơ sở dữ liệu. 
+C. Cân bằng tải. 
+D. Viết các bài kiểm tra. 
+Câu 49. "Infrastructure as Code" (IaC) giúp giảm thiểu vấn đề gì? 
+A. Lỗi cú pháp trong code. 
+B. Tính không nhất quán trong môi trường (environment inconsistency). 
+C. Chi phí phần cứng. 
+D. Lỗ hổng bảo mật. 
+Câu 50. Docker Swarm và Kubernetes đều là các công cụ gì? 
+A. Quản lý cơ sở dữ liệu. 
+B. Quản lý container. 
+C. Quản lý mã nguồn. 
+D. Triển khai ứng dụng. 
+Đáp án chi tiết 
+Phần I: Các mô hình dịch vụ đám mây (Cloud Service Models) 
+ Câu 1: C. IaaS (Infrastructure as a Service) 
+ Câu 2: B. PaaS (Platform as a Service) 
+ Câu 3: A. SaaS (Software as a Service) 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 42 ---
+ 
+41 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+ Câu 4: C. FaaS (Function as a Service) 
+ Câu 5: A. Hybrid Cloud 
+ 
+Phần II: Các nhà cung cấp dịch vụ đám mây lớn và dịch vụ của họ 
+ Câu 6: B. Amazon S3 
+ Câu 7: B. Google Compute Engine 
+ Câu 8: C. Azure App Service 
+ Câu 9: A. Khả năng tự động thay đổi tài nguyên để đáp ứng nhu cầu tải công việc. 
+ Câu 10: B. Amazon RDS 
+ 
+Phần III: Containerization và Kubernetes 
+ Câu 11: B. Tự động hóa việc triển khai ứng dụng dưới dạng container 
+ Câu 12: C. Container nhẹ hơn, khởi động nhanh hơn và chia sẻ kernel của hệ điều 
+hành máy chủ. 
+ Câu 13: C. Tự động hóa việc triển khai, mở rộng và quản lý các container 
+ Câu 14: C. Một đơn vị triển khai nhỏ nhất, chứa một hoặc nhiều container 
+ Câu 15: C. YAML 
+ 
+Phần IV: DevOps và CI/CD 
+ Câu 16: C. Continuous Integration / Continuous Deployment 
+ Câu 17: C. Continuous Integration 
+ Câu 18: B. Xây dựng và tự động hóa các pipeline CI/CD 
+ Câu 19: B. Quản lý và cung cấp hạ tầng bằng các tệp mã nguồn 
+ Câu 20: B. Triển khai ứng dụng và quản lý hạ tầng bằng cách sử dụng Git làm nguồn 
+sự thật duy nhất 
+ 
+Phần V: Kiến thức tổng hợp về công nghệ mới 
+ Câu 21: B. Ứng dụng được chia thành nhiều dịch vụ độc lập, nhỏ gọn, giao tiếp với 
+nhau qua API. 
+ Câu 22: B. REST 
+ Câu 23: B. Tự động mở rộng quy mô và người dùng chỉ trả tiền cho tài nguyên họ 
+thực sự sử dụng. 
+ Câu 24: C. Một ngôn ngữ truy vấn cho API và một công cụ để thực hiện các truy vấn 
+đó. 
+ Câu 25: C. Một hệ thống quản lý nội dung cung cấp nội dung thông qua API, tách 
+biệt với giao diện người dùng. 
+ 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 43 ---
+ 
+42 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Phần VI: Các chủ đề nâng cao về Cloud và DevOps 
+ Câu 26: B. Phân phối lưu lượng truy cập mạng đến nhiều máy chủ để tối ưu hóa việc 
+sử dụng tài nguyên và tránh quá tải. 
+ Câu 27: B. Tự động điều chỉnh số lượng máy chủ để xử lý các thay đổi về lưu lượng 
+truy cập. 
+ Câu 28: B. Triển khai phiên bản mới cho một nhóm nhỏ người dùng, sau đó mở rộng 
+dần. 
+ Câu 29: A. Logs và Metrics 
+ Câu 30: B. Một lớp hạ tầng chuyên dụng để xử lý giao tiếp giữa các microservices. 
+ 
+Phần VII: Các công nghệ khác 
+ Câu 31: A. Cung cấp một điểm truy cập duy nhất cho các client đến các dịch vụ 
+backend. 
+ Câu 32: B. Không quan hệ (NoSQL) và thường được dùng làm cache hoặc message 
+broker 
+ Câu 33: C. Máy ảo, lưu trữ, mạng 
+ Câu 34: A. Cho phép bật/tắt một tính năng cụ thể trong ứng dụng mà không cần triển 
+khai lại code. 
+ Câu 35: A. Logging, Metrics, Tracing 
+ Câu 36: B. Một chuỗi các bước tự động để xây dựng, kiểm thử và triển khai ứng 
+dụng. 
+ Câu 37: A. Máy chủ không lưu trữ trạng thái của client giữa các yêu cầu. 
+ Câu 38: B. Một định dạng mã nhị phân cấp thấp cho các chương trình web. 
+ Câu 39: B. Giảm sự phụ thuộc chặt chẽ giữa các dịch vụ. 
+ Câu 40: C. Facebook 
+ Câu 41: C. Ứng dụng có thể được triển khai mà không làm gián đoạn dịch vụ của 
+người dùng. 
+ Câu 42: A. Cung cấp một điểm truy cập duy nhất cho các client đến các dịch vụ 
+backend. 
+ Câu 43: B. Xử lý dữ liệu gần nguồn tạo ra nó. 
+ Câu 44: B. Một loại cơ sở dữ liệu không sử dụng cấu trúc bảng truyền thống. 
+ Câu 45: B. Giám sát hệ thống và thu thập metrics. 
+ Câu 46: B. Một phương pháp tiếp cận để tự động hóa các tác vụ vận hành, coi chúng 
+như các vấn đề của kỹ sư phần mềm. 
+ Câu 47: B. Các ứng dụng có lượng truy cập cao và không thường xuyên. 
+ Câu 48: A. Cung cấp một điểm truy cập duy nhất cho các client đến các dịch vụ 
+backend. (Lặp lại, đáp án đúng vẫn là A) 
+ Câu 49: B. Tính không nhất quán trong môi trường (environment inconsistency). 
+ Câu 50: B. Quản lý container. 
+Đề thi thử số 5: Kỹ sư Dev vào Viettel 2025 
+Chuyên đề: Phát triển Ứng dụng Di động (Android & iOS) 
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 44 ---
+ 
+43 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Yêu cầu: Chọn đáp án đúng nhất cho mỗi câu hỏi. 
+Phần I: Các Khái niệm Cơ bản về Phát triển Di động (10 câu) 
+Câu 1. Ngôn ngữ lập trình nào dưới đây là ngôn ngữ chính thức để phát triển ứng dụng 
+Android? 
+A. Swift 
+B. Objective-C 
+C. Kotlin 
+D. Python 
+Câu 2. Ngôn ngữ lập trình nào dưới đây là ngôn ngữ chính thức để phát triển ứng dụng 
+iOS? 
+A. Kotlin 
+B. Swift 
+C. Java 
+D. C++ 
+Câu 3. Trong Android, Activity có vai trò gì? 
+A. Một lớp quản lý cơ sở dữ liệu. 
+B. Một thành phần cung cấp giao diện người dùng và tương tác với người dùng. 
+C. Một dịch vụ chạy nền. 
+D. Một lớp để quản lý các tệp tin. 
+Câu 4. Trong iOS, ViewController có vai trò gì? 
+A. Quản lý trạng thái ứng dụng. 
+B. Quản lý logic nghiệp vụ. 
+C. Quản lý và phối hợp các tương tác giữa giao diện người dùng (View) và dữ liệu (Model). 
+D. Chứa các phương thức tiện ích. 
+Câu 5. Mục đích chính của UI/UX Design trong phát triển ứng dụng di động là gì? 
+A. Đảm bảo ứng dụng chạy nhanh. 
+B. Tạo ra một giao diện đẹp mắt và trải nghiệm người dùng trực quan, dễ sử dụng. 
+C. Tối ưu hóa bộ nhớ. 
+D. Giảm dung lượng ứng dụng. 
+Câu 6. Đâu là một framework đa nền tảng (cross-platform) phổ biến để phát triển ứng dụng 
+di động? 
+A. React Native 
+B. C# 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 45 ---
+ 
+44 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Xcode 
+D. Android Studio 
+Câu 7. Trong Android, Intent được sử dụng để làm gì? 
+A. Lưu trữ dữ liệu. 
+B. Ghi lại các sự kiện. 
+C. Cho phép các thành phần ứng dụng giao tiếp với nhau. 
+D. Tạo các nút bấm. 
+Câu 8. Trong iOS, storyboard có vai trò gì? 
+A. Định nghĩa logic của ứng dụng. 
+B. Một công cụ trực quan để thiết kế giao diện người dùng và định nghĩa các luồng chuyển 
+hướng. 
+C. Quản lý tài nguyên. 
+D. Giao diện để viết code. 
+Câu 9. "Layout" trong phát triển di động dùng để làm gì? 
+A. Định nghĩa các phương thức của một lớp. 
+B. Sắp xếp và tổ chức các thành phần giao diện người dùng trên màn hình. 
+C. Kết nối với cơ sở dữ liệu. 
+D. Xử lý các sự kiện người dùng. 
+Câu 10. Apple App Store và Google Play Store được gọi chung là gì? 
+A. Công cụ phát triển. 
+B. Kho ứng dụng (App Store). 
+C. Hệ điều hành di động. 
+D. Nền tảng phân tích. 
+Phần II: Các Vấn đề Chuyên sâu về Android (15 câu) 
+Câu 11. Vòng đời của một Activity trong Android bao gồm các trạng thái nào? 
+A. onStart(), onStop(), onCreate(), onDestroy(). 
+B. onInitialize(), onPause(), onResume(), onQuit(). 
+C. onCreate(), onStart(), onResume(), onPause(), onStop(), onDestroy(). 
+D. onRun(), onWait(), onComplete(). 
+Câu 12. "RecyclerView" trong Android là một widget dùng để làm gì? 
+A. Hiển thị một danh sách các item một cách hiệu quả, đặc biệt với danh sách lớn. 
+B. Hiển thị một ảnh. 
+C. Hiển thị một đoạn văn bản. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 46 ---
+ 
+45 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Chứa các nút bấm. 
+Câu 13. "Fragment" trong Android được sử dụng để làm gì? 
+A. Tạo một ứng dụng đa cửa sổ. 
+B. Biểu diễn một phần của giao diện người dùng trong một Activity, giúp thiết kế linh hoạt 
+hơn. 
+C. Quản lý kết nối mạng. 
+D. Xử lý các tác vụ nền. 
+Câu 14. "ViewModel" trong kiến trúc MVVM của Android có vai trò gì? 
+A. Quản lý giao diện người dùng. 
+B. Lưu trữ và quản lý dữ liệu liên quan đến giao diện người dùng theo cách an toàn với 
+vòng đời. 
+C. Kết nối với cơ sở dữ liệu. 
+D. Hiển thị dữ liệu. 
+Câu 15. Từ khóa private trong Java (được dùng trong Android) có ý nghĩa gì? 
+A. Thuộc tính hoặc phương thức chỉ có thể truy cập từ bên ngoài lớp. 
+B. Thuộc tính hoặc phương thức chỉ có thể truy cập trong cùng một package. 
+C. Thuộc tính hoặc phương thức chỉ có thể truy cập từ bên trong lớp đó. 
+D. Thuộc tính hoặc phương thức có thể truy cập từ mọi nơi. 
+Câu 16. Gradle trong Android Studio là một công cụ dùng để làm gì? 
+A. Thiết kế giao diện. 
+B. Xây dựng (build) và quản lý các dependency của dự án. 
+C. Sửa lỗi. 
+D. Quản lý tài nguyên hình ảnh. 
+Câu 17. Để xử lý các tác vụ nặng trên một luồng nền (background thread) mà không làm tắc 
+nghẽn luồng UI chính, nhà phát triển Android thường sử dụng các công cụ nào? 
+A. AsyncTask hoặc RxJava/Kotlin Coroutines. 
+B. Intent. 
+C. Activity. 
+D. Service. 
+Câu 18. AndroidManifest.xml là một tệp tin quan trọng trong Android, nó chứa những thông 
+tin gì? 
+A. Mã nguồn của ứng dụng. 
+B. Cấu hình ứng dụng, quyền hạn (permissions) và các thành phần ứng dụng. 
+C. Các tệp tin layout. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 47 ---
+ 
+46 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Các tệp tin hình ảnh. 
+Câu 19. "Broadcast Receiver" trong Android có vai trò gì? 
+A. Gửi dữ liệu. 
+B. Nhận và xử lý các tin nhắn từ hệ thống hoặc các ứng dụng khác. 
+C. Hiển thị một thông báo. 
+D. Chạy một dịch vụ nền. 
+Câu 20. "Shared Preferences" trong Android được sử dụng để làm gì? 
+A. Lưu trữ dữ liệu lớn như cơ sở dữ liệu. 
+B. Lưu trữ các giá trị đơn giản, nhỏ gọn dưới dạng key-value. 
+C. Lưu trữ tệp tin. 
+D. Lưu trữ hình ảnh. 
+Câu 21. Lập trình Android sử dụng kiến trúc MVVM (Model-View-ViewModel) có lợi ích gì? 
+A. Tăng tính phụ thuộc giữa các thành phần. 
+B. Tách biệt rõ ràng các mối quan tâm, làm cho mã nguồn dễ kiểm thử và bảo trì hơn. 
+C. Giảm số lượng dòng code. 
+D. Tăng tốc độ chạy ứng dụng. 
+Câu 22. Android Studio là một gì? 
+A. Một ngôn ngữ lập trình. 
+B. Một máy ảo. 
+C. Một môi trường phát triển tích hợp (IDE) chính thức của Google. 
+D. Một công cụ để kiểm tra lỗi. 
+Câu 23. Từ khóa val trong Kotlin (được dùng trong Android) có ý nghĩa gì? 
+A. Một biến có thể thay đổi giá trị. 
+B. Một biến không thể thay đổi giá trị (hằng số). 
+C. Một biến chỉ dùng cho số. 
+D. Một biến chỉ dùng cho chuỗi. 
+Câu 24. Trong Android, Services có vai trò gì? 
+A. Cung cấp giao diện người dùng. 
+B. Thực hiện các tác vụ dài hạn mà không cần giao diện người dùng. 
+C. Gửi tin nhắn. 
+D. Hiển thị thông báo. 
+Câu 25. "Firebase" là một bộ công cụ phát triển của Google, nó cung cấp những dịch vụ gì 
+cho các nhà phát triển di động? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 48 ---
+ 
+47 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Cơ sở dữ liệu theo thời gian thực, xác thực người dùng, lưu trữ tệp tin. 
+B. Chỉ lưu trữ tệp tin. 
+C. Chỉ phân tích dữ liệu. 
+D. Chỉ quảng cáo. 
+Phần III: Các Vấn đề Chuyên sâu về iOS (15 câu) 
+Câu 26. Vòng đời của một UIViewController trong iOS bao gồm các phương thức nào? 
+A. viewWillAppear(), viewWillDisappear(), viewDidLoad(), viewDidUnload(). 
+B. viewWillLoad(), viewDidLoad(), viewWillUnload(), viewDidUnload(). 
+C. viewDidLoad(), viewWillAppear(), viewDidAppear(), viewWillDisappear(), 
+viewDidDisappear(). 
+D. onRun(), onPause(), onStop(). 
+Câu 27. SwiftUI là gì? 
+A. Một ngôn ngữ lập trình. 
+B. Một framework mới, khai báo để xây dựng giao diện người dùng cho các nền tảng của 
+Apple. 
+C. Một công cụ để kiểm tra lỗi. 
+D. Một công cụ để quản lý bộ nhớ. 
+Câu 28. "Cocoa Touch" trong iOS là gì? 
+A. Một ngôn ngữ lập trình. 
+B. Một bộ framework cung cấp các API để phát triển ứng dụng cho iOS. 
+C. Một công cụ thiết kế. 
+D. Một môi trường phát triển. 
+Câu 29. UserDefaults trong iOS được sử dụng để làm gì? 
+A. Lưu trữ dữ liệu lớn như cơ sở dữ liệu. 
+B. Lưu trữ các giá trị nhỏ và đơn giản dưới dạng key-value. 
+C. Lưu trữ tệp tin. 
+D. Lưu trữ hình ảnh. 
+Câu 30. Xcode là gì? 
+A. Một ngôn ngữ lập trình. 
+B. Một môi trường phát triển tích hợp (IDE) chính thức của Apple. 
+C. Một trình duyệt web. 
+D. Một công cụ quản lý cơ sở dữ liệu. 
+Câu 31. Grand Central Dispatch (GCD) là một công nghệ trong iOS dùng để làm gì? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 49 ---
+ 
+48 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Xử lý các thao tác bất đồng bộ và đa luồng một cách hiệu quả. 
+B. Quản lý bộ nhớ. 
+C. Tạo giao diện người dùng. 
+D. Phân tích mã nguồn. 
+Câu 32. Core Data trong iOS có vai trò gì? 
+A. Một framework để truy cập và quản lý dữ liệu trên thiết bị. 
+B. Một dịch vụ chạy nền. 
+C. Một công cụ để thiết kế giao diện. 
+D. Một framework để xử lý các yêu cầu mạng. 
+Câu 33. UILabel trong iOS là gì? 
+A. Một nút bấm. 
+B. Một thành phần giao diện để hiển thị văn bản tĩnh. 
+C. Một trường nhập văn bản. 
+D. Một hình ảnh. 
+Câu 34. Để thiết kế giao diện ứng dụng cho nhiều kích thước màn hình khác nhau, nhà phát 
+triển iOS sử dụng công nghệ nào? 
+A. Auto Layout 
+B. Storyboard 
+C. Interface Builder 
+D. Tất cả các đáp án trên. 
+Câu 35. "Cocoapods" và "Carthage" là các công cụ được sử dụng trong iOS để làm gì? 
+A. Thiết kế giao diện người dùng. 
+B. Quản lý các thư viện và phụ thuộc của dự án. 
+C. Viết các bài kiểm tra. 
+D. Quản lý vòng đời ứng dụng. 
+Phần IV: Kiến trúc và Thực hành (10 câu) 
+Câu 36. Trong kiến trúc MVVM, vai trò của ViewModel là gì? 
+A. Chứa giao diện người dùng. 
+B. Chứa logic nghiệp vụ và dữ liệu, tách biệt khỏi giao diện. 
+C. Chứa logic tương tác với cơ sở dữ liệu. 
+D. Chứa tất cả logic của ứng dụng. 
+Câu 37. "Lập trình bất đồng bộ" (Asynchronous Programming) trong phát triển ứng dụng di 
+động có lợi ích gì? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 50 ---
+ 
+49 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Tăng tốc độ xử lý các tác vụ đồng bộ. 
+B. Ngăn giao diện người dùng bị đơ (frozen) khi thực hiện các tác vụ dài (ví dụ: tải dữ liệu từ 
+mạng). 
+C. Giảm dung lượng ứng dụng. 
+D. Đơn giản hóa mã nguồn. 
+Câu 38. RESTful API trong phát triển di động dùng để làm gì? 
+A. Kết nối các thiết bị di động với nhau. 
+B. Giao tiếp giữa ứng dụng di động và máy chủ để trao đổi dữ liệu. 
+C. Gửi tin nhắn. 
+D. Phát nhạc. 
+Câu 39. "Dependency Injection" (DI) là một kỹ thuật thiết kế được sử dụng để làm gì? 
+A. Tăng tính phụ thuộc của các đối tượng. 
+B. Giảm sự phụ thuộc chặt chẽ giữa các thành phần, làm cho mã nguồn dễ kiểm thử và tái 
+sử dụng. 
+C. Quản lý các tệp tin. 
+D. Xử lý các sự kiện người dùng. 
+Câu 40. "Push Notifications" (thông báo đẩy) được sử dụng để làm gì? 
+A. Gửi tin nhắn từ người dùng này sang người dùng khác. 
+B. Gửi thông báo từ máy chủ đến thiết bị của người dùng, ngay cả khi ứng dụng không hoạt 
+động. 
+C. Hiển thị quảng cáo. 
+D. Tăng tốc độ ứng dụng. 
+Phần V: Các chủ đề nâng cao và tổng hợp (10 câu) 
+Câu 41. Sự khác biệt chính giữa iOS và Android về mặt phân mảnh thiết bị (device 
+fragmentation) là gì? 
+A. Android có ít thiết bị và kích thước màn hình đa dạng hơn iOS. 
+B. iOS có nhiều thiết bị và kích thước màn hình đa dạng hơn Android. 
+C. iOS có sự phân mảnh thấp hơn vì Apple kiểm soát phần cứng và phần mềm chặt chẽ. 
+D. Android không có sự phân mảnh thiết bị. 
+Câu 42. "Augmented Reality" (AR) và "Virtual Reality" (VR) trong phát triển di động có nghĩa 
+là gì? 
+A. AR tạo ra một thế giới ảo hoàn toàn, VR kết hợp thế giới thực với các đối tượng ảo. 
+B. VR tạo ra một thế giới ảo hoàn toàn, AR kết hợp thế giới thực với các đối tượng ảo. 
+C. Cả hai đều tạo ra một thế giới ảo hoàn toàn. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 51 ---
+ 
+50 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Cả hai đều kết hợp thế giới thực với các đối tượng ảo. 
+Câu 43. React Native và Flutter là các framework gì? 
+A. Web development. 
+B. Cross-platform mobile development. 
+C. Desktop application development. 
+D. Game development. 
+Câu 44. Khi xử lý một lỗi ứng dụng (crash), các nhà phát triển thường sử dụng công cụ nào 
+để tìm hiểu nguyên nhân? 
+A. Log files và Crash reporting tools (như Crashlytics, Sentry). 
+B. Công cụ thiết kế giao diện. 
+C. Trình biên dịch. 
+D. Công cụ quản lý dự án. 
+Câu 45. Mục tiêu chính của việc tối ưu hóa hiệu suất ứng dụng di động là gì? 
+A. Tăng dung lượng ứng dụng. 
+B. Đảm bảo ứng dụng chạy mượt mà, nhanh chóng và tiết kiệm pin. 
+C. Thêm nhiều tính năng hơn. 
+D. Tăng độ phức tạp của code. 
+Câu 46. Jetpack Compose trong Android và SwiftUI trong iOS đều là các framework gì? 
+A. Declarative UI framework. 
+B. Imperative UI framework. 
+C. Database management framework. 
+D. Network management framework. 
+Câu 47. Tệp APK trong Android tương đương với tệp nào trong iOS? 
+A. .ipa 
+B. .xcodeproj 
+C. .storyboard 
+D. .plist 
+Câu 48. Tại sao việc kiểm thử tự động (automated testing) lại quan trọng trong phát triển 
+ứng dụng di động? 
+A. Nó giảm thời gian phát triển. 
+B. Nó đảm bảo chất lượng và phát hiện lỗi sớm. 
+C. Nó giảm chi phí phần cứng. 
+D. Nó tăng độ phức tạp của code. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 52 ---
+ 
+51 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 49. Kotlin Multiplatform Mobile (KMM) là một công nghệ mới cho phép chia sẻ gì giữa 
+Android và iOS? 
+A. Giao diện người dùng. 
+B. Logic nghiệp vụ và các lớp dữ liệu. 
+C. Cả mã nguồn Android và iOS. 
+D. Các tệp hình ảnh. 
+Câu 50. “Dark Mode” trong ứng dụng di động có lợi ích gì? 
+A. Tăng độ tương phản. 
+B. Tiết kiệm pin cho các màn hình OLED và giảm mỏi mắt cho người dùng trong môi trường 
+ánh sáng yếu. 
+C. Tăng tốc độ chạy ứng dụng. 
+D. Chỉ để làm đẹp. 
+Đáp án chi tiết: 
+Phần I: Các Khái niệm Cơ bản về Phát triển Di động 
+Câu 1: C. Kotlin 
+Câu 2: B. Swift 
+Câu 3: B. Một thành phần cung cấp giao diện người dùng và tương tác với người dùng. 
+Câu 4: C. Quản lý và phối hợp các tương tác giữa giao diện người dùng (View) và dữ liệu 
+(Model). 
+Câu 5: B. Tạo ra một giao diện đẹp mắt và trải nghiệm người dùng trực quan, dễ sử dụng. 
+Câu 6: A. React Native 
+Câu 7: C. Cho phép các thành phần ứng dụng giao tiếp với nhau. 
+Câu 8: B. Một công cụ trực quan để thiết kế giao diện người dùng và định nghĩa các luồng 
+chuyển hướng. 
+Câu 9: B. Sắp xếp và tổ chức các thành phần giao diện người dùng trên màn hình. 
+Câu 10: B. Kho ứng dụng (App Store). 
+Phần II: Các Vấn đề Chuyên sâu về Android 
+Câu 11: C. onCreate(), onStart(), onResume(), onPause(), onStop(), onDestroy(). 
+Câu 12: A. Hiển thị một danh sách các item một cách hiệu quả, đặc biệt với danh sách lớn. 
+Câu 13: B. Biểu diễn một phần của giao diện người dùng trong một Activity, giúp thiết kế linh 
+hoạt hơn. 
+Câu 14: B. Lưu trữ và quản lý dữ liệu liên quan đến giao diện người dùng theo cách an toàn 
+với vòng đời. 
+Câu 15: C. Thuộc tính hoặc phương thức chỉ có thể truy cập từ bên trong lớp đó. 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 53 ---
+ 
+52 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 16: B. Xây dựng (build) và quản lý các dependency của dự án. 
+Câu 17: A. AsyncTask hoặc RxJava/Kotlin Coroutines. 
+Câu 18: B. Cấu hình ứng dụng, quyền hạn (permissions) và các thành phần ứng dụng. 
+Câu 19: B. Nhận và xử lý các tin nhắn từ hệ thống hoặc các ứng dụng khác. 
+Câu 20: B. Lưu trữ các giá trị đơn giản, nhỏ gọn dưới dạng key-value. 
+Câu 21: B. Tách biệt rõ ràng các mối quan tâm, làm cho mã nguồn dễ kiểm thử và bảo trì 
+hơn. 
+Câu 22: C. Một môi trường phát triển tích hợp (IDE) chính thức của Google. 
+Câu 23: B. Một biến không thể thay đổi giá trị (hằng số). 
+Câu 24: B. Thực hiện các tác vụ dài hạn mà không cần giao diện người dùng. 
+Câu 25: A. Cơ sở dữ liệu theo thời gian thực, xác thực người dùng, lưu trữ tệp tin. 
+Phần III: Các Vấn đề Chuyên sâu về iOS 
+Câu 26: C. viewDidLoad(), viewWillAppear(), viewDidAppear(), viewWillDisappear(), 
+viewDidDisappear(). 
+Câu 27: B. Một framework mới, khai báo để xây dựng giao diện người dùng cho các nền 
+tảng của Apple. 
+Câu 28: B. Một bộ framework cung cấp các API để phát triển ứng dụng cho iOS. 
+Câu 29: B. Lưu trữ các giá trị nhỏ và đơn giản dưới dạng key-value. 
+Câu 30: B. Một môi trường phát triển tích hợp (IDE) chính thức của Apple. 
+Câu 31: A. Xử lý các thao tác bất đồng bộ và đa luồng một cách hiệu quả. 
+Câu 32: A. Một framework để truy cập và quản lý dữ liệu trên thiết bị. 
+Câu 33: B. Một thành phần giao diện để hiển thị văn bản tĩnh. 
+Câu 34: A. Auto Layout 
+Câu 35: B. Quản lý các thư viện và phụ thuộc của dự án. 
+Phần IV: Kiến trúc và Thực hành 
+Câu 36: B. Chứa logic nghiệp vụ và dữ liệu, tách biệt khỏi giao diện. 
+Câu 37: B. Ngăn giao diện người dùng bị đơ (frozen) khi thực hiện các tác vụ dài (ví dụ: tải 
+dữ liệu từ mạng). 
+Câu 38: B. Giao tiếp giữa ứng dụng di động và máy chủ để trao đổi dữ liệu. 
+Câu 39: B. Giảm sự phụ thuộc chặt chẽ giữa các thành phần, làm cho mã nguồn dễ kiểm 
+thử và tái sử dụng. 
+Câu 40: B. Gửi thông báo từ máy chủ đến thiết bị của người dùng, ngay cả khi ứng dụng 
+không hoạt động. 
+Phần V: Các chủ đề nâng cao và tổng hợp 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 54 ---
+ 
+53 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 41: C. iOS có sự phân mảnh thấp hơn vì Apple kiểm soát phần cứng và phần mềm 
+chặt chẽ. 
+Câu 42: B. VR tạo ra một thế giới ảo hoàn toàn, AR kết hợp thế giới thực với các đối tượng 
+ảo. 
+Câu 43: B. Cross-platform mobile development. 
+Câu 44: A. Log files và Crash reporting tools (như Crashlytics, Sentry). 
+Câu 45: B. Đảm bảo ứng dụng chạy mượt mà, nhanh chóng và tiết kiệm pin. 
+Câu 46: A. Declarative UI framework. 
+Câu 47: A. .ipa 
+Câu 48: B. Nó đảm bảo chất lượng và phát hiện lỗi sớm. 
+Câu 49: B. Logic nghiệp vụ và các lớp dữ liệu. 
+Câu 50: B. Tiết kiệm pin cho các màn hình OLED và giảm mỏi mắt cho người dùng trong 
+môi trường ánh sáng yếu. 
+Đề thi thử số 6: Kỹ sư Dev vào Viettel 2025 
+Chuyên đề: An toàn và B ảo mật Thông tin (Cybersecurity)  
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+ĐỀ THI THỬ SỐ 6: KỸ SƯ DEV VÀO VIETTEL 2025 
+Chuyên đề: An toàn và Bảo mật Thông tin (Cybersecurity) 
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+Câu 1: Một trong những nguyên tắc cốt lõi của bảo mật thông tin là gì? 
+A. Tăng tốc độ truy cập dữ liệu 
+B. Đảm bảo tính toàn vẹn, bảo mật và khả dụng của dữ liệu (CIA Triad) 
+C. Giảm chi phí lưu trữ dữ liệu 
+D. Tối ưu hóa hiệu suất hệ thống 
+Câu 2: Tấn công "Man-in-the-Middle" (MitM) là gì? 
+A. Tấn công giả mạo để chiếm quyền truy cập 
+B. Kẻ tấn công chặn và thay đổi thông tin giữa hai bên giao tiếp 
+C. Tấn công làm tràn bộ đệm hệ thống 
+D. Tấn công từ chối dịch vụ 
+Câu 3: Mục đích của tấn công Phishing là gì? 
+A. Lấy cắp thông tin cá nhân hoặc tài khoản bằng cách giả mạo 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 55 ---
+ 
+54 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Làm cho hệ thống không thể hoạt động 
+C. Chèn mã độc vào cơ sở dữ liệu 
+D. Tấn công vào các thiết bị IoT 
+Câu 4: Kỹ thuật mã hóa đối xứng (Symmetric Cryptography) sử dụng bao nhiêu khóa? 
+A. Một khóa duy nhất cho cả mã hóa và giải mã 
+B. Hai khóa khác nhau, một khóa công khai và một khóa bí mật 
+C. Ba khóa để tăng cường bảo mật 
+D. Không cần khóa 
+Câu 5: Giao thức nào thường được sử dụng để bảo mật kết nối web? 
+A. FTP 
+B. SSH 
+C. HTTP 
+D. HTTPS 
+Câu 6: Tấn công SQL Injection là gì? 
+A. Tấn công làm tràn bộ đệm của ứng dụng 
+B. Kỹ thuật chèn mã JavaScript độc hại vào trang web 
+C. Kỹ thuật chèn các câu lệnh SQL độc hại vào ô nhập liệu để truy cập hoặc thay đổi cơ sở 
+dữ liệu 
+D. Tấn công từ chối dịch vụ 
+Câu 7: Làm thế nào để ngăn chặn tấn công Cross-Site Scripting (XSS)? 
+A. Sử dụng tường lửa (Firewall) 
+B. Lọc và làm sạch (sanitize) mọi dữ liệu đầu vào của người dùng trước khi hiển thị 
+C. Chỉ sử dụng giao thức HTTPS 
+D. Tăng độ dài của mật khẩu 
+Câu 8: Tấn công Brute Force là gì? 
+A. Tấn công dựa trên sự lừa dối người dùng 
+B. Tấn công bằng cách thử tất cả các mật khẩu có thể có 
+C. Tấn công làm tràn băng thông mạng 
+D. Tấn công bằng cách chèn mã độc vào hệ thống 
+Câu 9: Tấn công Denial-of-Service (DoS) nhằm mục đích gì? 
+A. Đánh cắp thông tin cá nhân 
+B. Làm cho dịch vụ hoặc tài nguyên mạng không khả dụng đối với người dùng hợp lệ 
+C. Chèn mã độc vào máy tính nạn nhân 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 56 ---
+ 
+55 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Chiếm quyền kiểm soát máy chủ 
+Câu 10: Tấn công Distributed Denial-of-Service (DDoS) khác gì DoS? 
+A. DDoS sử dụng một máy tính để tấn công, trong khi DoS sử dụng nhiều máy 
+B. DDoS sử dụng nhiều máy tính tấn công cùng lúc, trong khi DoS chỉ sử dụng một máy 
+C. DDoS chỉ tấn công các trang web, còn DoS tấn công mọi loại dịch vụ 
+D. Chúng hoàn toàn giống nhau 
+Câu 11: Firewall có chức năng chính là gì? 
+A. Tạo bản sao lưu dữ liệu 
+B. Ngăn chặn truy cập mạng trái phép 
+C. Quét virus và mã độc 
+D. Tăng tốc độ truyền dữ liệu 
+Câu 12: Lỗ hổng "Zero-day" là gì? 
+A. Lỗ hổng đã được biết đến và có bản vá 
+B. Lỗ hổng đã được công bố rộng rãi 
+C. Lỗ hổng mới được phát hiện và chưa có bản vá 
+D. Lỗ hổng chỉ xuất hiện trong một ngày duy nhất 
+Câu 13: Tấn công mã độc (Malware) là thuật ngữ chung cho những loại phần mềm nào? 
+A. Virus, Worm, Trojan và Ransomware 
+B. Chỉ Virus 
+C. Chỉ Worm 
+D. Chỉ Trojan và Ransomware 
+Câu 14: Vai trò của một Red Team trong kiểm thử bảo mật? 
+A. Xây dựng các chính sách an ninh 
+B. Bảo vệ và phòng thủ hệ thống 
+C. Đóng vai trò kẻ tấn công để tìm ra lỗ hổng 
+D. Phân tích các mối đe dọa 
+Câu 15: Tấn công "Social Engineering" là gì? 
+A. Tấn công bằng cách sử dụng các lỗ hổng phần mềm 
+B. Lừa dối con người để lấy thông tin nhạy cảm 
+C. Tấn công bằng cách phá hoại phần cứng 
+D. Tấn công vào các mạng xã hội 
+Câu 16: Một chính sách mật khẩu mạnh cần đáp ứng tiêu chí nào? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 57 ---
+ 
+56 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Chỉ sử dụng chữ cái 
+B. Chỉ sử dụng chữ số 
+C. Có độ dài tối thiểu, kết hợp chữ cái, số và ký tự đặc biệt 
+D. Dễ nhớ và ngắn gọn 
+Câu 17: Mục đích của việc sử dụng VPN (Virtual Private Network)? 
+A. Tăng tốc độ Internet 
+B. Cho phép truy cập mạng nội bộ từ xa một cách an toàn 
+C. Giảm băng thông mạng 
+D. Chia sẻ file với tốc độ cao 
+Câu 18: Hash Function có tính chất một chiều (one-way) là gì? 
+A. Dễ dàng chuyển đổi dữ liệu thành hash và ngược lại 
+B. Dễ dàng chuyển đổi dữ liệu thành hash, nhưng rất khó hoặc không thể chuyển ngược lại 
+C. Chỉ dùng để mã hóa mật khẩu 
+D. Luôn tạo ra kết quả giống nhau 
+Câu 19: Tại sao không nên lưu trữ mật khẩu dưới dạng văn bản thuần túy (plain text)? 
+A. Chiếm nhiều dung lượng lưu trữ 
+B. Dễ bị tấn công và đánh cắp 
+C. Tốc độ truy xuất chậm 
+D. Gây ra lỗi hệ thống 
+Câu 20: Cơ chế nào được sử dụng để xác thực hai yếu tố (2FA)? 
+A. Mật khẩu và email 
+B. Tên người dùng và mật khẩu 
+C. Mật khẩu và một yếu tố thứ hai (ví dụ: mã OTP gửi đến điện thoại) 
+D. Mật khẩu và câu hỏi bảo mật 
+Câu 21: OWASP Top 10 là gì? 
+A. Danh sách 10 lỗ hổng bảo mật phổ biến nhất cho ứng dụng web 
+B. Danh sách 10 giao thức mạng 
+C. Danh sách 10 loại mã độc nguy hiểm nhất 
+D. Danh sách 10 công cụ tấn công 
+Câu 22: Kỹ thuật nào giúp chống lại tấn công CSRF (Cross-Site Request Forgery)? 
+A. Sử dụng HTTP thay vì HTTPS 
+B. Sử dụng token chống CSRF (CSRF token) 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 58 ---
+ 
+57 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Tăng độ phức tạp của URL 
+D. Tắt JavaScript trên trình duyệt 
+Câu 23: Mục đích của một "Bug Bounty Program"? 
+A. Thưởng cho lập trình viên viết code nhanh 
+B. Hỗ trợ người dùng khi gặp lỗi 
+C. Thưởng cho các chuyên gia bảo mật khi tìm thấy lỗ hổng trong hệ thống 
+D. Cung cấp các công cụ kiểm tra bảo mật 
+Câu 24: Giao thức SSH (Secure Shell) được sử dụng để làm gì? 
+A. Gửi email 
+B. Truyền file 
+C. Truy cập và quản lý máy chủ từ xa một cách an toàn 
+D. Duyệt web 
+Câu 25: Tấn công "Buffer Overflow" là gì? 
+A. Tấn công làm tràn bộ nhớ của ứng dụng 
+B. Tấn công bằng cách gửi quá nhiều yêu cầu đến máy chủ 
+C. Tấn công bằng cách chèn mã độc vào file 
+D. Tấn công bằng cách thay đổi cấu hình mạng 
+Câu 26: Chứng chỉ số (Digital Certificate) được sử dụng để làm gì? 
+A. Xác thực danh tính của một trang web hoặc một máy chủ 
+B. Mã hóa tất cả dữ liệu 
+C. Tăng tốc độ tải trang web 
+D. Tăng cường hiệu suất hệ thống 
+Câu 27: Mã hóa bất đối xứng (Asymmetric Cryptography) còn được gọi là gì? 
+A. Mã hóa khóa chung (Public-key Cryptography) 
+B. Mã hóa khóa riêng (Private-key Cryptography) 
+C. Mã hóa đơn giản 
+D. Mã hóa cổ điển 
+Câu 28: Tấn công "Replay Attack" là gì? 
+A. Kẻ tấn công ghi lại một phiên giao tiếp và phát lại nó để chiếm quyền truy cập 
+B. Tấn công làm tràn bộ đệm 
+C. Tấn công từ chối dịch vụ 
+D. Tấn công bằng cách thay đổi các bản ghi DNS 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 59 ---
+ 
+58 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 29: Cookie có thuộc tính "Secure" có ý nghĩa gì? 
+A. Cookie chỉ được gửi qua kết nối HTTPS 
+B. Cookie chỉ được lưu trữ trên server 
+C. Cookie không thể bị xóa 
+D. Cookie được mã hóa tự động 
+Câu 30: Phương pháp nào giúp kiểm tra tính toàn vẹn của dữ liệu? 
+A. Nén dữ liệu 
+B. Sử dụng hàm băm (hashing) 
+C. Gửi dữ liệu qua email 
+D. Lưu trữ dữ liệu trên nhiều server 
+Câu 31: Tấn công "Eavesdropping" là gì? 
+A. Tấn công bằng cách nghe lén (nghe trộm) dữ liệu trên mạng 
+B. Tấn công làm tràn bộ đệm 
+C. Tấn công làm thay đổi dữ liệu 
+D. Tấn công bằng cách giả mạo địa chỉ IP 
+Câu 32: Lỗ hổng nào liên quan đến việc không kiểm soát đầu vào của người dùng trong các 
+câu lệnh shell? 
+A. SQL Injection 
+B. XSS 
+C. Command Injection 
+D. CSRF 
+Câu 33: Mục đích của cơ chế "Least Privilege" (đặc quyền tối thiểu)? 
+A. Cấp cho người dùng và ứng dụng quyền cao nhất có thể 
+B. Chỉ cấp những quyền tối thiểu cần thiết để hoàn thành một nhiệm vụ 
+C. Không cấp bất kỳ quyền nào 
+D. Cấp quyền tùy ý 
+Câu 34: Tấn công "Clickjacking" là gì? 
+A. Kỹ thuật lừa người dùng nhấp vào một nút mà họ không hề biết 
+B. Tấn công làm tràn bộ đệm 
+C. Tấn công từ chối dịch vụ 
+D. Tấn công bằng cách chèn mã độc vào file 
+Câu 35: Giao thức nào cung cấp bảo mật cho email? 
+A. HTTP 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 60 ---
+ 
+59 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. SSH 
+C. S/MIME 
+D. FTP 
+Câu 36: Một "backdoor" trong phần mềm là gì? 
+A. Một lỗi lập trình không cố ý 
+B. Một lối vào bí mật được tạo ra để bỏ qua các quy trình xác thực thông thường 
+C. Một lỗ hổng đã được vá 
+D. Một tính năng ẩn 
+Câu 37: Vai trò của một Security Information and Event Management (SIEM) system? 
+A. Phát hiện và ngăn chặn tấn công 
+B. Phân tích log và sự kiện bảo mật từ nhiều nguồn khác nhau để tìm kiếm mối đe dọa 
+C. Chỉ để lưu trữ dữ liệu 
+D. Chỉ để sao lưu hệ thống 
+Câu 38: Mã độc Ransomware hoạt động như thế nào? 
+A. Đánh cắp thông tin cá nhân 
+B. Mã hóa dữ liệu của nạn nhân và đòi tiền chuộc để giải mã 
+C. Tấn công từ chối dịch vụ 
+D. Lấy cắp tài khoản ngân hàng 
+Câu 39: Kỹ thuật nào được sử dụng để phát hiện sớm các cuộc tấn công? 
+A. Tắt tường lửa 
+B. Sử dụng IDS (Intrusion Detection System) 
+C. Giảm độ phức tạp của mật khẩu 
+D. Lưu trữ tất cả dữ liệu trên một máy chủ 
+Câu 40: Giai đoạn nào trong chu trình phát triển phần mềm nên bắt đầu tích hợp bảo mật? 
+A. Giai đoạn triển khai 
+B. Giai đoạn kiểm thử 
+C. Ngay từ giai đoạn thiết kế 
+D. Sau khi sản phẩm đã được phát hành 
+Câu 41: Tấn công "Pharming" là gì? 
+A. Lừa người dùng truy cập vào trang web giả mạo bằng cách thay đổi cài đặt DNS hoặc 
+host file 
+B. Tấn công làm tràn bộ đệm 
+C. Tấn công từ chối dịch vụ 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 61 ---
+ 
+60 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Tấn công bằng cách gửi email giả mạo 
+Câu 42: Vai trò của một Blue Team trong an ninh mạng? 
+A. Đóng vai trò kẻ tấn công để kiểm tra hệ thống 
+B. Phá hoại hệ thống của đối thủ 
+C. Phòng thủ và bảo vệ hệ thống trước các cuộc tấn công 
+D. Viết các báo cáo về bảo mật 
+Câu 43: Giao thức nào cung cấp bảo mật cho kết nối mạng không dây? 
+A. WEP 
+B. HTTP 
+C. WPA2/WPA3 
+D. TCP 
+Câu 44: Nguyên tắc "Defense in Depth" (Phòng thủ theo chiều sâu) là gì? 
+A. Sử dụng một lớp bảo mật duy nhất nhưng rất mạnh 
+B. Sử dụng nhiều lớp bảo mật để bảo vệ hệ thống 
+C. Chỉ tập trung vào bảo vệ các dữ liệu quan trọng nhất 
+D. Chỉ sử dụng phần mềm nguồn mở 
+Câu 45: Tấn công "Malvertising" là gì? 
+A. Sử dụng các quảng cáo trực tuyến độc hại để lây lan mã độc 
+B. Tấn công bằng cách thay đổi nội dung quảng cáo 
+C. Tấn công vào hệ thống thanh toán của quảng cáo 
+D. Tấn công bằng cách giả mạo quảng cáo 
+Câu 46: Giao thức nào được sử dụng để đảm bảo tính xác thực của email? 
+A. SMTP 
+B. SPF, DKIM và DMARC 
+C. IMAP 
+D. POP3 
+Câu 47: Tấn công "Supply Chain Attack" là gì? 
+A. Tấn công vào chuỗi cung ứng hàng hóa 
+B. Tấn công bằng cách chèn mã độc vào phần mềm hoặc phần cứng trong chuỗi cung ứng 
+C. Tấn công vào hệ thống logistics 
+D. Tấn công vào các trang thương mại điện tử 
+Câu 48: Biện pháp nào giúp bảo vệ hệ thống khỏi tấn công từ chối dịch vụ? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 62 ---
+ 
+61 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Tăng số lượng server 
+B. Sử dụng giải pháp chống DDoS, như tường lửa ứng dụng web (WAF) và dịch vụ lọc lưu 
+lượng truy cập 
+C. Tắt tường lửa 
+D. Giảm băng thông mạng 
+Câu 49: Tấn công nào lợi dụng việc người dùng không đăng xuất khỏi tài khoản trên một 
+trang web khác để thực hiện hành động trái phép? 
+A. XSS 
+B. SQL Injection 
+C. CSRF 
+D. Phishing 
+Câu 50: Tấn công "Credential Stuffing" là gì? 
+A. Tấn công bằng cách sử dụng danh sách các cặp tên người dùng/mật khẩu bị rò rỉ từ một 
+trang web để thử đăng nhập vào các trang web khác 
+B. Tấn công làm tràn bộ đệm 
+C. Tấn công làm giả mạo email 
+D. Tấn công bằng cách gửi hàng loạt yêu cầu đến máy chủ 
+Đáp án 
+Phần I: Đáp án từ Câu 1 đến Câu 25 
+1. B. Đảm bảo tính toàn vẹn, bảo mật và khả dụng của dữ liệu (CIA Triad) 
+2. B. Kẻ tấn công chặn và thay đổi thông tin giữa hai bên giao tiếp 
+3. A. Lấy cắp thông tin cá nhân hoặc tài khoản bằng cách giả mạo 
+4. A. Một khóa duy nhất cho cả mã hóa và giải mã 
+5. D. HTTPS 
+6. C. Kỹ thuật chèn các câu lệnh SQL độc hại vào ô nhập liệu để truy cập hoặc thay đổi 
+cơ sở dữ liệu 
+7. B. Lọc và làm sạch (sanitize) mọi dữ liệu đầu vào của người dùng trước khi hiển thị 
+8. B. Tấn công bằng cách thử tất cả các mật khẩu có thể có 
+9. B. Làm cho dịch vụ hoặc tài nguyên mạng không khả dụng đối với người dùng hợp lệ 
+10. B. DDoS sử dụng nhiều máy tính tấn công cùng lúc, trong khi DoS chỉ sử dụng một 
+máy 
+11. B. Ngăn chặn truy cập mạng trái phép 
+12. C. Lỗ hổng mới được phát hiện và chưa có bản vá 
+13. A. Virus, Worm, Trojan và Ransomware 
+14. C. Đóng vai trò kẻ tấn công để tìm ra lỗ hổng 
+15. B. Lừa dối con người để lấy thông tin nhạy cảm 
+16. C. Có độ dài tối thiểu, kết hợp chữ cái, số và ký tự đặc biệt 
+17. B. Cho phép truy cập mạng nội bộ từ xa một cách an toàn 
+18. B. Dễ dàng chuyển đổi dữ liệu thành hash, nhưng rất khó hoặc không thể chuyển 
+ngược lại 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 63 ---
+ 
+62 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+19. B. Dễ bị tấn công và đánh cắp 
+20. C. Mật khẩu và một yếu tố thứ hai (ví dụ: mã OTP gửi đến điện thoại) 
+21. A. Danh sách 10 lỗ hổng bảo mật phổ biến nhất cho ứng dụng web 
+22. B. Sử dụng token chống CSRF (CSRF token) 
+23. C. Thưởng cho các chuyên gia bảo mật khi tìm thấy lỗ hổng trong hệ thống 
+24. C. Truy cập và quản lý máy chủ từ xa một cách an toàn 
+25. A. Tấn công làm tràn bộ nhớ của ứng dụng 
+ 
+Phần II: Đáp án từ Câu 26 đến Câu 50 
+26. A. Xác thực danh tính của một trang web hoặc một máy chủ 
+27. A. Mã hóa khóa chung (Public-key Cryptography) 
+28. A. Kẻ tấn công ghi lại một phiên giao tiếp và phát lại nó để chiếm quyền truy cập 
+29. A. Cookie chỉ được gửi qua kết nối HTTPS 
+30. B. Sử dụng hàm băm (hashing) 
+31. A. Tấn công bằng cách nghe lén (nghe trộm) dữ liệu trên mạng 
+32. C. Command Injection 
+33. B. Chỉ cấp những quyền tối thiểu cần thiết để hoàn thành một nhiệm vụ 
+34. A. Kỹ thuật lừa người dùng nhấp vào một nút mà họ không hề biết 
+35. C. S/MIME 
+36. B. Một lối vào bí mật được tạo ra để bỏ qua các quy trình xác thực thông thường 
+37. B. Phân tích log và sự kiện bảo mật từ nhiều nguồn khác nhau để tìm kiếm mối đe dọa 
+38. B. Mã hóa dữ liệu của nạn nhân và đòi tiền chuộc để giải mã 
+39. B. Sử dụng IDS (Intrusion Detection System) 
+40. C. Ngay từ giai đoạn thiết kế 
+41. A. Lừa người dùng truy cập vào trang web giả mạo bằng cách thay đổi cài đặt DNS 
+hoặc host file 
+42. C. Phòng thủ và bảo vệ hệ thống trước các cuộc tấn công 
+43. C. WPA2/WPA3 
+44. B. Sử dụng nhiều lớp bảo mật để bảo vệ hệ thống 
+45. A. Sử dụng các quảng cáo trực tuyến độc hại để lây lan mã độc 
+46. B. SPF, DKIM và DMARC 
+47. B. Tấn công bằng cách chèn mã độc vào phần mềm hoặc phần cứng trong chuỗi cung 
+ứng 
+48. B. Sử dụng giải pháp chống DDoS, như tường lửa ứng dụng web (WAF) và dịch vụ 
+lọc lưu lượng truy cập 
+49. C. CSRF 
+50. A. Tấn công bằng cách sử dụng danh sách các cặp tên người dùng/mật khẩu bị rò rỉ từ 
+một trang web để thử đăng nhập vào các trang web khác 
+ĐỀ THI THỬ SỐ 7: KỸ SƯ DEV VÀO VIETTEL 2025 
+Chuyên đề: Dữ liệu Lớn và Trí tuệ Nhân tạo (Big Data & AI) 
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+Câu 1: "3V" trong Big Data bao gồm những yếu tố nào? 
+A. Velo, Volume, Value 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 64 ---
+ 
+63 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Volume, Velocity, Variety 
+C. Volume, Velocity, Value 
+D. Variety, Velocity, Value 
+Câu 2: Hadoop Distributed File System (HDFS) được thiết kế với mục đích gì? 
+A. Lưu trữ dữ liệu trên một máy tính duy nhất 
+B. Lưu trữ và xử lý dữ liệu lớn trên một cụm máy tính phân tán 
+C. Chỉ để xử lý dữ liệu dạng văn bản 
+D. Để lưu trữ dữ liệu có cấu trúc 
+Câu 3: Thành phần nào của Hadoop chịu trách nhiệm xử lý và điều phối công việc? 
+A. HDFS 
+B. MapReduce 
+C. YARN 
+D. Spark 
+Câu 4: MapReduce là mô hình lập trình để làm gì? 
+A. Chỉ để lưu trữ dữ liệu 
+B. Xử lý song song dữ liệu lớn 
+C. Thu thập dữ liệu từ các nguồn khác nhau 
+D. Phân tích dữ liệu theo thời gian thực 
+Câu 5: Apache Spark có ưu điểm gì so với MapReduce? 
+A. Xử lý dữ liệu chậm hơn 
+B. Khó lập trình hơn 
+C. Xử lý dữ liệu trong bộ nhớ (in-memory processing) giúp tăng tốc độ đáng kể 
+D. Không hỗ trợ xử lý dữ liệu theo luồng (streaming) 
+Câu 6: Loại cơ sở dữ liệu nào phù hợp nhất để lưu trữ dữ liệu phi cấu trúc (unstructured 
+data) như log files, tweets, và hình ảnh? 
+A. Cơ sở dữ liệu quan hệ (Relational Database) 
+B. Cơ sở dữ liệu NoSQL 
+C. Cơ sở dữ liệu SQL 
+D. Cơ sở dữ liệu quan hệ có cấu trúc 
+Câu 7: Trong Machine Learning, thuật toán giám sát (Supervised Learning) yêu cầu dữ liệu 
+đầu vào như thế nào? 
+A. Dữ liệu đã được gán nhãn (labeled data) 
+B. Dữ liệu không có nhãn (unlabeled data) 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 65 ---
+ 
+64 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Chỉ dữ liệu dạng số 
+D. Chỉ dữ liệu dạng văn bản 
+Câu 8: Thuật toán nào sau đây thuộc nhóm học không giám sát (Unsupervised Learning)? 
+A. Phân loại (Classification) 
+B. Hồi quy (Regression) 
+C. Phân cụm (Clustering) 
+D. Mạng nơ-ron (Neural Networks) 
+Câu 9: Mục đích của quá trình tiền xử lý dữ liệu (Data Preprocessing) trong AI là gì? 
+A. Tăng kích thước dữ liệu 
+B. Làm cho dữ liệu sạch và phù hợp để huấn luyện mô hình 
+C. Giảm số lượng dữ liệu 
+D. Chỉ để trực quan hóa dữ liệu 
+Câu 10: Overfitting (hiện tượng quá khớp) trong Machine Learning là gì? 
+A. Mô hình quá đơn giản, không học được quy luật từ dữ liệu 
+B. Mô hình quá phức tạp, học cả nhiễu và chi tiết không cần thiết của dữ liệu huấn luyện 
+C. Mô hình hoạt động tốt trên cả dữ liệu huấn luyện và dữ liệu mới 
+D. Mô hình không thể hội tụ 
+Câu 11: Kỹ thuật nào thường được dùng để giải quyết vấn đề Overfitting? 
+A. Tăng số lượng đặc trưng (features) 
+B. Giảm số lượng dữ liệu huấn luyện 
+C. Sử dụng Cross-Validation hoặc Regularization 
+D. Tăng độ phức tạp của mô hình 
+Câu 12: Trong Natural Language Processing (NLP), "Tokenization" là gì? 
+A. Gán nhãn cho các từ 
+B. Chuyển đổi văn bản thành các đơn vị nhỏ hơn (từ, cụm từ) 
+C. Dịch văn bản sang ngôn ngữ khác 
+D. Huấn luyện mô hình ngôn ngữ 
+Câu 13: "Feature Engineering" là quá trình gì trong Machine Learning? 
+A. Lựa chọn mô hình tốt nhất 
+B. Tạo ra các đặc trưng mới từ dữ liệu hiện có để cải thiện hiệu suất mô hình 
+C. Xử lý lỗi trong dữ liệu 
+D. Trực quan hóa dữ liệu 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 66 ---
+ 
+65 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 14: Apache Kafka được sử dụng phổ biến với mục đích gì? 
+A. Cơ sở dữ liệu quan hệ 
+B. Nền tảng xử lý dữ liệu theo lô (batch processing) 
+C. Nền tảng xử lý dữ liệu theo thời gian thực (real-time streaming) và hàng đợi thông điệp 
+D. Trực quan hóa dữ liệu 
+Câu 15: Python là ngôn ngữ được sử dụng rộng rãi trong AI và Data Science vì lý do gì? 
+A. Tốc độ thực thi rất nhanh 
+B. Có một hệ sinh thái thư viện mạnh mẽ (NumPy, Pandas, Scikit-learn, TensorFlow, 
+PyTorch) 
+C. Chỉ có thể dùng cho các tác vụ đơn giản 
+D. Khó học và khó sử dụng 
+Câu 16: Tensor trong TensorFlow và PyTorch là gì? 
+A. Một loại dữ liệu dạng văn bản 
+B. Một khái niệm tương tự như mảng (array) đa chiều 
+C. Một thuật toán Machine Learning 
+D. Một loại biến chỉ lưu giá trị số nguyên 
+Câu 17: Thuật toán Regression (hồi quy) được sử dụng để giải quyết vấn đề gì? 
+A. Dự đoán một giá trị liên tục 
+B. Phân loại đối tượng thành các lớp rời rạc 
+C. Phân cụm dữ liệu 
+D. Giảm chiều dữ liệu 
+Câu 18: Thuật toán Classification (phân loại) được sử dụng để giải quyết vấn đề gì? 
+A. Dự đoán một giá trị liên tục 
+B. Phân loại đối tượng thành các lớp rời rạc 
+C. Phân cụm dữ liệu 
+D. Giảm chiều dữ liệu 
+Câu 19: What-if analysis trong Big Data giúp doanh nghiệp làm gì? 
+A. Chỉ để lưu trữ dữ liệu 
+B. Phân tích các kịch bản có thể xảy ra và tác động của chúng 
+C. Giảm chi phí lưu trữ dữ liệu 
+D. Tăng tốc độ truy vấn 
+Câu 20: "Data Lake" là gì? 
+A. Một kho dữ liệu có cấu trúc 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 67 ---
+ 
+66 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Một kho lưu trữ tập trung để chứa dữ liệu thô ở mọi định dạng, không có cấu trúc cố định 
+C. Một loại cơ sở dữ liệu NoSQL 
+D. Một công cụ trực quan hóa dữ liệu 
+Câu 21: "Data Warehouse" khác "Data Lake" ở điểm nào? 
+A. Data Warehouse lưu trữ dữ liệu ở dạng thô 
+B. Data Warehouse lưu trữ dữ liệu đã được xử lý và có cấu trúc 
+C. Data Warehouse chỉ dùng cho dữ liệu phi cấu trúc 
+D. Chúng hoàn toàn giống nhau 
+Câu 22: Apache Hive được xây dựng trên Hadoop để làm gì? 
+A. Xử lý dữ liệu theo thời gian thực 
+B. Cung cấp một ngôn ngữ truy vấn giống SQL (HiveQL) để tương tác với dữ liệu trên 
+HDFS 
+C. Trực quan hóa dữ liệu 
+D. Huấn luyện các mô hình Machine Learning 
+Câu 23: Mục đích của thuật toán "K-Means Clustering" là gì? 
+A. Phân loại dữ liệu thành các nhóm 
+B. Hồi quy tuyến tính 
+C. Phân cụm dữ liệu thành các nhóm dựa trên sự tương đồng 
+D. Huấn luyện mạng nơ-ron 
+Câu 24: Trong Machine Learning, "Bias" (độ chệch) đề cập đến điều gì? 
+A. Khả năng mô hình học quá nhiều chi tiết từ dữ liệu huấn luyện 
+B. Lỗi do mô hình quá đơn giản, không nắm bắt được mối quan hệ cơ bản 
+C. Sai số ngẫu nhiên 
+D. Độ phức tạp của mô hình 
+Câu 25: "Variance" (phương sai) trong Machine Learning đề cập đến điều gì? 
+A. Lỗi do mô hình quá đơn giản 
+B. Khả năng mô hình thay đổi nhiều khi dữ liệu huấn luyện thay đổi 
+C. Độ phức tạp của thuật toán 
+D. Tốc độ hội tụ của mô hình 
+Câu 26: "Reinforcement Learning" (Học tăng cường) là gì? 
+A. Học từ dữ liệu có nhãn 
+B. Học từ dữ liệu không nhãn 
+C. Học bằng cách tương tác với môi trường và nhận phản hồi (thưởng hoặc phạt) 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 68 ---
+ 
+67 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Học từ các bài toán hồi quy 
+Câu 27: Công nghệ nào đóng vai trò cốt lõi trong việc nhận diện khuôn mặt và xe tự lái? 
+A. Hồi quy tuyến tính 
+B. Học tăng cường 
+C. Học sâu (Deep Learning) và Mạng nơ-ron tích chập (CNN) 
+D. Phân cụm K-Means 
+Câu 28: "ETL" trong ngữ cảnh dữ liệu lớn là viết tắt của gì? 
+A. Extract, Transform, Load 
+B. Export, Transform, Link 
+C. Extract, Transmit, Label 
+D. Export, Track, Load 
+Câu 29: Trong Machine Learning, "Validation Set" (Tập dữ liệu kiểm định) được sử dụng để 
+làm gì? 
+A. Huấn luyện mô hình 
+B. Đánh giá hiệu suất cuối cùng của mô hình 
+C. Tinh chỉnh các siêu tham số (hyperparameters) của mô hình 
+D. Xử lý dữ liệu thô 
+Câu 30: "Data Science" là một lĩnh vực liên ngành kết hợp những kiến thức nào? 
+A. Lập trình và Thiết kế đồ họa 
+B. Toán học, Thống kê, Lập trình và Kiến thức chuyên ngành 
+C. Marketing và Kinh doanh 
+D. Chỉ tập trung vào lập trình 
+Câu 31: Docker và Kubernetes được sử dụng trong Big Data và AI với mục đích gì? 
+A. Lưu trữ dữ liệu 
+B. Phân tích dữ liệu 
+C. Tự động hóa việc triển khai và quản lý các ứng dụng và dịch vụ 
+D. Trực quan hóa dữ liệu 
+Câu 32: Mục tiêu chính của "Dimensionality Reduction" (Giảm chiều dữ liệu) là gì? 
+A. Tăng số lượng đặc trưng của dữ liệu 
+B. Giảm số lượng đặc trưng để đơn giản hóa mô hình và giảm thiểu overfitting 
+C. Thay đổi loại dữ liệu 
+D. Huấn luyện mô hình nhanh hơn 
+Câu 33: Trong NLP, "Word Embedding" là gì? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 69 ---
+ 
+68 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Một kỹ thuật nén văn bản 
+B. Chuyển đổi các từ thành các vector số để máy tính có thể hiểu được ý nghĩa ngữ cảnh 
+C. Đánh giá chất lượng của mô hình ngôn ngữ 
+D. Dịch văn bản 
+Câu 34: Các thuật toán Machine Learning sử dụng cây quyết định (Decision Tree) có đặc 
+điểm gì? 
+A. Luôn cho kết quả chính xác 100% 
+B. Dễ giải thích và trực quan 
+C. Chỉ áp dụng cho các bài toán phân loại 
+D. Rất phức tạp và tốn nhiều tài nguyên 
+Câu 35: Apache Flink khác gì so với Apache Spark? 
+A. Flink chỉ xử lý dữ liệu theo lô 
+B. Flink được thiết kế tối ưu cho xử lý dữ liệu theo luồng (stream processing) với độ trễ thấp 
+C. Spark không hỗ trợ xử lý dữ liệu theo luồng 
+D. Flink không hỗ trợ xử lý dữ liệu lớn 
+Câu 36: "Data Governance" trong Big Data là gì? 
+A. Việc lưu trữ dữ liệu 
+B. Một khuôn khổ về các chính sách và quy trình để quản lý tính khả dụng, khả dụng, an 
+toàn và toàn vẹn của dữ liệu 
+C. Một công cụ trực quan hóa dữ liệu 
+D. Một thuật toán Machine Learning 
+Câu 37: AI có thể được ứng dụng trong lĩnh vực viễn thông của Viettel như thế nào? 
+A. Dự đoán xu hướng người dùng, tối ưu hóa mạng lưới, phát hiện gian lận 
+B. Chỉ để quản lý nhân sự 
+C. Chỉ để bán hàng trực tuyến 
+D. Chỉ để lưu trữ dữ liệu 
+Câu 38: Cấu trúc mạng nơ-ron nào phù hợp nhất cho các bài toán xử lý hình ảnh và video? 
+A. Mạng nơ-ron hồi quy (Recurrent Neural Networks - RNN) 
+B. Mạng nơ-ron tích chập (Convolutional Neural Networks - CNN) 
+C. Mạng nơ-ron tiến thẳng (Feedforward Neural Networks) 
+D. Mạng nơ-ron đơn lớp 
+Câu 39: Trong AI, "hàm mất mát" (Loss Function) được sử dụng để làm gì? 
+A. Đo lường tốc độ huấn luyện mô hình 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 70 ---
+ 
+69 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Đo lường mức độ sai khác giữa giá trị dự đoán và giá trị thực tế 
+C. Cải thiện hiệu suất của mô hình 
+D. Làm sạch dữ liệu 
+Câu 40: Apache Cassandra là một ví dụ điển hình của loại cơ sở dữ liệu nào? 
+A. Cơ sở dữ liệu quan hệ 
+B. Cơ sở dữ liệu NoSQL dạng cột rộng (wide-column store) 
+C. Cơ sở dữ liệu dạng đồ thị 
+D. Cơ sở dữ liệu dạng tài liệu (document store) 
+Câu 41: "Bias-Variance Tradeoff" trong Machine Learning là gì? 
+A. Mối quan hệ giữa độ chính xác và tốc độ của mô hình 
+B. Sự cân bằng giữa độ chệch (bias) và phương sai (variance) để đạt hiệu suất tối ưu 
+C. Lựa chọn giữa hai thuật toán 
+D. Cân bằng giữa dữ liệu có cấu trúc và phi cấu trúc 
+Câu 42: "Data Mining" là gì? 
+A. Thu thập dữ liệu từ các nguồn khác nhau 
+B. Phát hiện các mẫu, xu hướng và thông tin hữu ích từ các tập dữ liệu lớn 
+C. Lưu trữ dữ liệu trên máy tính 
+D. Viết các chương trình để xử lý dữ liệu 
+Câu 43: Mục đích của việc sử dụng các thư viện như Pandas trong Python? 
+A. Huấn luyện mô hình học sâu 
+B. Xử lý và phân tích dữ liệu dạng bảng 
+C. Trực quan hóa dữ liệu 
+D. Xây dựng trang web 
+Câu 44: "Hyperparameter Tuning" là gì? 
+A. Lựa chọn thuật toán 
+B. Quá trình tìm ra bộ siêu tham số tốt nhất cho mô hình để tối ưu hóa hiệu suất 
+C. Lựa chọn dữ liệu đầu vào 
+D. Cải thiện tốc độ huấn luyện 
+Câu 45: "GAN" (Generative Adversarial Network) là gì? 
+A. Một loại thuật toán phân loại 
+B. Một kiến trúc mạng nơ-ron bao gồm hai mạng cạnh tranh nhau để tạo ra dữ liệu mới 
+giống thật 
+C. Một thuật toán phân cụm 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 71 ---
+ 
+70 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Một kỹ thuật giảm chiều dữ liệu 
+Câu 46: "Exploratory Data Analysis" (EDA) là quá trình gì? 
+A. Ghi lại dữ liệu 
+B. Phân tích ban đầu để tóm tắt các đặc điểm chính của dữ liệu 
+C. Huấn luyện mô hình 
+D. Triển khai mô hình 
+Câu 47: Nền tảng nào cung cấp một kho dữ liệu phi cấu trúc và có cấu trúc, cho phép truy 
+vấn dữ liệu từ nhiều nguồn khác nhau? 
+A. Data Warehouse 
+B. Data Lakehouse 
+C. Data Mart 
+D. Data Stream 
+Câu 48: Trong Machine Learning, "Precision" và "Recall" được dùng để đánh giá điều gì? 
+A. Tốc độ huấn luyện 
+B. Độ chính xác của mô hình phân loại, đặc biệt trong các trường hợp mất cân bằng dữ liệu 
+C. Độ phức tạp của thuật toán 
+D. Dung lượng bộ nhớ cần thiết 
+Câu 49: "Hadoop" hoạt động dựa trên nguyên lý nào để xử lý dữ liệu lớn? 
+A. Xử lý tập trung trên một máy chủ duy nhất 
+B. Phân tán dữ liệu và xử lý trên nhiều máy tính trong một cụm 
+C. Xử lý dữ liệu theo thời gian thực 
+D. Chỉ xử lý dữ liệu có cấu trúc 
+Câu 50: Mục tiêu của "Computer Vision" (Thị giác máy tính) là gì? 
+A. Dạy máy tính cách hiểu và xử lý hình ảnh và video 
+B. Dạy máy tính cách nói chuyện 
+C. Dạy máy tính cách chơi game 
+D. Dạy máy tính cách đọc văn bản 
+Đáp án 
+Phần I: Đáp án từ Câu 1 đến Câu 25 
+1. B. Volume, Velocity, Variety 
+2. B. Lưu trữ và xử lý dữ liệu lớn trên một cụm máy tính phân tán 
+3. C. YARN 
+4. B. Xử lý song song dữ liệu lớn 
+5. C. Xử lý dữ liệu trong bộ nhớ (in-memory processing) giúp tăng tốc độ đáng kể 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 72 ---
+ 
+71 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+6. B. Cơ sở dữ liệu NoSQL 
+7. A. Dữ liệu đã được gán nhãn (labeled data) 
+8. C. Phân cụm (Clustering) 
+9. B. Làm cho dữ liệu sạch và phù hợp để huấn luyện mô hình 
+10. B. Mô hình quá phức tạp, học cả nhiễu và chi tiết không cần thiết của dữ liệu huấn 
+luyện 
+11. C. Sử dụng Cross-Validation hoặc Regularization 
+12. B. Chuyển đổi văn bản thành các đơn vị nhỏ hơn (từ, cụm từ) 
+13. B. Tạo ra các đặc trưng mới từ dữ liệu hiện có để cải thiện hiệu suất mô hình 
+14. C. Nền tảng xử lý dữ liệu theo thời gian thực (real-time streaming) và hàng đợi thông 
+điệp 
+15. B. Có một hệ sinh thái thư viện mạnh mẽ (NumPy, Pandas, Scikit-learn, TensorFlow, 
+PyTorch) 
+16. B. Một khái niệm tương tự như mảng (array) đa chiều 
+17. A. Dự đoán một giá trị liên tục 
+18. B. Phân loại đối tượng thành các lớp rời rạc 
+19. B. Phân tích các kịch bản có thể xảy ra và tác động của chúng 
+20. B. Một kho lưu trữ tập trung để chứa dữ liệu thô ở mọi định dạng, không có cấu trúc 
+cố định 
+21. B. Data Warehouse lưu trữ dữ liệu đã được xử lý và có cấu trúc 
+22. B. Cung cấp một ngôn ngữ truy vấn giống SQL (HiveQL) để tương tác với dữ liệu 
+trên HDFS 
+23. C. Phân cụm dữ liệu thành các nhóm dựa trên sự tương đồng 
+24. B. Lỗi do mô hình quá đơn giản, không nắm bắt được mối quan hệ cơ bản 
+25. B. Khả năng mô hình thay đổi nhiều khi dữ liệu huấn luyện thay đổi 
+ 
+Phần II: Đáp án từ Câu 26 đến Câu 50 
+26. C. Học bằng cách tương tác với môi trường và nhận phản hồi (thưởng hoặc phạt) 
+27. C. Học sâu (Deep Learning) và Mạng nơ-ron tích chập (CNN) 
+28. A. Extract, Transform, Load 
+29. C. Tinh chỉnh các siêu tham số (hyperparameters) của mô hình 
+30. B. Toán học, Thống kê, Lập trình và Kiến thức chuyên ngành 
+31. C. Tự động hóa việc triển khai và quản lý các ứng dụng và dịch vụ 
+32. B. Giảm số lượng đặc trưng để đơn giản hóa mô hình và giảm thiểu overfitting 
+33. B. Chuyển đổi các từ thành các vector số để máy tính có thể hiểu được ý nghĩa ngữ 
+cảnh 
+34. B. Dễ giải thích và trực quan 
+35. B. Flink được thiết kế tối ưu cho xử lý dữ liệu theo luồng (stream processing) với độ 
+trễ thấp 
+36. B. Một khuôn khổ về các chính sách và quy trình để quản lý tính khả dụng, an toàn và 
+toàn vẹn của dữ liệu 
+37. A. Dự đoán xu hướng người dùng, tối ưu hóa mạng lưới, phát hiện gian lận 
+38. B. Mạng nơ-ron tích chập (Convolutional Neural Networks - CNN) 
+39. B. Đo lường mức độ sai khác giữa giá trị dự đoán và giá trị thực tế 
+40. B. Cơ sở dữ liệu NoSQL dạng cột rộng (wide-column store) 
+41. B. Sự cân bằng giữa độ chệch (bias) và phương sai (variance) để đạt hiệu suất tối ưu 
+42. B. Phát hiện các mẫu, xu hướng và thông tin hữu ích từ các tập dữ liệu lớn 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 73 ---
+ 
+72 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+43. B. Xử lý và phân tích dữ liệu dạng bảng 
+44. B. Quá trình tìm ra bộ siêu tham số tốt nhất cho mô hình để tối ưu hóa hiệu suất 
+45. B. Một kiến trúc mạng nơ-ron bao gồm hai mạng cạnh tranh nhau để tạo ra dữ liệu 
+mới giống thật 
+46. B. Phân tích ban đầu để tóm tắt các đặc điểm chính của dữ liệu 
+47. B. Data Lakehouse 
+48. B. Độ chính xác của mô hình phân loại, đặc biệt trong các trường hợp mất cân bằng 
+dữ liệu 
+49. B. Phân tán dữ liệu và xử lý trên nhiều máy tính trong một cụm 
+50. A. Dạy máy tính cách hiểu và xử lý hình ảnh và video 
+ĐỀ THI THỬ SỐ 8: KỸ SƯ DEV VÀO VIETTEL 2025 
+Chuyên đề: Lập trình Hệ thống Nhúng và IoT (Embedded Systems & IoT) 
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+Câu 1: Một hệ thống nhúng (Embedded System) là gì? 
+A. Một hệ thống máy tính đa năng 
+B. Một hệ thống máy tính chuyên biệt được thiết kế để thực hiện một chức năng cụ thể 
+trong một thiết bị lớn hơn 
+C. Một loại phần mềm được cài đặt trên máy chủ 
+D. Một hệ thống điện toán đám mây 
+Câu 2: Loại vi điều khiển (Microcontroller) nào thường được sử dụng trong các dự án IoT? 
+A. Intel Core i9 
+B. AMD Ryzen 
+C. ARM Cortex-M 
+D. NVIDIA GeForce RTX 
+Câu 3: Giao thức nào thường được dùng để truyền dữ liệu giữa các thiết bị IoT với server, 
+với ưu điểm nhẹ và tiết kiệm năng lượng? 
+A. HTTP 
+B. MQTT 
+C. FTP 
+D. SMTP 
+Câu 4: "Edge Computing" trong bối cảnh IoT là gì? 
+A. Xử lý dữ liệu hoàn toàn trên đám mây 
+B. Xử lý dữ liệu ở gần nguồn phát sinh dữ liệu (thiết bị, gateway) thay vì gửi tất cả về đám 
+mây 
+C. Xử lý dữ liệu trên server tập trung 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 74 ---
+ 
+73 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Tăng tốc độ truyền dữ liệu qua cáp quang 
+Câu 5: Ngôn ngữ lập trình nào phổ biến nhất cho việc lập trình vi điều khiển? 
+A. Python 
+B. C/C++ 
+C. Java 
+D. JavaScript 
+Câu 6: Cảm biến (Sensor) có chức năng gì trong một hệ thống IoT? 
+A. Lưu trữ dữ liệu 
+B. Chuyển đổi năng lượng 
+C. Thu thập dữ liệu từ môi trường vật lý 
+D. Hiển thị thông tin 
+Câu 7: "Actuator" (Bộ truyền động) trong IoT là gì? 
+A. Một loại cảm biến 
+B. Một thiết bị có khả năng thực hiện hành động vật lý 
+C. Một loại mạng không dây 
+D. Một giao thức truyền thông 
+Câu 8: Giao thức nào cung cấp kết nối mạng không dây tầm xa, tiết kiệm năng lượng, phù 
+hợp cho các ứng dụng IoT ở khu vực rộng? 
+A. Bluetooth 
+B. Wi-Fi 
+C. LoRaWAN 
+D. Ethernet 
+Câu 9: RTOS (Real-Time Operating System) có mục đích gì trong hệ thống nhúng? 
+A. Đảm bảo tốc độ xử lý nhanh nhất có thể 
+B. Đảm bảo các tác vụ được thực thi với sự đúng giờ và chính xác về thời gian 
+C. Tăng hiệu suất đồ họa 
+D. Quản lý bộ nhớ 
+Câu 10: Lớp nào trong kiến trúc IoT chịu trách nhiệm xử lý và lưu trữ dữ liệu từ các thiết bị? 
+A. Lớp cảm biến (Sensor Layer) 
+B. Lớp kết nối (Connectivity Layer) 
+C. Lớp xử lý dữ liệu (Data Processing Layer) 
+D. Lớp ứng dụng (Application Layer) 
+Câu 11: Trong IoT, "Gateway" có vai trò gì? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 75 ---
+ 
+74 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Cảm biến nhiệt độ 
+B. Đóng vai trò cầu nối giữa các thiết bị IoT và đám mây 
+C. Thiết bị hiển thị thông tin 
+D. Nguồn cung cấp điện 
+Câu 12: Loại nguồn cấp điện nào thường được ưu tiên cho các thiết bị IoT công suất thấp, 
+đặt ở những nơi khó thay pin? 
+A. Điện lưới AC 
+B. Pin năng lượng mặt trời hoặc pin sạc công suất cao 
+C. Pin dùng một lần thông thường 
+D. Máy phát điện 
+Câu 13: "OTA" (Over-The-Air) trong ngữ cảnh IoT là gì? 
+A. Một loại cảm biến 
+B. Giao thức truyền thông 
+C. Cập nhật phần mềm cho thiết bị từ xa qua mạng không dây 
+D. Một thuật toán mã hóa 
+Câu 14: Giao thức HTTP không phù hợp lắm cho các thiết bị IoT tài nguyên thấp vì lý do gì? 
+A. Quá phức tạp và nặng về dữ liệu (overhead) 
+B. Tốc độ quá chậm 
+C. Không hỗ trợ mã hóa 
+D. Khó lập trình 
+Câu 15: "Fog Computing" khác gì so với "Edge Computing"? 
+A. Fog Computing là thuật ngữ cũ của Edge Computing 
+B. Fog Computing là một dạng phân tán của Edge Computing, thường liên quan đến một 
+lớp thiết bị trung gian (gateway) 
+C. Fog Computing chỉ dùng trong môi trường công nghiệp 
+D. Chúng hoàn toàn giống nhau 
+Câu 16: Raspberry Pi và Arduino khác nhau ở điểm nào? 
+A. Arduino là một bo mạch máy tính đơn (SBC), còn Raspberry Pi là vi điều khiển 
+B. Raspberry Pi là một bo mạch máy tính đơn, còn Arduino là vi điều khiển 
+C. Cả hai đều là vi điều khiển 
+D. Cả hai đều là bo mạch máy tính đơn 
+Câu 17: Giao thức nào thường được sử dụng cho các ứng dụng nhà thông minh, với phạm 
+vi ngắn và tiêu thụ ít năng lượng? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 76 ---
+ 
+75 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Wi-Fi 
+B. Bluetooth Low Energy (BLE) 
+C. Ethernet 
+D. LoRaWAN 
+Câu 18: "Real-Time" trong RTOS có nghĩa là gì? 
+A. Luôn xử lý tác vụ ngay lập tức 
+B. Đảm bảo các tác vụ được hoàn thành trong một khoảng thời gian nhất định (hard real-
+time) 
+C. Chạy các tác vụ một cách ngẫu nhiên 
+D. Tối ưu hóa hiệu suất 
+Câu 19: Các thiết bị IoT có nguy cơ bảo mật nào? 
+A. Tấn công DDoS vào thiết bị 
+B. Đánh cắp dữ liệu, chiếm quyền kiểm soát thiết bị, biến thiết bị thành một phần của mạng 
+botnet 
+C. Chỉ có thể bị tấn công vật lý 
+D. Không có nguy cơ bảo mật 
+Câu 20: Làm thế nào để tăng cường bảo mật cho một thiết bị IoT? 
+A. Không sử dụng mã hóa 
+B. Sử dụng mật khẩu mặc định cho tất cả thiết bị 
+C. Cập nhật phần mềm định kỳ, sử dụng mã hóa, và xác thực mạnh 
+D. Chỉ kết nối thiết bị với mạng công cộng 
+Câu 21: "Thread" trong một vi điều khiển là gì? 
+A. Một loại cảm biến 
+B. Một đơn vị thực thi nhỏ nhất trong một tiến trình 
+C. Một giao thức mạng 
+D. Một loại bộ nhớ 
+Câu 22: "GPIO" (General Purpose Input/Output) trong vi điều khiển dùng để làm gì? 
+A. Truyền dữ liệu tốc độ cao 
+B. Kết nối vi điều khiển với các thiết bị ngoại vi như cảm biến, đèn LED, nút nhấn 
+C. Cấp nguồn điện 
+D. Xử lý tín hiệu âm thanh 
+Câu 23: Giao thức truyền thông nối tiếp nào thường được dùng để kết nối vi điều khiển với 
+các thiết bị khác trên cùng một bo mạch? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 77 ---
+ 
+76 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. USB 
+B. Ethernet 
+C. I2C và SPI 
+D. HDMI 
+Câu 24: Mạch in (Printed Circuit Board - PCB) trong thiết bị nhúng có chức năng gì? 
+A. Chỉ để trang trí 
+B. Là bảng mạch vật lý để kết nối các linh kiện điện tử 
+C. Tăng tốc độ xử lý 
+D. Lưu trữ dữ liệu 
+Câu 25: "Firmware" là gì? 
+A. Phần mềm ứng dụng trên điện thoại 
+B. Phần mềm cấp thấp được nhúng trực tiếp vào phần cứng để điều khiển nó 
+C. Hệ điều hành máy tính 
+D. Một loại driver phần cứng 
+Câu 26: "System on a Chip" (SoC) là gì? 
+A. Một loại bộ nhớ 
+B. Một vi mạch tích hợp duy nhất bao gồm tất cả các thành phần của một máy tính hoặc hệ 
+thống điện tử 
+C. Một loại cảm biến 
+D. Một loại pin 
+Câu 27: Công nghệ mạng nào có tốc độ cao, độ trễ thấp, được kỳ vọng sẽ thúc đẩy mạnh 
+mẽ các ứng dụng IoT công nghiệp và đô thị? 
+A. 2G 
+B. 3G 
+C. 4G 
+D. 5G 
+Câu 28: "Digital Twin" trong IoT là gì? 
+A. Một bản sao vật lý của thiết bị 
+B. Một mô hình ảo của một đối tượng hoặc hệ thống vật lý, được cập nhật theo thời gian 
+thực 
+C. Một loại cảm biến 
+D. Một giao thức truyền thông 
+Câu 29: Các nhà phát triển IoT phải đối mặt với thách thức gì về bảo mật? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 78 ---
+ 
+77 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Thiết bị có tài nguyên hạn chế, dễ bị tấn công, và thiếu cơ chế cập nhật bảo mật 
+B. Thiết bị luôn an toàn 
+C. Không có dữ liệu để xử lý 
+D. Các thiết bị quá đắt 
+Câu 30: Nền tảng nào của Amazon Web Services (AWS) được thiết kế đặc biệt cho các ứng 
+dụng IoT? 
+A. Amazon S3 
+B. Amazon EC2 
+C. AWS IoT Core 
+D. Amazon RDS 
+Câu 31: Giao thức nào được sử dụng để khám phá các dịch vụ trong mạng nội bộ, phổ biến 
+trong các thiết bị nhà thông minh? 
+A. MQTT 
+B. CoAP 
+C. mDNS/DNS-SD 
+D. HTTP 
+Câu 32: Trong IoT, "Data Stream" (Luồng dữ liệu) đề cập đến điều gì? 
+A. Dữ liệu được lưu trữ trong cơ sở dữ liệu 
+B. Dữ liệu được truyền liên tục và không ngừng 
+C. Dữ liệu đã được xử lý 
+D. Dữ liệu tĩnh 
+Câu 33: Lợi ích chính của việc sử dụng các nền tảng IoT đám mây (như AWS IoT, Azure 
+IoT) là gì? 
+A. Giá thành phần cứng thấp 
+B. Giảm bớt gánh nặng quản lý cơ sở hạ tầng, mở rộng quy mô dễ dàng 
+C. Tăng tốc độ kết nối 
+D. Không cần quan tâm đến bảo mật 
+Câu 34: Các hệ thống nhúng "Hard Real-Time" (thời gian thực cứng) đòi hỏi gì? 
+A. Các tác vụ phải được hoàn thành đúng thời hạn, nếu không sẽ gây ra thất bại nghiêm 
+trọng 
+B. Chỉ cần hoàn thành tác vụ càng nhanh càng tốt 
+C. Có thể trì hoãn tác vụ 
+D. Không có yêu cầu về thời gian cụ thể 
+Câu 35: "Pub/Sub" (Publish/Subscribe) là mô hình giao tiếp phổ biến trong IoT vì lý do gì? 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 79 ---
+ 
+78 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+A. Cho phép các thiết bị giao tiếp trực tiếp với nhau 
+B. Giúp giảm thiểu kết nối trực tiếp giữa các thiết bị, tăng khả năng mở rộng 
+C. Chỉ có thể gửi dữ liệu 
+D. Chỉ có thể nhận dữ liệu 
+Câu 36: Giao thức nào được thiết kế cho các thiết bị IoT bị hạn chế tài nguyên và thường 
+dùng kết hợp với CoAP? 
+A. HTTP 
+B. MQTT 
+C. LWM2M 
+D. TCP 
+Câu 37: "Telematics" là lĩnh vực nào? 
+A. Công nghệ thông tin và viễn thông kết hợp với nhau để điều khiển từ xa 
+B. Công nghệ sản xuất chip 
+C. Công nghệ năng lượng tái tạo 
+D. Công nghệ quản lý dữ liệu 
+Câu 38: Giao thức nào thường được sử dụng để cập nhật phần mềm OTA an toàn? 
+A. MQTT 
+B. HTTP/HTTPS 
+C. TCP 
+D. UDP 
+Câu 39: "Wearable Technology" là gì? 
+A. Công nghệ được nhúng trong các thiết bị đeo trên người 
+B. Công nghệ sản xuất robot 
+C. Công nghệ ô tô 
+D. Công nghệ nhà thông minh 
+Câu 40: "Smart Grid" (Lưới điện thông minh) sử dụng công nghệ IoT như thế nào? 
+A. Giúp giảm tiêu thụ điện năng 
+B. Tăng cường hiệu quả, độ tin cậy và bền vững của mạng lưới điện bằng cách thu thập dữ 
+liệu theo thời gian thực 
+C. Chỉ để đo lường 
+D. Chỉ để điều khiển 
+Câu 41: "Sensory Input" trong IoT là gì? 
+A. Dữ liệu được tạo ra bởi các thiết bị cảm biến 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 80 ---
+ 
+79 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Lệnh điều khiển 
+C. Tín hiệu mạng 
+D. Dữ liệu được hiển thị trên màn hình 
+Câu 42: Giao thức nào thường được sử dụng trong các hệ thống giám sát và điều khiển 
+công nghiệp (SCADA)? 
+A. HTTP 
+B. Modbus và DNP3 
+C. FTP 
+D. SMTP 
+Câu 43: "M2M" (Machine-to-Machine) là gì? 
+A. Sự tương tác giữa máy tính và con người 
+B. Sự giao tiếp trực tiếp giữa hai hoặc nhiều thiết bị mà không cần sự can thiệp của con 
+người 
+C. Sự giao tiếp giữa các hệ điều hành 
+D. Một loại ngôn ngữ lập trình 
+Câu 44: Lợi thế của việc sử dụng một bo mạch đơn (Single Board Computer - SBC) như 
+Raspberry Pi thay vì vi điều khiển cho một dự án IoT? 
+A. SBC có tài nguyên và hiệu năng cao hơn, dễ dàng chạy các hệ điều hành phức tạp 
+B. SBC nhỏ hơn và tiêu thụ ít năng lượng hơn 
+C. SBC rẻ hơn rất nhiều 
+D. SBC không cần lập trình 
+Câu 45: "Edge AI" là gì? 
+A. Xử lý toàn bộ AI trên đám mây 
+B. Thực hiện các tác vụ AI (như suy luận mô hình) trực tiếp trên thiết bị cuối (edge device) 
+C. Chỉ để huấn luyện mô hình 
+D. Chỉ để lưu trữ dữ liệu 
+Câu 46: "Asset Tracking" (Theo dõi tài sản) trong IoT được thực hiện như thế nào? 
+A. Bằng cách sử dụng các cảm biến nhiệt độ 
+B. Bằng cách gắn các thiết bị GPS hoặc RFID để theo dõi vị trí và tình trạng của tài sản 
+C. Bằng cách sử dụng phần mềm kế toán 
+D. Bằng cách nhập dữ liệu thủ công 
+Câu 47: Nền tảng IoT của Google Cloud có tên là gì? 
+A. Azure IoT 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 81 ---
+ 
+80 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. AWS IoT 
+C. Google Cloud IoT Core 
+D. Google Drive 
+Câu 48: Lợi ích của việc sử dụng IoT trong lĩnh vực nông nghiệp? 
+A. Chỉ để tưới cây 
+B. Tự động hóa việc tưới tiêu, giám sát sức khỏe cây trồng và vật nuôi, tối ưu hóa năng suất 
+C. Giảm lượng hạt giống cần thiết 
+D. Tăng thời gian làm việc thủ công 
+Câu 49: "Gateway" trong mạng công nghiệp IoT thường hỗ trợ giao thức nào? 
+A. HTTP 
+B. MQTT và các giao thức công nghiệp (như Modbus) 
+C. TCP 
+D. UDP 
+Câu 50: "Protocol Stack" (Ngăn xếp giao thức) trong lập trình nhúng là gì? 
+A. Một bộ pin 
+B. Một bộ giao thức mạng được sắp xếp theo lớp để quản lý việc truyền thông tin 
+C. Một bộ cảm biến 
+D. Một loại bộ nhớ 
+Đáp án 
+Phần I: Đáp án từ Câu 1 đến Câu 25 
+1. B. Một hệ thống máy tính chuyên biệt được thiết kế để thực hiện một chức năng cụ 
+thể trong một thiết bị lớn hơn 
+2. C. ARM Cortex-M 
+3. B. MQTT 
+4. B. Xử lý dữ liệu ở gần nguồn phát sinh dữ liệu (thiết bị, gateway) thay vì gửi tất cả về 
+đám mây 
+5. B. C/C++ 
+6. C. Thu thập dữ liệu từ môi trường vật lý 
+7. B. Một thiết bị có khả năng thực hiện hành động vật lý 
+8. C. LoRaWAN 
+9. B. Đảm bảo các tác vụ được thực thi với sự đúng giờ và chính xác về thời gian 
+10. C. Lớp xử lý dữ liệu (Data Processing Layer) 
+11. B. Đóng vai trò cầu nối giữa các thiết bị IoT và đám mây 
+12. B. Pin năng lượng mặt trời hoặc pin sạc công suất cao 
+13. C. Cập nhật phần mềm cho thiết bị từ xa qua mạng không dây 
+14. A. Quá phức tạp và nặng về dữ liệu (overhead) 
+15. B. Fog Computing là một dạng phân tán của Edge Computing, thường liên quan đến 
+một lớp thiết bị trung gian (gateway) 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 82 ---
+ 
+81 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+16. B. Raspberry Pi là một bo mạch máy tính đơn, còn Arduino là vi điều khiển 
+17. B. Bluetooth Low Energy (BLE) 
+18. B. Đảm bảo các tác vụ được hoàn thành trong một khoảng thời gian nhất định (hard 
+real-time) 
+19. B. Đánh cắp dữ liệu, chiếm quyền kiểm soát thiết bị, biến thiết bị thành một phần của 
+mạng botnet 
+20. C. Cập nhật phần mềm định kỳ, sử dụng mã hóa, và xác thực mạnh 
+21. B. Một đơn vị thực thi nhỏ nhất trong một tiến trình 
+22. B. Kết nối vi điều khiển với các thiết bị ngoại vi như cảm biến, đèn LED, nút nhấn 
+23. C. I2C và SPI 
+24. B. Là bảng mạch vật lý để kết nối các linh kiện điện tử 
+25. B. Phần mềm cấp thấp được nhúng trực tiếp vào phần cứng để điều khiển nó 
+ 
+Phần II: Đáp án từ Câu 26 đến Câu 50 
+26. B. Một vi mạch tích hợp duy nhất bao gồm tất cả các thành phần của một máy tính 
+hoặc hệ thống điện tử 
+27. D. 5G 
+28. B. Một mô hình ảo của một đối tượng hoặc hệ thống vật lý, được cập nhật theo thời 
+gian thực 
+29. A. Thiết bị có tài nguyên hạn chế, dễ bị tấn công, và thiếu cơ chế cập nhật bảo mật 
+30. C. AWS IoT Core 
+31. C. mDNS/DNS-SD 
+32. B. Dữ liệu được truyền liên tục và không ngừng 
+33. B. Giảm bớt gánh nặng quản lý cơ sở hạ tầng, mở rộng quy mô dễ dàng 
+34. A. Các tác vụ phải được hoàn thành đúng thời hạn, nếu không sẽ gây ra thất bại 
+nghiêm trọng 
+35. B. Giúp giảm thiểu kết nối trực tiếp giữa các thiết bị, tăng khả năng mở rộng 
+36. C. LWM2M 
+37. A. Công nghệ thông tin và viễn thông kết hợp với nhau để điều khiển từ xa 
+38. B. HTTP/HTTPS 
+39. A. Công nghệ được nhúng trong các thiết bị đeo trên người 
+40. B. Tăng cường hiệu quả, độ tin cậy và bền vững của mạng lưới điện bằng cách thu 
+thập dữ liệu theo thời gian thực 
+41. A. Dữ liệu được tạo ra bởi các thiết bị cảm biến 
+42. B. Modbus và DNP3 
+43. B. Sự giao tiếp trực tiếp giữa hai hoặc nhiều thiết bị mà không cần sự can thiệp của 
+con người 
+44. A. SBC có tài nguyên và hiệu năng cao hơn, dễ dàng chạy các hệ điều hành phức tạp 
+45. B. Thực hiện các tác vụ AI (như suy luận mô hình) trực tiếp trên thiết bị cuối (edge 
+device) 
+46. B. Bằng cách gắn các thiết bị GPS hoặc RFID để theo dõi vị trí và tình trạng của tài 
+sản 
+47. C. Google Cloud IoT Core 
+48. B. Tự động hóa việc tưới tiêu, giám sát sức khỏe cây trồng và vật nuôi, tối ưu hóa 
+năng suất 
+49. B. MQTT và các giao thức công nghiệp (như Modbus) 
+50. B. Một bộ giao thức mạng được sắp xếp theo lớp để quản lý việc truyền thông tin 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 83 ---
+ 
+82 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+ĐỀ THI THỬ SỐ 9: KỸ SƯ DEV VÀO VIETTEL 2025 
+Chuyên đề: Kiến thức tổng hợp về Viettel và ngành CNTT-VT 
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+Câu 1: Sứ mệnh của Tập đoàn Viettel là gì? 
+A. Tiên phong kiến tạo xã hội số 
+B. Đứng đầu thị trường viễn thông 
+C. Cung cấp dịch vụ Internet tốc độ cao 
+D. Sản xuất thiết bị điện tử 
+Câu 2: Lĩnh vực kinh doanh cốt lõi nào của Viettel mang lại doanh thu chính? 
+A. Sản xuất ô tô 
+B. Viễn thông và công nghệ thông tin 
+C. Nông nghiệp 
+D. Tài chính ngân hàng 
+Câu 3: Theo định hướng phát triển, Viettel đang chuyển mình trở thành một tập đoàn công 
+nghệ như thế nào? 
+A. Chỉ tập trung vào viễn thông truyền thống 
+B. Tập đoàn công nghiệp quốc phòng công nghệ cao 
+C. Tập đoàn công nghệ toàn cầu, tiên phong trong xã hội số 
+D. Chỉ kinh doanh trong nước 
+Câu 4: Viettel đã đầu tư vào những thị trường nước ngoài nào? 
+A. Châu Mỹ 
+B. Châu Âu 
+C. Châu Phi, Châu Á và Châu Mỹ 
+D. Chỉ các nước trong khu vực Đông Nam Á 
+Câu 5: Lợi thế cạnh tranh của Viettel trong thị trường viễn thông Việt Nam là gì? 
+A. Dịch vụ giá rẻ nhất 
+B. Mạng lưới rộng khắp, dịch vụ đa dạng và tiên phong về công nghệ 
+C. Cung cấp độc quyền các dịch vụ 5G 
+D. Chỉ tập trung vào khách hàng cá nhân 
+Câu 6: Trong 5G, đâu là một trong những ứng dụng chủ chốt được Viettel chú trọng? 
+A. Gửi tin nhắn SMS 
+B. Internet of Things (IoT) và Truyền hình 3D 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 84 ---
+ 
+83 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Gọi điện thoại 
+D. Phát sóng radio 
+Câu 7: Viettel High Tech là đơn vị nào của Viettel? 
+A. Chuyên về kinh doanh dịch vụ viễn thông 
+B. Chuyên nghiên cứu, sản xuất các thiết bị công nghệ cao và công nghiệp quốc phòng 
+C. Chuyên về phát triển phần mềm cho di động 
+D. Chuyên về lĩnh vực tài chính 
+Câu 8: Mục tiêu của Viettel trong lĩnh vực Chuyển đổi số quốc gia là gì? 
+A. Cung cấp các giải pháp phần mềm cho doanh nghiệp 
+B. Tiên phong xây dựng hạ tầng số, các nền tảng số và kiến tạo các ứng dụng số 
+C. Hỗ trợ các công ty nước ngoài 
+D. Giảm chi phí sử dụng Internet 
+Câu 9: Công nghệ nào là nền tảng cho việc xây dựng các dự án Smart City (Thành phố 
+Thông minh) của Viettel? 
+A. 2G 
+B. IoT, AI và Big Data 
+C. Wi-Fi công cộng miễn phí 
+D. Truyền hình cáp 
+Câu 10: Trong lĩnh vực Cloud Computing (Điện toán Đám mây), Viettel đang cung cấp dịch 
+vụ gì? 
+A. Sản xuất phần cứng máy chủ 
+B. Dịch vụ Cloud cho doanh nghiệp và chính phủ 
+C. Chỉ cung cấp dịch vụ lưu trữ cá nhân 
+D. Lắp đặt cáp quang 
+KIẾN THỨC CÔNG NGHỆ THÔNG TIN VÀ ĐIỆN TỬ VIỄN THÔNG 
+Câu 11: Giao thức nào là giao thức truyền tải chính cho việc truy cập các trang web? 
+A. FTP 
+B. SMTP 
+C. HTTPS 
+D. TCP 
+Câu 12: Khái niệm "Latency" (độ trễ) trong mạng máy tính là gì? 
+A. Tốc độ truyền dữ liệu 
+B. Thời gian để một gói dữ liệu đi từ điểm A đến điểm B 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 85 ---
+ 
+84 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Khả năng chịu tải của mạng 
+D. Số lượng dữ liệu được truyền đi 
+Câu 13: Mục đích của một Firewall là gì? 
+A. Tăng tốc độ duyệt web 
+B. Ngăn chặn truy cập trái phép từ bên ngoài vào mạng nội bộ 
+C. Quét virus 
+D. Nén dữ liệu 
+Câu 14: IPv4 và IPv6 khác nhau chủ yếu ở đâu? 
+A. IPv6 có địa chỉ dài hơn, hỗ trợ nhiều thiết bị hơn 
+B. IPv4 có địa chỉ dài hơn 
+C. IPv6 chỉ dùng cho di động 
+D. IPv4 nhanh hơn IPv6 
+Câu 15: "Containerization" (công nghệ container) như Docker có lợi ích gì cho lập trình 
+viên? 
+A. Giảm dung lượng lưu trữ 
+B. Giúp ứng dụng chạy nhất quán trên mọi môi trường phát triển và triển khai 
+C. Tăng tốc độ truyền dữ liệu 
+D. Chỉ dùng cho các ứng dụng web 
+Câu 16: "DevOps" là gì? 
+A. Một ngôn ngữ lập trình mới 
+B. Một phương pháp kết hợp Phát triển Phần mềm (Development) và Vận hành 
+(Operations) để tự động hóa quy trình 
+C. Một loại cơ sở dữ liệu 
+D. Một framework phát triển ứng dụng di động 
+Câu 17: Trong mô hình OSI, tầng (Layer) nào chịu trách nhiệm truyền dữ liệu thô qua 
+đường truyền vật lý? 
+A. Tầng Ứng dụng (Application Layer) 
+B. Tầng Vận chuyển (Transport Layer) 
+C. Tầng Mạng (Network Layer) 
+D. Tầng Vật lý (Physical Layer) 
+Câu 18: Thuật toán nào được sử dụng để nén dữ liệu mà không làm mất thông tin? 
+A. Thuật toán nén không mất mát (Lossless Compression) 
+B. Thuật toán nén có tổn hao (Lossy Compression) 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 86 ---
+ 
+85 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Thuật toán mã hóa AES 
+D. Thuật toán băm SHA-256 
+Câu 19: Tấn công "Phishing" là gì? 
+A. Tấn công làm tràn bộ đệm 
+B. Kỹ thuật lừa đảo để lấy thông tin cá nhân 
+C. Tấn công từ chối dịch vụ 
+D. Tấn công vào cơ sở dữ liệu 
+Câu 20: "Big Data" được đặc trưng bởi 3V: Volume, Velocity, và... 
+A. Value 
+B. Viettel 
+C. Vietnam 
+D. Vitality 
+Câu 21: Trong lập trình hướng đối tượng (OOP), "Inheritance" (Tính kế thừa) là gì? 
+A. Khả năng một đối tượng có nhiều hình dạng khác nhau 
+B. Cơ chế cho phép một lớp (class) con kế thừa các thuộc tính và phương thức từ lớp cha 
+C. Đóng gói dữ liệu và phương thức vào một đối tượng 
+D. Ẩn thông tin chi tiết của đối tượng 
+Câu 22: "CI/CD" trong DevOps viết tắt của cụm từ gì? 
+A. Code Integration / Code Deployment 
+B. Continuous Integration / Continuous Delivery 
+C. Continuous Installation / Continuous Distribution 
+D. Code Innovation / Code Development 
+Câu 23: Công nghệ nào cho phép một máy tính chạy nhiều hệ điều hành ảo cùng lúc? 
+A. Công nghệ Container 
+B. Ảo hóa (Virtualization) 
+C. Điện toán đám mây 
+D. IoT 
+Câu 24: Mạng 5G có những ưu điểm vượt trội nào so với 4G? 
+A. Độ trễ thấp hơn, tốc độ cao hơn, hỗ trợ nhiều thiết bị hơn 
+B. Chỉ dùng cho gọi điện thoại 
+C. Tốn ít năng lượng hơn 
+D. Phạm vi phủ sóng nhỏ hơn 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 87 ---
+ 
+86 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 25: Tấn công "DDoS" khác gì với "DoS"? 
+A. DoS chỉ tấn công một trang web, DDoS tấn công nhiều trang web 
+B. DDoS sử dụng nhiều máy tính để tấn công, trong khi DoS chỉ sử dụng một máy 
+C. DoS nhanh hơn DDoS 
+D. Chúng hoàn toàn giống nhau 
+Câu 26: Trong lĩnh vực viễn thông, "Fiber Optic" (cáp quang) là gì? 
+A. Cáp đồng 
+B. Cáp truyền tín hiệu bằng ánh sáng, cho tốc độ cao và khoảng cách xa 
+C. Cáp truyền tín hiệu bằng sóng radio 
+D. Cáp dùng cho mạng LAN 
+Câu 27: Cơ chế nào được sử dụng để chuyển tên miền (ví dụ: viettel.vn) thành địa chỉ IP? 
+A. TCP/IP 
+B. DNS (Domain Name System) 
+C. HTTP 
+D. FTP 
+Câu 28: "IoT" là viết tắt của cụm từ gì? 
+A. International of Technology 
+B. Internet of Things 
+C. Information of Technology 
+D. Internal of Things 
+Câu 29: Trong một hệ thống cơ sở dữ liệu, "Primary Key" (khóa chính) có vai trò gì? 
+A. Chỉ để sắp xếp dữ liệu 
+B. Định danh duy nhất một bản ghi (record) trong một bảng 
+C. Kết nối các bảng với nhau 
+D. Lưu trữ mật khẩu 
+Câu 30: "API" (Application Programming Interface) là gì? 
+A. Một ngôn ngữ lập trình 
+B. Giao diện cho phép các ứng dụng phần mềm giao tiếp với nhau 
+C. Một giao thức mạng 
+D. Một loại hệ điều hành 
+Câu 31: Mạng cáp quang được ứng dụng rộng rãi trong truyền tải Internet vì lý do gì? 
+A. Giá thành rẻ 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 88 ---
+ 
+87 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Tốc độ truyền cao, băng thông lớn, và ít bị nhiễu điện từ 
+C. Dễ dàng lắp đặt 
+D. Chỉ dùng cho mạng nội bộ 
+Câu 32: Lĩnh vực "Computer Vision" (Thị giác máy tính) thuộc mảng nào của AI? 
+A. Xử lý ngôn ngữ tự nhiên 
+B. Học tăng cường 
+C. Giúp máy tính hiểu và phân tích hình ảnh, video 
+D. Hồi quy tuyến tính 
+Câu 33: Tấn công "SQL Injection" là gì? 
+A. Tấn công từ chối dịch vụ 
+B. Tấn công bằng cách chèn các câu lệnh SQL độc hại vào ô nhập liệu 
+C. Tấn công làm tràn bộ đệm 
+D. Tấn công chiếm quyền điều khiển server 
+Câu 34: Giao thức nào được sử dụng cho các thiết bị IoT tài nguyên thấp và bị giới hạn 
+năng lượng? 
+A. MQTT và CoAP 
+B. HTTP và HTTPS 
+C. TCP và UDP 
+D. FTP và SMTP 
+Câu 35: "Blockchain" có đặc điểm nổi bật nào? 
+A. Là một loại cơ sở dữ liệu quan hệ 
+B. Là một sổ cái phân tán, bất biến và an toàn 
+C. Là một loại mạng xã hội 
+D. Là một hệ điều hành 
+Câu 36: "Machine Learning" là gì? 
+A. Một loại thuật toán lập trình 
+B. Lĩnh vực trong AI cho phép máy tính học từ dữ liệu mà không cần lập trình rõ ràng 
+C. Một ngôn ngữ lập trình 
+D. Một loại cơ sở dữ liệu 
+Câu 37: Mục đích của "Cloud Native" trong phát triển ứng dụng? 
+A. Phát triển ứng dụng chỉ trên một đám mây duy nhất 
+B. Phát triển ứng dụng bằng cách tận dụng các dịch vụ của đám mây để tối ưu hóa hiệu 
+suất và khả năng mở rộng 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 89 ---
+ 
+88 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+C. Chỉ phát triển ứng dụng di động 
+D. Chỉ phát triển ứng dụng cho desktop 
+Câu 38: "Big Data" có vai trò gì đối với Viettel? 
+A. Giúp phân tích hành vi khách hàng, tối ưu hóa mạng lưới, và phát triển các sản phẩm 
+mới 
+B. Chỉ để lưu trữ dữ liệu 
+C. Chỉ để bán cho các công ty khác 
+D. Chỉ để giảm chi phí nhân công 
+Câu 39: Khái niệm "Data Lake" khác gì so với "Data Warehouse"? 
+A. Data Lake chỉ lưu trữ dữ liệu có cấu trúc 
+B. Data Lake lưu trữ dữ liệu thô ở mọi định dạng 
+C. Data Warehouse chỉ lưu trữ dữ liệu thô 
+D. Data Warehouse lưu trữ dữ liệu lớn 
+Câu 40: "Smart Contract" (Hợp đồng thông minh) trong Blockchain là gì? 
+A. Một loại hợp đồng giấy 
+B. Một đoạn mã tự thực thi các điều khoản của hợp đồng khi các điều kiện được đáp ứng 
+C. Một loại luật pháp 
+D. Một thuật toán mã hóa 
+Câu 41: "Container Orchestration" (điều phối container) như Kubernetes dùng để làm gì? 
+A. Tạo ra một container duy nhất 
+B. Quản lý, tự động hóa việc triển khai, mở rộng và vận hành các container 
+C. Viết mã cho container 
+D. Giao tiếp giữa các container 
+Câu 42: "CI/CD Pipeline" là gì? 
+A. Một loại ngôn ngữ lập trình 
+B. Quy trình tự động hóa các bước từ tích hợp mã nguồn đến triển khai phần mềm 
+C. Một loại framework 
+D. Một công cụ kiểm tra bảo mật 
+Câu 43: Trong lập trình, "Version Control System" (Hệ thống kiểm soát phiên bản) như Git 
+có vai trò gì? 
+A. Chỉ để sao lưu code 
+B. Giúp quản lý và theo dõi các thay đổi của mã nguồn 
+C. Tăng tốc độ viết code 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 90 ---
+ 
+89 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Chỉ dùng cho các dự án cá nhân 
+Câu 44: Nền tảng nào của Google Cloud được sử dụng để lưu trữ dữ liệu lớn? 
+A. Google Drive 
+B. Google Sheets 
+C. Google Cloud Storage 
+D. Google Docs 
+Câu 45: "Serverless Computing" (Điện toán phi máy chủ) là gì? 
+A. Mô hình phát triển ứng dụng không cần server 
+B. Mô hình cho phép lập trình viên chạy code mà không cần quản lý server 
+C. Phát triển ứng dụng trên một server duy nhất 
+D. Chỉ để lưu trữ dữ liệu 
+Câu 46: "Agile" là một phương pháp phát triển phần mềm như thế nào? 
+A. Tập trung vào tài liệu chi tiết và lập kế hoạch từ đầu 
+B. Tập trung vào tính linh hoạt, hợp tác và phản hồi nhanh với sự thay đổi 
+C. Chỉ dùng cho các dự án nhỏ 
+D. Chỉ dùng cho các dự án lớn 
+Câu 47: "Microservices" là kiến trúc phần mềm gì? 
+A. Xây dựng một ứng dụng lớn và nguyên khối 
+B. Xây dựng một ứng dụng bằng cách kết hợp nhiều dịch vụ nhỏ, độc lập và có thể triển 
+khai riêng 
+C. Xây dựng ứng dụng chỉ trên di động 
+D. Xây dựng ứng dụng chỉ trên máy tính 
+Câu 48: Lợi thế của việc sử dụng các dịch vụ đám mây (Cloud) so với on-premise (máy chủ 
+vật lý) là gì? 
+A. Chi phí đầu tư ban đầu thấp, khả năng mở rộng linh hoạt, và giảm gánh nặng quản lý 
+B. Chỉ có thể dùng cho các ứng dụng nhỏ 
+C. Chỉ an toàn hơn 
+D. Chỉ tăng tốc độ truy cập 
+Câu 49: "API Gateway" trong kiến trúc Microservices có chức năng gì? 
+A. Kết nối các Microservice với nhau 
+B. Điểm vào duy nhất cho tất cả các yêu cầu từ client, sau đó định tuyến đến các dịch vụ 
+phù hợp 
+C. Chạy các dịch vụ Microservice 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 91 ---
+ 
+90 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Lưu trữ dữ liệu 
+Câu 50: Viettel là một trong những doanh nghiệp tiên phong ở Việt Nam trong việc triển khai 
+mạng 5G. Vậy 5G sử dụng công nghệ nào để tăng cường dung lượng và tốc độ? 
+A. Chỉ dùng ăng-ten omnidirectional 
+B. Sử dụng Massive MIMO (Multiple-Input Multiple-Output) và beamforming 
+C. Chỉ dùng cáp quang 
+D. Giảm số lượng trạm phát song 
+Đáp án 
+Phần I: Đáp án về Viettel 
+1. A. Tiên phong kiến tạo xã hội số 
+2. B. Viễn thông và công nghệ thông tin 
+3. C. Tập đoàn công nghệ toàn cầu, tiên phong trong xã hội số 
+4. C. Châu Phi, Châu Á và Châu Mỹ 
+5. B. Mạng lưới rộng khắp, dịch vụ đa dạng và tiên phong về công nghệ 
+6. B. Internet of Things (IoT) và Truyền hình 3D 
+7. B. Chuyên nghiên cứu, sản xuất các thiết bị công nghệ cao và công nghiệp quốc 
+phòng 
+8. B. Tiên phong xây dựng hạ tầng số, các nền tảng số và kiến tạo các ứng dụng số 
+9. B. IoT, AI và Big Data 
+10. B. Dịch vụ Cloud cho doanh nghiệp và chính phủ 
+ 
+Phần II: Đáp án về CNTT-VT 
+11. C. HTTPS 
+12. B. Thời gian để một gói dữ liệu đi từ điểm A đến điểm B 
+13. B. Ngăn chặn truy cập trái phép từ bên ngoài vào mạng nội bộ 
+14. A. IPv6 có địa chỉ dài hơn, hỗ trợ nhiều thiết bị hơn 
+15. B. Giúp ứng dụng chạy nhất quán trên mọi môi trường phát triển và triển khai 
+16. B. Một phương pháp kết hợp Phát triển Phần mềm (Development) và Vận hành 
+(Operations) để tự động hóa quy trình 
+17. D. Tầng Vật lý (Physical Layer) 
+18. A. Thuật toán nén không mất mát (Lossless Compression) 
+19. B. Kỹ thuật lừa đảo để lấy thông tin cá nhân 
+20. A. Value 
+21. B. Cơ chế cho phép một lớp (class) con kế thừa các thuộc tính và phương thức từ lớp 
+cha 
+22. B. Continuous Integration / Continuous Delivery 
+23. B. Ảo hóa (Virtualization) 
+24. A. Độ trễ thấp hơn, tốc độ cao hơn, hỗ trợ nhiều thiết bị hơn 
+25. B. DDoS sử dụng nhiều máy tính để tấn công, trong khi DoS chỉ sử dụng một máy 
+26. B. Cáp truyền tín hiệu bằng ánh sáng, cho tốc độ cao và khoảng cách xa 
+27. B. DNS (Domain Name System) 
+28. B. Internet of Things 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 92 ---
+ 
+91 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+29. B. Định danh duy nhất một bản ghi (record) trong một bảng 
+30. B. Giao diện cho phép các ứng dụng phần mềm giao tiếp với nhau 
+31. B. Tốc độ truyền cao, băng thông lớn, và ít bị nhiễu điện từ 
+32. C. Giúp máy tính hiểu và phân tích hình ảnh, video 
+33. B. Tấn công bằng cách chèn các câu lệnh SQL độc hại vào ô nhập liệu 
+34. A. MQTT và CoAP 
+35. B. Là một sổ cái phân tán, bất biến và an toàn 
+36. B. Lĩnh vực trong AI cho phép máy tính học từ dữ liệu mà không cần lập trình rõ ràng 
+37. B. Phát triển ứng dụng bằng cách tận dụng các dịch vụ của đám mây để tối ưu hóa 
+hiệu suất và khả năng mở rộng 
+38. A. Giúp phân tích hành vi khách hàng, tối ưu hóa mạng lưới, và phát triển các sản 
+phẩm mới 
+39. B. Data Lake lưu trữ dữ liệu thô ở mọi định dạng 
+40. B. Một đoạn mã tự thực thi các điều khoản của hợp đồng khi các điều kiện được đáp 
+ứng 
+41. B. Quản lý, tự động hóa việc triển khai, mở rộng và vận hành các container 
+42. B. Quy trình tự động hóa các bước từ tích hợp mã nguồn đến triển khai phần mềm 
+43. B. Giúp quản lý và theo dõi các thay đổi của mã nguồn 
+44. C. Google Cloud Storage 
+45. B. Mô hình cho phép lập trình viên chạy code mà không cần quản lý server 
+46. B. Tập trung vào tính linh hoạt, hợp tác và phản hồi nhanh với sự thay đổi 
+47. B. Xây dựng một ứng dụng bằng cách kết hợp nhiều dịch vụ nhỏ, độc lập và có thể 
+triển khai riêng 
+48. A. Chi phí đầu tư ban đầu thấp, khả năng mở rộng linh hoạt, và giảm gánh nặng quản 
+lý 
+49. B. Điểm vào duy nhất cho tất cả các yêu cầu từ client, sau đó định tuyến đến các dịch 
+vụ phù hợp 
+50. B. Sử dụng Massive MIMO (Multiple-Input Multiple-Output) và beamforming 
+ĐỀ THI THỬ SỐ 10: KỸ SƯ DEV VÀO VIETTEL 2025 
+Chuyên đề: Viettel và Công nghệ thông tin - Điện tử Viễn thông (Phần cuối) 
+Thời gian: 45 phút 
+Số câu hỏi: 50 
+Câu 1: Đâu là một trong những trụ cột chiến lược của Viettel hiện nay? 
+A. Chỉ kinh doanh viễn thông truyền thống 
+B. Đầu tư mạnh vào nông nghiệp công nghệ cao 
+C. Phát triển mạnh các dịch vụ tài chính số 
+D. Phát triển các dịch vụ và giải pháp số cho chính phủ, doanh nghiệp và xã hội 
+Câu 2: Lĩnh vực "Công nghiệp quốc phòng công nghệ cao" của Viettel bao gồm những gì? 
+A. Sản xuất súng đạn thông thường 
+B. Nghiên cứu và sản xuất các thiết bị radar, thông tin liên lạc, tác chiến điện tử 
+C. Cung cấp dịch vụ Internet cho quân đội 
+D. Chỉ phát triển phần mềm cho quân đội 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 93 ---
+ 
+92 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 3: Viettel đã đạt được thành tựu đáng kể nào trong lĩnh vực sản xuất thiết bị 5G? 
+A. Nhập khẩu toàn bộ thiết bị từ nước ngoài 
+B. Tự nghiên cứu và sản xuất trạm phát sóng 5G 
+C. Chỉ sản xuất các linh kiện nhỏ lẻ 
+D. Chỉ bán các thiết bị của hãng khác 
+Câu 4: Dịch vụ "Viettel Money" của Viettel thuộc lĩnh vực nào? 
+A. Thương mại điện tử 
+B. Viễn thông 
+C. Tài chính số (Mobile Money) 
+D. Bảo hiểm 
+Câu 5: Mục tiêu của Viettel trong lĩnh vực "An ninh mạng" là gì? 
+A. Chỉ bảo vệ mạng lưới nội bộ của Viettel 
+B. Cung cấp các giải pháp an ninh mạng cho chính phủ, doanh nghiệp và xã hội 
+C. Phát triển các trò chơi trực tuyến an toàn 
+D. Chỉ bán phần mềm diệt virus 
+Câu 6: Tên gọi nào thường được dùng để chỉ các dự án phát triển phần mềm và dịch vụ số 
+cho các cơ quan chính phủ? 
+A. E-commerce 
+B. E-government (Chính phủ điện tử) 
+C. E-banking 
+D. E-learning 
+Câu 7: Một trong những dự án trọng điểm của Viettel trong việc xây dựng "Smart City" là gì? 
+A. Lắp đặt các trạm phát sóng thông thường 
+B. Cung cấp các giải pháp quản lý đô thị thông minh, giao thông thông minh và an ninh 
+thông minh 
+C. Xây dựng các tòa nhà chọc trời 
+D. Mở các cửa hàng bán lẻ 
+Câu 8: Viettel đã phát triển những loại nền tảng số nào cho xã hội số? 
+A. Nền tảng thương mại điện tử 
+B. Nền tảng học trực tuyến 
+C. Nền tảng thanh toán số, quản lý y tế, và quản lý giáo dục 
+D. Tất cả các nền tảng trên 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 94 ---
+ 
+93 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 9: Viettel là một trong những nhà mạng đầu tiên ở Việt Nam triển khai thương mại hóa 
+dịch vụ nào? 
+A. 2G 
+B. 3G 
+C. 4G và 5G 
+D. Chỉ 3G 
+Câu 10: Viettel đóng vai trò gì trong việc xây dựng hạ tầng dữ liệu quốc gia? 
+A. Cung cấp các trung tâm dữ liệu (Data Center) và dịch vụ Cloud 
+B. Chỉ bán thiết bị lưu trữ 
+C. Xây dựng các khu công nghiệp 
+D. Đầu tư vào bất động sản 
+KIẾN THỨC CÔNG NGHỆ THÔNG TIN VÀ ĐIỆN TỬ VIỄN THÔNG 
+Câu 11: Khái niệm "IoT Gateway" đề cập đến điều gì? 
+A. Một loại cảm biến 
+B. Thiết bị làm cầu nối giữa các thiết bị IoT và mạng Internet 
+C. Một giao thức truyền thông 
+D. Một loại phần mềm diệt virus 
+Câu 12: Trong mạng 5G, công nghệ "mMTC" (Massive Machine Type Communications) có 
+chức năng gì? 
+A. Tăng tốc độ duyệt web 
+B. Hỗ trợ kết nối một lượng lớn các thiết bị IoT 
+C. Giảm độ trễ 
+D. Tăng tốc độ tải file 
+Câu 13: Lĩnh vực "AIoT" là sự kết hợp của những công nghệ nào? 
+A. AI và IoT 
+B. AI và Big Data 
+C. AI và Cloud 
+D. AI và Blockchain 
+Câu 14: Giao thức nào thường được dùng cho các thiết bị IoT cần kết nối liên tục, ổn định 
+và hai chiều? 
+A. MQTT 
+B. HTTP 
+C. UDP 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 95 ---
+ 
+94 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. FTP 
+Câu 15: "Computer Vision" (Thị giác máy tính) được ứng dụng trong lĩnh vực nào của 
+Viettel? 
+A. Quản lý nhân sự 
+B. Nhận dạng khuôn mặt, phân tích hình ảnh vệ tinh và video giám sát 
+C. Kế toán 
+D. Bán hàng trực tiếp 
+Câu 16: "Edge Computing" mang lại lợi ích gì cho các hệ thống IoT? 
+A. Giảm chi phí phần cứng 
+B. Giảm độ trễ, tiết kiệm băng thông mạng và tăng cường bảo mật 
+C. Tăng băng thông 
+D. Tăng độ phức tạp của hệ thống 
+Câu 17: Thuật toán nào được sử dụng phổ biến để phân tích dữ liệu văn bản và xác định 
+các từ khóa, xu hướng? 
+A. Phân cụm (Clustering) 
+B. Phân loại (Classification) 
+C. Xử lý ngôn ngữ tự nhiên (Natural Language Processing - NLP) 
+D. Hồi quy (Regression) 
+Câu 18: "Data Lakehouse" là mô hình kiến trúc dữ liệu như thế nào? 
+A. Kết hợp các đặc tính tốt nhất của Data Lake và Data Warehouse 
+B. Một loại cơ sở dữ liệu NoSQL 
+C. Một công cụ phân tích dữ liệu 
+D. Một loại nền tảng điện toán đám mây 
+Câu 19: "DevSecOps" là gì? 
+A. Một loại phần mềm 
+B. Tích hợp các quy trình bảo mật (Security) vào DevOps 
+C. Một ngôn ngữ lập trình 
+D. Một loại server 
+Câu 20: Lợi thế của "Microservices" so với kiến trúc "Monolithic" (nguyên khối)? 
+A. Dễ triển khai hơn 
+B. Dễ dàng phát triển, triển khai và mở rộng độc lập từng dịch vụ 
+C. Tốn ít tài nguyên hơn 
+D. Tốc độ thực thi nhanh hơn 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 96 ---
+ 
+95 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Câu 21: "Continuous Integration" (CI) trong CI/CD là gì? 
+A. Tự động triển khai code lên môi trường sản phẩm 
+B. Quy trình tự động tích hợp code của các lập trình viên vào một kho chung và chạy kiểm 
+thử tự động 
+C. Viết code 
+D. Chỉ kiểm tra lỗi 
+Câu 22: Giao thức nào được sử dụng để bảo mật thông tin khi truy cập các trang web? 
+A. HTTP 
+B. HTTPS 
+C. TCP 
+D. UDP 
+Câu 23: Tấn công "Phishing" là gì? 
+A. Tấn công làm tràn bộ đệm 
+B. Kỹ thuật lừa đảo để lấy thông tin cá nhân 
+C. Tấn công từ chối dịch vụ 
+D. Tấn công vào cơ sở dữ liệu 
+Câu 24: Lĩnh vực "Cybersecurity" quan trọng đối với Viettel vì lý do gì? 
+A. Viettel chỉ bán các sản phẩm bảo mật 
+B. Viettel cần bảo vệ dữ liệu khách hàng, hạ tầng mạng và các hệ thống trọng yếu 
+C. Viettel chỉ làm phần mềm 
+D. Viettel cần bảo vệ các thiết bị phần cứng 
+Câu 25: Tấn công "SQL Injection" là gì? 
+A. Tấn công từ chối dịch vụ 
+B. Tấn công bằng cách chèn các câu lệnh SQL độc hại vào ô nhập liệu 
+C. Tấn công làm tràn bộ đệm 
+D. Tấn công chiếm quyền điều khiển server 
+Câu 26: Khái niệm "Latency" (độ trễ) trong mạng máy tính là gì? 
+A. Tốc độ truyền dữ liệu 
+B. Thời gian để một gói dữ liệu đi từ điểm A đến điểm B 
+C. Khả năng chịu tải của mạng 
+D. Số lượng dữ liệu được truyền đi 
+Câu 27: Công nghệ "Massive MIMO" trong 5G có chức năng gì? 
+A. Giảm số lượng ăng-ten 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 97 ---
+ 
+96 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. Tăng số lượng ăng-ten để truyền và nhận dữ liệu đồng thời, tăng dung lượng mạng 
+C. Tăng độ trễ 
+D. Giảm tốc độ truyền dữ liệu 
+Câu 28: "Software-Defined Networking" (SDN) là gì? 
+A. Một loại phần mềm 
+B. Một kiến trúc mạng cho phép quản lý và điều khiển mạng thông qua phần mềm 
+C. Một loại ngôn ngữ lập trình 
+D. Một loại server 
+Câu 29: "Data Governance" trong Big Data là gì? 
+A. Một công cụ phân tích dữ liệu 
+B. Một khuôn khổ về các chính sách và quy trình để quản lý dữ liệu một cách an toàn và có 
+hiệu quả 
+C. Một loại cơ sở dữ liệu 
+D. Một thuật toán AI 
+Câu 30: Mục đích của "System on a Chip" (SoC) trong thiết bị nhúng là gì? 
+A. Tăng kích thước thiết bị 
+B. Tích hợp tất cả các thành phần cần thiết vào một vi mạch duy nhất để giảm kích thước và 
+chi phí 
+C. Giảm tốc độ xử lý 
+D. Tăng chi phí sản xuất 
+Câu 31: Vai trò của "API Gateway" trong kiến trúc Microservices? 
+A. Kết nối các Microservice với nhau 
+B. Điểm vào duy nhất cho tất cả các yêu cầu từ client, sau đó định tuyến đến các dịch vụ 
+phù hợp 
+C. Chạy các dịch vụ Microservice 
+D. Lưu trữ dữ liệu 
+Câu 32: Lợi ích của "Containerization" (công nghệ container) như Docker? 
+A. Giảm dung lượng lưu trữ 
+B. Giúp ứng dụng chạy nhất quán trên mọi môi trường, độc lập với hệ điều hành 
+C. Tăng tốc độ truyền dữ liệu 
+D. Chỉ dùng cho các ứng dụng web 
+Câu 33: Giao thức nào là nền tảng cho việc truyền tải thông tin trên Internet? 
+A. HTTP 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 98 ---
+ 
+97 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+B. FTP 
+C. TCP/IP 
+D. SMTP 
+Câu 34: "Serverless Computing" (Điện toán phi máy chủ) là gì? 
+A. Mô hình phát triển ứng dụng không cần server 
+B. Mô hình cho phép lập trình viên chạy code mà không cần quản lý server 
+C. Phát triển ứng dụng trên một server duy nhất 
+D. Chỉ để lưu trữ dữ liệu 
+Câu 35: "CI/CD Pipeline" là gì? 
+A. Một loại ngôn ngữ lập trình 
+B. Quy trình tự động hóa các bước từ tích hợp mã nguồn đến triển khai phần mềm 
+C. Một loại framework 
+D. Một công cụ kiểm tra bảo mật 
+Câu 36: "Machine Learning" là gì? 
+A. Một loại thuật toán lập trình 
+B. Lĩnh vực trong AI cho phép máy tính học từ dữ liệu mà không cần lập trình rõ ràng 
+C. Một ngôn ngữ lập trình 
+D. Một loại cơ sở dữ liệu 
+Câu 37: Trong lập trình hướng đối tượng (OOP), "Polymorphism" (Tính đa hình) là gì? 
+A. Cơ chế cho phép một đối tượng có nhiều hình dạng khác nhau 
+B. Cơ chế cho phép một lớp con kế thừa các thuộc tính từ lớp cha 
+C. Đóng gói dữ liệu và phương thức vào một đối tượng 
+D. Ẩn thông tin chi tiết của đối tượng 
+Câu 38: "Blockchain" có đặc điểm nổi bật nào? 
+A. Là một loại cơ sở dữ liệu quan hệ 
+B. Là một sổ cái phân tán, bất biến và an toàn 
+C. Là một loại mạng xã hội 
+D. Là một hệ điều hành 
+Câu 39: Vai trò của "Version Control System" (Hệ thống kiểm soát phiên bản) như Git? 
+A. Chỉ để sao lưu code 
+B. Giúp quản lý và theo dõi các thay đổi của mã nguồn 
+C. Tăng tốc độ viết code 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 99 ---
+ 
+98 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Chỉ dùng cho các dự án cá nhân 
+Câu 40: "Smart Grid" (Lưới điện thông minh) sử dụng công nghệ IoT như thế nào? 
+A. Chỉ để giảm tiêu thụ điện năng 
+B. Tăng cường hiệu quả, độ tin cậy và bền vững của mạng lưới điện bằng cách thu thập dữ 
+liệu theo thời gian thực 
+C. Chỉ để đo lường 
+D. Chỉ để điều khiển 
+Câu 41: "AI Ethics" (Đạo đức AI) đề cập đến điều gì? 
+A. Cách lập trình AI 
+B. Đảm bảo rằng AI được phát triển và sử dụng một cách công bằng, minh bạch và có trách 
+nhiệm 
+C. Cách bán các sản phẩm AI 
+D. Quy trình kiểm thử AI 
+Câu 42: Tấn công "Credential Stuffing" là gì? 
+A. Tấn công bằng cách sử dụng danh sách các cặp tên người dùng/mật khẩu bị rò rỉ từ một 
+trang web để thử đăng nhập vào các trang web khác 
+B. Tấn công làm tràn bộ đệm 
+C. Tấn công làm giả mạo email 
+D. Tấn công bằng cách gửi hàng loạt yêu cầu đến máy chủ 
+Câu 43: "Internet Protocol Television" (IPTV) là gì? 
+A. Truyền hình qua vệ tinh 
+B. Truyền hình qua mạng Internet 
+C. Truyền hình qua cáp 
+D. Truyền hình qua sóng radio 
+Câu 44: Nền tảng "Big Data" của Viettel có vai trò gì? 
+A. Chỉ để lưu trữ dữ liệu lớn 
+B. Phân tích hành vi khách hàng, tối ưu hóa mạng lưới, và đưa ra các dự báo 
+C. Chỉ để bán cho các công ty khác 
+D. Chỉ để giảm chi phí nhân công 
+Câu 45: "Digital Twin" trong IoT là gì? 
+A. Một bản sao vật lý của thiết bị 
+B. Một mô hình ảo của một đối tượng hoặc hệ thống vật lý, được cập nhật theo thời gian 
+thực 
+C. Một loại cảm biến 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 100 ---
+ 
+99 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+D. Một giao thức truyền thông 
+Câu 46: Giao thức nào được sử dụng để khám phá các dịch vụ trong mạng nội bộ, phổ biến 
+trong các thiết bị nhà thông minh? 
+A. MQTT 
+B. CoAP 
+C. mDNS/DNS-SD 
+D. HTTP 
+Câu 47: Lĩnh vực "Telematics" là gì? 
+A. Công nghệ thông tin và viễn thông kết hợp với nhau để điều khiển từ xa 
+B. Công nghệ sản xuất chip 
+C. Công nghệ năng lượng tái tạo 
+D. Công nghệ quản lý dữ liệu 
+Câu 48: Tên gọi nào thường được dùng để chỉ các dự án phát triển phần mềm và dịch vụ số 
+cho các cơ quan chính phủ? 
+A. E-commerce 
+B. E-government (Chính phủ điện tử) 
+C. E-banking 
+D. E-learning 
+Câu 49: Trong 5G, đâu là một trong những ứng dụng chủ chốt được Viettel chú trọng? 
+A. Gửi tin nhắn SMS 
+B. Internet of Things (IoT) và Truyền hình 3D 
+C. Gọi điện thoại 
+D. Phát sóng radio 
+Câu 50: Viettel là một trong những nhà mạng đầu tiên ở Việt Nam triển khai thương mại hóa 
+dịch vụ nào? 
+A. 2G 
+B. 3G 
+C. 4G và 5G 
+D. Chỉ 3G 
+Đáp án 
+Dưới đây là đáp án của đề thi thử số 10, chuyên đề Viettel và Công nghệ thông tin - Điện tử 
+Viễn thông (Phần cuối). 
+ 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 101 ---
+ 
+100 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+Phần I: Đáp án về Viettel 
+1. D. Phát triển các dịch vụ và giải pháp số cho chính phủ, doanh nghiệp và xã hội 
+2. B. Nghiên cứu và sản xuất các thiết bị radar, thông tin liên lạc, tác chiến điện tử 
+3. B. Tự nghiên cứu và sản xuất trạm phát sóng 5G 
+4. C. Tài chính số (Mobile Money) 
+5. B. Cung cấp các giải pháp an ninh mạng cho chính phủ, doanh nghiệp và xã hội 
+6. B. E-government (Chính phủ điện tử) 
+7. B. Cung cấp các giải pháp quản lý đô thị thông minh, giao thông thông minh và an 
+ninh thông minh 
+8. D. Tất cả các nền tảng trên 
+9. C. 4G và 5G 
+10. A. Cung cấp các trung tâm dữ liệu (Data Center) và dịch vụ Cloud 
+ 
+Phần II: Đáp án về CNTT-VT 
+11. B. Thiết bị làm cầu nối giữa các thiết bị IoT và mạng Internet 
+12. B. Hỗ trợ kết nối một lượng lớn các thiết bị IoT 
+13. A. AI và IoT 
+14. A. MQTT 
+15. B. Nhận dạng khuôn mặt, phân tích hình ảnh vệ tinh và video giám sát 
+16. B. Giảm độ trễ, tiết kiệm băng thông mạng và tăng cường bảo mật 
+17. C. Xử lý ngôn ngữ tự nhiên (Natural Language Processing - NLP) 
+18. A. Kết hợp các đặc tính tốt nhất của Data Lake và Data Warehouse 
+19. B. Tích hợp các quy trình bảo mật (Security) vào DevOps 
+20. B. Dễ dàng phát triển, triển khai và mở rộng độc lập từng dịch vụ 
+21. B. Quy trình tự động tích hợp code của các lập trình viên vào một kho chung và chạy 
+kiểm thử tự động 
+22. B. HTTPS 
+23. B. Kỹ thuật lừa đảo để lấy thông tin cá nhân 
+24. B. Viettel cần bảo vệ dữ liệu khách hàng, hạ tầng mạng và các hệ thống trọng yếu 
+25. B. Tấn công bằng cách chèn các câu lệnh SQL độc hại vào ô nhập liệu 
+26. B. Thời gian để một gói dữ liệu đi từ điểm A đến điểm B 
+27. B. Tăng số lượng ăng-ten để truyền và nhận dữ liệu đồng thời, tăng dung lượng mạng 
+28. B. Một kiến trúc mạng cho phép quản lý và điều khiển mạng thông qua phần mềm 
+29. B. Một khuôn khổ về các chính sách và quy trình để quản lý dữ liệu một cách an toàn 
+và có hiệu quả 
+30. B. Tích hợp tất cả các thành phần cần thiết vào một vi mạch duy nhất để giảm kích 
+thước và chi phí 
+31. B. Điểm vào duy nhất cho tất cả các yêu cầu từ client, sau đó định tuyến đến các dịch 
+vụ phù hợp 
+32. B. Giúp ứng dụng chạy nhất quán trên mọi môi trường, độc lập với hệ điều hành 
+33. C. TCP/IP 
+34. B. Mô hình cho phép lập trình viên chạy code mà không cần quản lý server 
+35. B. Quy trình tự động hóa các bước từ tích hợp mã nguồn đến triển khai phần mềm 
+36. B. Lĩnh vực trong AI cho phép máy tính học từ dữ liệu mà không cần lập trình rõ ràng 
+37. A. Cơ chế cho phép một đối tượng có nhiều hình dạng khác nhau 
+38. B. Là một sổ cái phân tán, bất biến và an toàn 
+messages.downloaded_by
+lOMoARcPSD|35970655
+
+--- PAGE 102 ---
+ 
+101 
+ 
+BIÊN SOẠN TAILIEUONTHI.IO.VN 
+39. B. Giúp quản lý và theo dõi các thay đổi của mã nguồn 
+40. B. Tăng cường hiệu quả, độ tin cậy và bền vững của mạng lưới điện bằng cách thu 
+thập dữ liệu theo thời gian thực 
+41. B. Đảm bảo rằng AI được phát triển và sử dụng một cách công bằng, minh bạch và có 
+trách nhiệm 
+42. A. Tấn công bằng cách sử dụng danh sách các cặp tên người dùng/mật khẩu bị rò rỉ từ 
+một trang web để thử đăng nhập vào các trang web khác 
+43. B. Truyền hình qua mạng Internet 
+44. B. Phân tích hành vi khách hàng, tối ưu hóa mạng lưới, và đưa ra các dự báo 
+45. B. Một mô hình ảo của một đối tượng hoặc hệ thống vật lý, được cập nhật theo thời 
+gian thực 
+46. C. mDNS/DNS-SD 
+47. A. Công nghệ thông tin và viễn thông kết hợp với nhau để điều khiển từ xa 
+48. B. E-government (Chính phủ điện tử) 
+49. B. Internet of Things (IoT) và Truyền hình 3D 
+50. C. 4G và 5G 
+ 
+messages.downloaded_by
+lOMoARcPSD|35970655
