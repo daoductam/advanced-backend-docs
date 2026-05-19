@@ -149,8 +149,8 @@ sequenceDiagram
 
 ```mermaid
 graph LR
-    RowV1[Phiên bản hàng V1 <br/> Committed] <-- Trỏ đến bản cũ --- RowV2[Phiên bản hàng V2 <br/> Committed]
-    RowV2 <-- Trỏ đến bản cũ --- RowV3[Phiên bản hàng V3 <br/> Active Txn]
+    RowV2[Phiên bản hàng V2 <br/> Committed] -->|Trỏ đến bản cũ| RowV1[Phiên bản hàng V1 <br/> Committed]
+    RowV3[Phiên bản hàng V3 <br/> Active Txn] -->|Trỏ đến bản cũ| RowV2
     
     subgraph UndoLog [Chuỗi Undo Logs nằm trong Buffer Pool]
         RowV1
