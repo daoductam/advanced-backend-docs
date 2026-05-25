@@ -11,11 +11,18 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import org.springframework.data.domain.Sort.Order;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 @Service
 @Transactional(readOnly = true)
 public class UserService {
+
+    // White-list: Chỉ cho phép sắp xếp theo các trường này (đã được lập chỉ mục index)
+    // Ngăn chặn SQL Injection và tránh làm chậm DB khi sort theo các cột không index.
+    private static final Set<String> ALLOWED_SORT_FIELDS = Set.of("id", "createdAt", "username", "email");
 
     @Autowired
     private UserRepository userRepository;
@@ -33,6 +40,59 @@ public class UserService {
                 Sort.by("createdAt").descending().and(Sort.by("id").descending())
         );
         return userRepository.findAll(pageable);
+    }
+
+    /**
+     * API phân trang có tích hợp Sắp xếp động (Dynamic Sorting) an toàn bằng White-list
+     * API: GET /api/v1/users/page-size/sorted?page=0&size=10&sort=createdAt:desc,username:asc
+     */
+    public Page<User> getUsersSorted(int page, int size, String sortParam) {
+        Sort sort = parseSortParameters(sortParam);
+        
+        // Sắp xếp mặc định nếu client không truyền sort
+        if (sort.isUnsorted()) {
+            sort = Sort.by("createdAt").descending().and(Sort.by("id").descending());
+        }
+        
+        Pageable pageable = PageRequest.of(page, size, sort);
+        return userRepository.findAll(pageable);
+    }
+
+    /**
+     * Hàm phân tích cú pháp tham số sort (createdAt:desc,username:asc)
+     * và kiểm tra bảo mật bằng White-list
+     */
+    private Sort parseSortParameters(String sortParam) {
+        if (sortParam == null || sortParam.trim().isEmpty()) {
+            return Sort.unsorted();
+        }
+
+        List<Order> orders = new ArrayList<>();
+        // Tách các trường bằng dấu phẩy
+        String[] sortFields = sortParam.split(",");
+
+        for (String fieldParam : sortFields) {
+            // Tách trường và hướng bằng dấu hai chấm
+            String[] parts = fieldParam.split(":");
+            String field = parts[0].trim();
+
+            // Kiểm tra bảo mật White-list
+            if (!ALLOWED_SORT_FIELDS.contains(field)) {
+                throw new IllegalArgumentException("Trường sắp xếp không hợp lệ hoặc không được hỗ trợ: " + field);
+            }
+
+            Sort.Direction direction = Sort.Direction.ASC;
+            if (parts.length > 1) {
+                String dirString = parts[1].trim().toLowerCase();
+                if ("desc".equals(dirString)) {
+                    direction = Sort.Direction.DESC;
+                }
+            }
+
+            orders.add(new Order(direction, field));
+        }
+
+        return Sort.by(orders);
     }
 
     /**

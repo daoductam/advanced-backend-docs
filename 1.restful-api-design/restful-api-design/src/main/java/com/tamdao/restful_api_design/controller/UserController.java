@@ -29,6 +29,18 @@ public class UserController {
     }
 
     /**
+     * TÍCH HỢP SORTING: Phân trang Page & Size kết hợp Sắp xếp động an toàn
+     * Ví dụ: GET /api/v1/users/page-size/sorted?page=0&size=10&sort=createdAt:desc,username:asc
+     */
+    @GetMapping("/page-size/sorted")
+    public Page<User> getUsersSorted(
+            @RequestParam(value = "page", defaultValue = "0") int page,
+            @RequestParam(value = "size", defaultValue = "10") int size,
+            @RequestParam(value = "sort", required = false) String sort) {
+        return userService.getUsersSorted(page, size, sort);
+    }
+
+    /**
      * CÁCH 2 (ĐANG COMMENT): Phân trang theo Offset và Limit
      * Ví dụ: GET /api/v1/users/offset-limit?offset=0&limit=10
      * offset = số bản ghi cần bỏ qua, limit = số bản ghi tối đa cần lấy
