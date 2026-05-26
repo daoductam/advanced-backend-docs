@@ -57,7 +57,7 @@
 
 > **Vấn đề phát sinh:** Nếu trong Business Layer xuất hiện quá nhiều đối tượng/thành phần dùng chung (shared components) dẫn đến chồng chéo logic?
 > **Giải pháp:** Bổ sung thêm một lớp dịch vụ trung gian gọi là **Service Layer (Open Layer)** để điều phối công việc mà không vi phạm nguyên tắc cấu trúc.
-
+![alt text](image.png)
 ### Đánh giá:
 *   **Ưu điểm:** Đơn giản, dễ tiếp cận, dễ triển khai nhanh cho các dự án nhỏ, dễ viết unit test độc lập cho từng lớp.
 *   **Nhược điểm:** Khó mở rộng khi hệ thống lớn; các lớp phụ thuộc chặt chẽ vào nhau (Business Layer phụ thuộc trực tiếp vào Database Layer), dẫn đến việc thay đổi công nghệ Database sẽ kéo theo sự thay đổi toàn bộ mã nguồn nghiệp vụ.
@@ -70,6 +70,7 @@
     *   **Port (Cổng kết nối):** Là các giao diện **Interface** được định nghĩa bên trong Core Domain thể hiện nghiệp vụ cần trao đổi.
     *   **Adapter (Bộ chuyển đổi):** Là lớp **Implementation** thực tế nằm bên ngoài Core Domain hiện thực hóa các Interface đó (ví dụ: SQLAdapter, RedisAdapter, RESTController).
 *   **Cơ chế Factory:** Sử dụng Factory Pattern để khởi tạo các Adapter phù hợp với cấu hình môi trường chạy.
+![alt text](image-1.png)
 
 ### Đánh giá:
 *   **Ưu điểm:** Liên kết cực kỳ lỏng (Loose Coupling); Core Domain hoàn toàn độc lập với công nghệ phần cứng nên có thể viết unit test mà không cần khởi chạy Database hay Web Server; dễ dàng hoán đổi công nghệ bên ngoài (ví dụ: chuyển từ MySQL sang PostgreSQL chỉ bằng cách đổi Adapter).
@@ -98,7 +99,7 @@ graph TD
         Infra2 --> App2
     end
 ```
-
+![alt text](image-2.png)
 ### Đánh giá:
 *   **Ưu điểm:** Tập trung tuyệt đối vào thiết kế Domain; giảm thiểu tối đa liên kết cứng; kiểm thử dễ dàng bằng cách giả lập (mock) các cổng kết nối ngoại vi.
 *   **Nhược điểm:** Cấu trúc nhiều lớp dẫn đến độ phức tạp cao, tốn thời gian thiết lập ban đầu.
@@ -106,6 +107,7 @@ graph TD
 ---
 
 ## 1.4. Kiến trúc sạch (Clean Architecture)
+![alt text](image-3.png)
 *   Được đề xướng bởi Robert C. Martin (Uncle Bob), thực chất là sự kế thừa và đóng gói lại các tư tưởng cốt lõi của Kiến trúc lục giác và Kiến trúc hành tây.
 *   **Quy tắc bất biến:** Không bao giờ vi phạm nguyên lý đảo ngược phụ thuộc (mã nguồn bên trong không được phép import hay gọi trực tiếp thư viện lớp bên ngoài). Số lượng lớp phân tách không giới hạn cứng nhắc.
 
@@ -152,6 +154,7 @@ sequenceDiagram
 ---
 
 ## 1.5. Kiến trúc hàm (Functional Architecture)
+![alt text](image-4.png)
 *   Kế thừa tư tưởng của Lập trình hàm (Functional Programming).
 *   **Nguyên tắc cốt lõi:**
     *   **Core Domain** chỉ chứa các **Hàm thuần túy (Pure Functions)**.
