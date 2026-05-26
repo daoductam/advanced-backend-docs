@@ -59,12 +59,14 @@ Khi lựa chọn hoặc đánh giá một cấu trúc dữ liệu làm Index, ch
 4.  **Độ phức tạp triển khai (Implementation Complexity):** Khả năng lập trình và duy trì cấu trúc.
 
 ### 2.1.1. Cấu trúc B-Tree (Balanced Tree)
+![B-Tree Structure](./images/b-tree-full.png)
 *   Là cây tự cân bằng, đảm bảo tất cả các nút lá (leaf nodes) luôn nằm trên cùng một mức (level).
 *   Mỗi nút chứa một danh sách các khóa đã được sắp xếp tăng dần.
 *   Một nút không phải lá có $k$ nút con sẽ chứa đúng $k-1$ khóa. (Ví dụ: Nút có 3 con sẽ chứa đúng 2 khóa).
 *   Độ phức tạp thời gian cho các thao tác Tìm kiếm, Chèn, Xóa đều là **$O(\log N)$**.
 
 ### 2.1.2. Cấu trúc B+Tree (Cải tiến của B-Tree)
+![B+Tree Structure](./images/b-plus-tree-full.png)
 B+Tree là một biến thể tối ưu hơn của B-Tree và là cấu trúc mặc định của hầu hết các RDBMS hiện đại (như InnoDB của MySQL):
 *   **Chỉ lưu trữ con trỏ dữ liệu tại Nút Lá:** Các nút trung gian (internal nodes) chỉ lưu trữ khóa (keys) và con trỏ điều hướng để phân nhánh, không chứa dữ liệu thực tế. Nhờ vậy, kích thước một nút trung gian rất nhỏ, giúp một nút chứa được nhiều khóa hơn $\rightarrow$ Giảm chiều cao của cây $\rightarrow$ Giảm số lần đọc đĩa (Disk I/O).
 *   **Liên kết giữa các Nút Lá:** Tất cả các nút lá được nối với nhau thông qua một danh sách liên kết vòng kép (Doubly Linked List). Điều này giúp các truy vấn khoảng (Range Queries) và sắp xếp dữ liệu cực kỳ hiệu quả vì chỉ cần tìm đến phần tử đầu tiên rồi duyệt tuyến tính sang các nút lá lân cận.
@@ -87,8 +89,20 @@ graph TD
     end
 ```
 
-### 2.1.3. Cấu trúc Hash Index
+### 2.1.3. Bảng so sánh B-Tree vs B+Tree
+
+| Tiêu chí (Attribute) | B-Tree | B+Tree |
+| :--- | :--- | :--- |
+| **Cấu trúc (Structure)** | Cả nút lá và nút trung gian đều lưu trữ khóa (keys) và dữ liệu (data). | Chỉ các nút lá mới lưu trữ dữ liệu (hoặc con trỏ trỏ tới dữ liệu), trong khi các nút trung gian chỉ lưu trữ khóa để điều hướng. |
+| **Khả năng tiếp cận dữ liệu<br>(Data Accessibility)** | Dữ liệu có thể được truy xuất trực tiếp từ cả nút lá và nút trung gian. | Dữ liệu chỉ có thể được truy xuất bằng cách duyệt xuống tận các nút lá. |
+| **Hiệu năng truy vấn khoảng<br>(Efficiency)** | Kém hiệu quả hơn đối với các truy vấn khoảng vì dữ liệu bị phân tán rải rác ở tất cả các cấp nút. | Hiệu quả hơn đối với truy vấn khoảng do toàn bộ dữ liệu nằm ở các nút lá và được liên kết với nhau giúp duyệt tuần tự dễ dàng. |
+| **Thêm và Xóa phần tử<br>(Insertion and Deletion)** | Phức tạp hơn một chút vì dữ liệu phân tán trên mọi nút, đòi hỏi tái cấu trúc cây nhiều hơn. | Hiệu quả hơn một chút vì dữ liệu chỉ nằm ở các nút lá, giúp giảm bớt tần suất tái cấu trúc lại cây ở các nút cấp trên. |
+| **Tối ưu không gian lưu trữ<br>(Space Utilization)** | Kém tối ưu hơn do tất cả các nút đều phải dành không gian lưu trữ dữ liệu. | Tối ưu không gian hơn trên các nút trung gian, giúp lưu được nhiều khóa hơn trên cùng một trang đĩa (Page). |
+| **Trường hợp sử dụng (Use Cases)** | Phù hợp cho các hệ thống cơ sở dữ liệu nơi việc truy xuất thường là tìm kiếm đích danh (ví dụ: tìm chính xác một khóa). | Thường được sử dụng phổ biến hơn trong các hệ thống cơ sở dữ liệu và hệ thống tệp tin (File System) nơi các truy vấn khoảng diễn ra thường xuyên. |
+
+### 2.1.4. Cấu trúc Hash Index
 *   Sử dụng một hàm băm (Hash Function) để ánh xạ trực tiếp giá trị của cột sang một địa chỉ lưu trữ vật lý cụ thể.
+![Hash Index Structure](./images/hash-index.png)
 *   **Ưu điểm:** Tốc độ tìm kiếm tuyệt đối đạt **$O(1)$** đối với các phép toán so sánh bằng (`=`, `IN`).
 *   **Hạn chế:**
     *   Không hỗ trợ truy vấn khoảng (Range queries như `>`, `<`, `BETWEEN`) hay sắp xếp (`ORDER BY`) vì dữ liệu băm không được lưu trữ theo thứ tự tuần tự.
@@ -99,12 +113,14 @@ graph TD
 ## 2.2. Phân loại theo Cơ chế lưu trữ vật lý (Physical Storage)
 
 ### 2.2.1. Clustered Index (Chỉ mục cụm)
+![Clustered Index](./images/clustered-index.png)
 *   Quyết định thứ tự sắp xếp vật lý của toàn bộ dữ liệu dòng trên đĩa cứng.
 *   Một bảng dữ liệu **chỉ có duy nhất một Clustered Index**.
 *   **Đặc điểm:** Các nút lá của cây B+Tree chứa toàn bộ nội dung dữ liệu của dòng (Row Data).
 *   Theo mặc định, MySQL InnoDB tự động chọn cột **Khóa chính (Primary Key)** làm Clustered Index. Nếu bảng không khai báo khóa chính, InnoDB sẽ chọn cột `UNIQUE NOT NULL` đầu tiên, hoặc tự động sinh ra một cột ẩn `ROWID` tăng dần làm Clustered Index.
 
 ### 2.2.2. Non-clustered Index / Secondary Index (Chỉ mục thứ cấp)
+![Non-clustered Index](./images/non-clustered-index.png)
 *   Là tất cả các chỉ mục được tạo thêm ngoài Clustered Index. Một bảng có thể có **nhiều Secondary Indexes**.
 *   **Đặc điểm:** Nút lá của Secondary Index **chỉ lưu giá trị của cột làm Index và giá trị của Khóa chính (Primary Key)** tương ứng của dòng đó, chứ không lưu địa chỉ đĩa vật lý trực tiếp của dòng.
 *   **Cơ chế tra cứu hai lần (Bookmark Lookup):** Khi truy vấn bằng Secondary Index, hệ thống sẽ duyệt cây Secondary Index để lấy ra khóa chính của dòng. Sau đó, nó dùng khóa chính này để duyệt cây Clustered Index một lần nữa mới lấy được toàn bộ dữ liệu dòng thực tế từ đĩa cứng.

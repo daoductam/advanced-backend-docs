@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: index
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_index_demo?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: "TaM123456789@" # Vui lòng cập nhật password của bạn tại đây nếu có
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jdbc:
+    batch-size: 10000 # Kích hoạt batch insert của JDBC để tăng tốc seeder
+
