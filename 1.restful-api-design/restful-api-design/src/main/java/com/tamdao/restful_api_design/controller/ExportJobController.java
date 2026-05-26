@@ -1,7 +1,8 @@
 package com.tamdao.restful_api_design.controller;
 
 import com.tamdao.restful_api_design.model.ExportJob;
-import com.tamdao.restful_api_design.service.ExportJobService;
+import com.tamdao.restful_api_design.service.PollingExportService;
+import com.tamdao.restful_api_design.service.WebhookExportService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -14,42 +15,78 @@ import org.springframework.web.bind.annotation.*;
 public class ExportJobController {
 
     @Autowired
-    private ExportJobService jobService;
+    private PollingExportService pollingExportService;
+
+    @Autowired
+    private WebhookExportService webhookExportService;
 
     /**
-     * Bước 1: Khởi tạo yêu cầu xuất file nặng
-     * POST /api/v1/jobs/export
+     * CÁCH 1 (POLLING): Khởi tạo yêu cầu xuất file theo cơ chế POLLING
+     * POST /api/v1/jobs/export-polling
      */
-    @PostMapping("/export")
-    public ResponseEntity<ExportJob> triggerExport() {
-        ExportJob job = jobService.triggerExportJob();
+    @PostMapping("/export-polling")
+    public ResponseEntity<ExportJob> triggerPollingExport() {
+        ExportJob job = pollingExportService.triggerPollingJob();
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(job);
     }
 
     /**
-     * Bước 2: API thăm dò trạng thái (Polling Endpoint)
+     * CÁCH 1 (POLLING): API thăm dò trạng thái (dùng cho Polling)
      * GET /api/v1/jobs/{jobId}
      */
     @GetMapping("/{jobId}")
     public ResponseEntity<ExportJob> getJobStatus(@PathVariable String jobId) {
-        ExportJob job = jobService.getJobStatus(jobId);
+        ExportJob job = pollingExportService.getJobStatus(jobId);
         return ResponseEntity.ok(job);
     }
 
     /**
-     * Bước 3: API tải file kết quả sau khi hoàn thành
+     * CÁCH 2 (WEBHOOK): Khởi tạo yêu cầu xuất file theo cơ chế WEBHOOK
+     * POST /api/v1/jobs/export-webhook?callbackUrl=http://localhost:8080/api/v1/jobs/receive-webhook
+     */
+    @PostMapping("/export-webhook")
+    public ResponseEntity<ExportJob> triggerWebhookExport(@RequestParam String callbackUrl) {
+        ExportJob job = webhookExportService.triggerWebhookJob(callbackUrl);
+        return ResponseEntity.status(HttpStatus.ACCEPTED).body(job);
+    }
+
+    /**
+     * CÁCH 2 (WEBHOOK): Endpoint thu nhận webhook (để kiểm tra xem webhook bắn về đúng không)
+     * POST /api/v1/jobs/receive-webhook
+     */
+    @PostMapping("/receive-webhook")
+    public ResponseEntity<String> receiveWebhook(
+            @RequestBody String payload,
+            @RequestHeader("X-Webhook-Signature") String signature) {
+        
+        System.out.println("<<< Client Receiver: Nhận được Webhook payload: " + payload);
+        System.out.println("<<< Client Receiver: Nhận được Signature Header: " + signature);
+
+        // Kiểm tra tính bảo mật chữ ký HMAC-SHA256
+        String expectedSignature = webhookExportService.calculateHmacSha256(payload, WebhookExportService.WEBHOOK_SECRET);
+
+        if (expectedSignature.equals(signature)) {
+            System.out.println("<<< Client Receiver: Chữ ký hợp lệ! Đã xử lý webhook thành công.");
+            return ResponseEntity.ok("Webhook processed successfully");
+        } else {
+            System.err.println("<<< Client Receiver: Cảnh báo! Sai chữ ký. Từ chối xử lý.");
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid signature");
+        }
+    }
+
+    /**
+     * TẢI KẾT QUẢ FILE CHUNG (cho cả 2 cách)
      * GET /api/v1/jobs/{jobId}/download
      */
     @GetMapping("/{jobId}/download")
     public ResponseEntity<byte[]> downloadResult(@PathVariable String jobId) {
-        ExportJob job = jobService.getJobStatus(jobId);
+        ExportJob job = pollingExportService.getJobStatus(jobId);
 
         if (!"DONE".equals(job.getStatus())) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST)
                     .body(("Tác vụ chưa hoàn thành hoặc đã thất bại. Trạng thái hiện tại: " + job.getStatus()).getBytes());
         }
 
-        // Giả lập nội dung file Excel/CSV xuất ra thành công
         String fileContent = "ID,Username,Email,CreatedAt\n" +
                 "1,user_1,user1@tamdao.com,2026-05-26\n" +
                 "2,user_2,user2@tamdao.com,2026-05-26\n" +

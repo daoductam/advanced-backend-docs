@@ -20,6 +20,8 @@ public class ExportJob {
 
     private String downloadUrl;
 
+    private String callbackUrl;
+
     private LocalDateTime issuedAt;
 
     private LocalDateTime completedAt;
