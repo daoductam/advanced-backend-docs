@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: caching-design
+
+  # ============================================================
+  # H2 In-Memory Database Configuration
+  # Dùng cho demo, thay thế cho MySQL/PostgreSQL thật.
+  # H2 console cho phép xem dữ liệu DB trực tiếp trên browser.
+  # ============================================================
+  datasource:
+    url: jdbc:h2:mem:cachedb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+  h2:
+    console:
+      enabled: true          # Bật H2 console tại http://localhost:8080/h2-console
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop  # Tự động tạo schema khi khởi động, xóa khi tắt
+    show-sql: true           # In SQL query ra log để dễ debug
+    database-platform: org.hibernate.dialect.H2Dialect
+
+  # ============================================================
+  # Redis Configuration
+  #
+  # QUAN TRỌNG: Bạn cần có Redis Server chạy tại localhost:6379.
+  # Cách cài nhanh nhất: docker run -d -p 6379:6379 redis:alpine
+  # ============================================================
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      # password: ""         # Nếu Redis có auth thì uncomment dòng này
+
+# Logging: in thêm log package của chúng ta để dễ theo dõi
+logging:
+  level:
+    com.tamdao.caching_design: DEBUG

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>4.0.6</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.tamdao</groupId>
+	<artifactId>caching-design</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>caching-design</name>
+	<description>Cache Design Demo: Read-Aside + Delete Write-Around (RA + DWA)</description>
+
+	<properties>
+		<java.version>21</java.version>
+	</properties>
+
+	<dependencies>
+		<!-- Spring Web: REST API -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-json</artifactId>
+		</dependency>
+
+		<!-- Spring Data JPA: ORM layer (tương tác với DB) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<!--
+		    Spring Data Redis (Lettuce driver):
+		    Đây là thư viện giúp Spring Boot tương tác với Redis Server.
+		    Lettuce là Redis client bất đồng bộ (async), thread-safe, không cần connection pool.
+		-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+		</dependency>
+
+		<!--
+		    H2 Database: In-memory SQL database dùng cho demo (thay thế MySQL/PostgreSQL).
+		    Chạy hoàn toàn trong JVM, không cần cài đặt DB bên ngoài.
+		-->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+		<!-- Lombok: Giảm boilerplate code (@Getter, @Setter, @Builder, @Slf4j ...) -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<!--
+		    Resilience4j Circuit Breaker (Problem 02 - Cache Avalanche):
+		    resilience4j-circuitbreaker chứa package io.github.resilience4j.circuitbreaker
+		    với CircuitBreaker, CircuitBreakerConfig, CircuitBreakerRegistry.
+		-->
+		<dependency>
+			<groupId>io.github.resilience4j</groupId>
+			<artifactId>resilience4j-circuitbreaker</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+
+		<!--
+		    Spring Retry (Solution 1 - No Atomicity):
+		    Cung cấp annotation @Retryable để tự động gọi lại method khi có exception.
+		    Cần @EnableRetry trên @SpringBootApplication để kích hoạt.
+		-->
+		<dependency>
+			<groupId>org.springframework.retry</groupId>
+			<artifactId>spring-retry</artifactId>
+			<version>2.0.11</version>
+		</dependency>
+
+		<!--
+		    Spring Aspects: BẮT BUỘC phải có cùng spring-retry.
+		    spring-retry dùng AOP (Aspect-Oriented Programming) để wrap method
+		    bằng proxy → intercept exception → retry tự động.
+		    Nếu thiếu dependency này, @Retryable sẽ không hoạt động.
+		-->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+		</dependency>
+
+		<!-- Guava: Sử dụng Bloom Filter cho giải pháp Cache Penetration -->
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>33.2.1-jre</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<excludes>
+						<exclude>
+							<groupId>org.projectlombok</groupId>
+							<artifactId>lombok</artifactId>
+						</exclude>
+					</excludes>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
