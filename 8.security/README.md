@@ -56,9 +56,12 @@
     *   Dùng để **bảo đảm tính toàn vẹn dữ liệu (Data Integrity)** (giúp kiểm tra xem dữ liệu có bị chỉnh sửa hay không).
 *   **Đụng độ băm (Collision):** Hiện tượng hai dữ liệu đầu vào khác nhau nhưng qua hàm băm lại cho ra cùng một giá trị hash đầu ra. Một hàm băm tốt là hàm băm giảm thiểu tối đa tỷ lệ xảy ra đụng độ.
 
+![alt text](image.png)
+
 ---
 
 ## 1.3. Mã hóa bảo mật (Encryption)
+![alt text](image-1.png)
 *   **Định nghĩa:** Sử dụng các thuật toán toán học mật mã để biến đổi thông tin gốc (Plaintext) thành thông tin không thể đọc được (Ciphertext) nhằm bảo vệ tính bí mật của dữ liệu.
 *   **Đặc điểm:**
     *   Là quá trình **khả nghịch** (Reversible) đối với những người được ủy quyền sở hữu Khóa (Keys).
@@ -123,6 +126,7 @@ graph TD
 ---
 
 ## 1.5. Chữ ký số (Digital Signature)
+![alt text](image-2.png)
 *   **Mục đích:** Chứng minh nguồn gốc dữ liệu (Authenticity) và đảm bảo thông tin không bị thay đổi trong quá trình truyền tải.
 *   **Công thức gói tin gửi đi:**
     $$\text{Message} = \text{Dữ liệu gốc (Plaintext)} + \text{Chữ ký số (Signature)}$$
@@ -131,6 +135,7 @@ graph TD
 ---
 
 ## 1.6. Case Study 1: Lưu trữ Mật khẩu an toàn (Password Storage)
+![alt text](image-3.png)
 *   **Nguyên tắc vàng:** **Tuyệt đối không bao giờ lưu trữ mật khẩu ở dạng văn bản gốc (Plaintext)** trong cơ sở dữ liệu.
 *   **Tại sao dùng Hashing?** Khi hacker xâm nhập vào DB, chúng chỉ nhận được các chuỗi băm vô nghĩa và không thể giải mã ngược lại mật khẩu gốc của người dùng.
 *   **Lựa chọn thuật toán băm mật khẩu:**
@@ -138,6 +143,7 @@ graph TD
     *   *Bcrypt:* Đã bắt đầu lỗi thời và không còn tối ưu trước các phần cứng hiện đại.
     *   *Scrypt, Argon2:* Là giải pháp khuyến nghị hiện nay. Các thuật toán này cố tình tiêu tốn nhiều bộ nhớ RAM và thời gian CPU khi tính toán, khiến việc xây dựng phần cứng tấn công Brute-force/Rainbow Table trở nên bất khả thi về mặt chi phí kinh tế.
 *   **Kỹ thuật Muối dữ liệu (Salt):** Tự động sinh ra một chuỗi ngẫu nhiên độc bản (Salt) cho mỗi người dùng, nối chuỗi này với mật khẩu trước khi băm. Việc này đảm bảo rằng hai người dùng có cùng mật khẩu `"123456"` vẫn sẽ có hai chuỗi băm hoàn toàn khác nhau trong DB, bẻ gãy hoàn toàn các đòn tấn công Rainbow Table.
+![alt text](image-4.png)
 
 ---
 
@@ -250,6 +256,7 @@ flowchart TD
 ---
 
 ## 3.2. Xác thực cơ bản (Basic Auth)
+![alt text](image-5.png)
 *   **Cơ chế:** Đính kèm trực tiếp thông tin đăng nhập vào Header của mỗi request:
     $$\text{Authorization: Basic } + \text{Base64}(\text{username:password})$$
 *   **Hạn chế:**
@@ -273,6 +280,7 @@ flowchart TD
 ---
 
 ### 3.3.2. Cơ chế hoạt động Session-Cookie
+![alt text](image-6.png)
 *   Sau khi xác thực thành công, Server sinh ra một mã **Session ID** duy nhất lưu vào bộ nhớ (hoặc Redis) và trả về cho Client để lưu vào Cookie của trình duyệt. Trình duyệt tự động đính kèm Cookie này trong các request tiếp theo.
 *   **Hạn chế:**
     *   Dễ bị tấn công CSRF nếu không cấu hình cookie thuộc tính `SameSite`.
@@ -282,7 +290,7 @@ flowchart TD
 ---
 
 ## 3.4. Xác thực bằng Token (Token-Based Auth - JWT)
-
+![alt text](image-7.png)
 ### 3.4.1. Cấu trúc Json Web Token (JWT)
 JWT là một chuỗi văn bản gồm 3 phần được phân tách bằng dấu chấm `.`:
 `[Header].[Payload].[Signature]`
@@ -318,6 +326,7 @@ sequenceDiagram
         Server-->>Client: 12. Phản hồi kết quả (Không cần truy vấn DB/Redis session)
     end
 ```
+![alt text](image-8.png)
 
 ### 3.4.2. Hạn chế và Giải pháp cải tiến JWT
 *   **Vấn đề Thu hồi (Revocation):** Do JWT là Stateless (Server không lưu trạng thái), một khi Token được phát đi thì không thể thu hồi hiệu lực trước thời hạn hết hạn (`exp`), ngay cả khi người dùng đổi mật khẩu hoặc bị khóa tài khoản.
@@ -331,12 +340,12 @@ sequenceDiagram
 ### 3.5.1. Phân quyền dựa trên Vai trò (Role-Based Access Control - RBAC)
 *   Mỗi người dùng được gán một hoặc nhiều Vai trò (ví dụ: `ADMIN`, `EDITOR`, `USER`). Mỗi API định nghĩa các vai trò được phép truy cập.
 *   **Hạn chế:** Khi hệ thống phình to, các Vai trò bị chồng chéo quyền hạn rất nhiều. Số lượng vai trò tăng lên chóng mặt làm rối loạn kiểm soát. Mỗi lần thêm vai trò mới được phép gọi một API, lập trình viên phải thay đổi mã nguồn và deploy lại ứng dụng.
-
+![alt text](image-9.png)
 ### 3.5.2. Phân quyền dựa trên Quyền hạn (Permission-Based Access Control)
 *   **Permission** được định nghĩa chi tiết gồm: **Đối tượng tác động (Resource)** + **Hành động (Action)** (ví dụ: `POST:CREATE`, `USER:DELETE`).
 *   **Role** đóng vai trò là một nhóm tập hợp chứa nhiều Permission cụ thể.
 *   **Ưu điểm:** Cực kỳ linh hoạt. Khi cần cấu hình quyền hạn cho người dùng, quản trị viên chỉ cần gán/gỡ Permission của các Role thông qua trang Admin mà không cần sửa đổi bất kỳ dòng mã nguồn nào của Backend.
-
+![alt text](image-10.png)
 ---
 
 ## 3.6. Case Study 4: Đăng nhập một lần (Single Sign-On - SSO)
@@ -371,7 +380,9 @@ sequenceDiagram
     App2->>SSO: 14. Kiểm tra Token
     SSO-->>App2: 15. Xác thực thành công -> App 2 thiết lập Session local
 ```
-
+![alt text](image-11.png)
+![alt text](image-12.png)
+![alt text](image-13.png)
 ---
 
 # Tóm tắt & Bài tập về nhà (Recap & Homework)
