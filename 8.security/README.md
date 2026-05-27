@@ -72,8 +72,8 @@ graph TD
     end
 
     subgraph Asymmetric ["Mã hóa bất đối xứng (Asymmetric Encryption - Ví dụ: RSA)"]
-        Plain2["Plaintext (Dữ liệu gốc)"] -->|Mã hóa bằng Khóa công khai (Public Key)| Cipher2["Ciphertext"]
-        Cipher2 -->|Giải mã bằng Khóa bí mật (Private Key)| Plain2
+        Plain2["Plaintext (Dữ liệu gốc)"] -->|"Mã hóa bằng Khóa công khai (Public Key)"| Cipher2["Ciphertext"]
+        Cipher2 -->|"Giải mã bằng Khóa bí mật (Private Key)"| Plain2
     end
 ```
 
