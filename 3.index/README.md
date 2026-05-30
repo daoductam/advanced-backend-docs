@@ -120,9 +120,9 @@ graph TD
 *   Theo mặc định, MySQL InnoDB tự động chọn cột **Khóa chính (Primary Key)** làm Clustered Index. Nếu bảng không khai báo khóa chính, InnoDB sẽ chọn cột `UNIQUE NOT NULL` đầu tiên, hoặc tự động sinh ra một cột ẩn `ROWID` tăng dần làm Clustered Index.
 
 ### 2.2.2. Non-clustered Index / Secondary Index (Chỉ mục thứ cấp)
-![Non-clustered Index](./images/non-clustered-index.png)
 *   Là tất cả các chỉ mục được tạo thêm ngoài Clustered Index. Một bảng có thể có **nhiều Secondary Indexes**.
 *   **Đặc điểm:** Nút lá của Secondary Index **chỉ lưu giá trị của cột làm Index và giá trị của Khóa chính (Primary Key)** tương ứng của dòng đó, chứ không lưu địa chỉ đĩa vật lý trực tiếp của dòng.
+![Non-clustered Index](./images/non-clustered-index.png)
 *   **Cơ chế tra cứu hai lần (Bookmark Lookup):** Khi truy vấn bằng Secondary Index, hệ thống sẽ duyệt cây Secondary Index để lấy ra khóa chính của dòng. Sau đó, nó dùng khóa chính này để duyệt cây Clustered Index một lần nữa mới lấy được toàn bộ dữ liệu dòng thực tế từ đĩa cứng.
 
 ```mermaid
@@ -163,9 +163,11 @@ Mặc dù giúp tăng tốc độ đọc dữ liệu, Index cũng đi kèm các 
 
 ### 2.3.2. Primary Index (Chỉ mục khóa chính)
 *   Được tự động tạo ra khi định nghĩa khóa chính. Nó đóng vai trò là mã định danh duy nhất cho mỗi dòng trong bảng. Việc sử dụng khóa chính dạng số tự tăng (auto-increment) sẽ giúp việc ghi dữ liệu mới diễn ra tuần tự ở cuối cây B+Tree, hạn chế tối đa việc phân tách trang (Page Split) dữ liệu.
+![Primary Index](./images/primary-index.png)
 
 ### 2.3.3. Unique Index (Chỉ mục duy nhất)
 *   Đảm bảo giá trị của các cột trong chỉ mục không được trùng lặp nhau. Tuy nhiên, khác với Khóa chính, cột định nghĩa Unique Index **được phép chứa nhiều giá trị NULL**.
+![Unique Index](./images/unique-index.png)
 *   **Cú pháp tạo:**
     ```sql
     CREATE UNIQUE INDEX index_name ON table_name(column_1, column_2, ...);
@@ -176,9 +178,10 @@ Mặc dù giúp tăng tốc độ đọc dữ liệu, Index cũng đi kèm các 
 ## 2.4. Phân loại theo Số lượng cột (Composite & Covering Index)
 
 ### 2.4.1. Composite Index (Chỉ mục tổ hợp)
+![Composite Index](./images/composite-index.png)
 *   Là chỉ mục được xây dựng từ **nhiều cột** dữ liệu cùng lúc.
 *   Càng chứa nhiều cột, chỉ mục càng chiếm nhiều không gian đĩa cứng.
-
+![alt text](./images/image.png)
 > [!IMPORTANT]
 > **Quy tắc Tiền tố Bên trái nhất (Most Left-Prefix Rule):**
 > Giả sử ta có một Composite Index trên ba cột: `(country, province, name)`.
@@ -203,6 +206,7 @@ Mặc dù giúp tăng tốc độ đọc dữ liệu, Index cũng đi kèm các 
 ---
 
 ### 2.4.2. Covering Index (Chỉ mục bao phủ)
+![Covering Index](./images/covering-index.png)
 *   **Định nghĩa:** Là chỉ mục chứa **toàn bộ tất cả các cột** được yêu cầu trong câu lệnh `SELECT` (bao gồm cả cột ở `WHERE`, `SELECT`, `JOIN`, `GROUP BY`).
 *   **Ưu điểm vượt trội:** Bộ tối ưu hóa cơ sở dữ liệu sẽ trả về kết quả ngay lập tức bằng cách đọc dữ liệu từ cây Secondary Index mà **không cần thực hiện bước tra cứu lần hai (Bookmark Lookup)** để quét Clustered Index trên đĩa cứng $\rightarrow$ Tiết kiệm phần lớn tài nguyên I/O đĩa.
 *   **Khuyến nghị:** Chỉ nên áp dụng Covering Index cho các truy vấn lấy ít thông tin (tối đa $\le 5$ cột) để tránh phình to kích thước file index.
