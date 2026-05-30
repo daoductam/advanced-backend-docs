@@ -84,20 +84,95 @@ Giao thức WebSocket cực kỳ hiệu quả đối với các **Real-time Appl
 
 ## 4. Luồng xử lý dữ liệu (Flow of Messages)
 
-Khi ứng dụng sử dụng các thư viện như Spring WebSocket kết hợp với STOMP, luồng thông điệp được chia sẻ qua các Message Broker:
+Khi ứng dụng sử dụng các thư viện như Spring WebSocket kết hợp với STOMP, luồng thông điệp được định tuyến qua các Message Handler và Message Broker như sau:
 
 ```mermaid
-flowchart LR
-    Client1[Client A] -->|Send /app/chat| Broker{Message Broker}
-    Broker -->|Subscribe /topic/messages| Client1
-    Broker -->|Subscribe /topic/messages| Client2[Client B]
-    Broker -->|Subscribe /topic/messages| Client3[Client C]
+flowchart TD
+    subgraph ClientMessages ["WebSocket Client Messages (Inbound)"]
+        SendApp["SEND<br/>destination: /app/a"]
+        SendTopic["SEND<br/>destination: /topic/a"]
+    end
+
+    RequestChannel["request channel"]
+    SimpHandler["SimpAnnotationMethod<br/>(MessageHandler)"]
+    BrokerChannel["broker channel"]
+    StompRelay["StompBrokerRelay<br/>(MessageHandler)"]
+    ExternalBroker[("Message Broker<br/>(e.g. ActiveMQ, RabbitMQ)")]
+    ResponseChannel["response channel"]
+    
+    subgraph ServerMessages ["Outbound Messages"]
+        MessageOut["MESSAGE<br/>destination: /topic/a"]
+    end
+
+    SendApp --> RequestChannel
+    SendTopic --> RequestChannel
+
+    RequestChannel -->|"/app"| SimpHandler
+    RequestChannel -->|"/topic"| StompRelay
+
+    SimpHandler --> BrokerChannel
+    BrokerChannel --> StompRelay
+
+    StompRelay <-->|"STOMP (TCP)"| ExternalBroker
+    StompRelay --> ResponseChannel
+    ResponseChannel --> MessageOut
 ```
 
 ---
 
 ## 5. Demo thực hành
 
-Học phần này đi kèm các mã nguồn demo thực tế:
-*   **Realtime Scoreboard:** Ứng dụng cập nhật bảng điểm thể thao thời gian thực tự động push từ máy chủ.
-*   **Realtime Chat:** Ứng dụng phòng trò chuyện trực tuyến cho phép các client gửi nhận tin nhắn tức thời.
+Học phần này đi kèm các mã nguồn và kiến trúc demo thực tế:
+
+### 📊 Realtime Scoreboard & Leaderboard (Kiến trúc Bảng xếp hạng Realtime)
+
+*   **Yêu cầu:** Cập nhật bảng xếp hạng (top 10 người chơi) liên tục theo thời gian thực với độ trễ thấp nhất.
+*   **Giải pháp kết hợp REST & WebSocket:**
+    *   **B1 (Cập nhật điểm):** Khi có thay đổi điểm số, client gửi `POST /api/ranking/update` -> CSDL/Cache cập nhật điểm cho user (sử dụng lệnh `ZADD` của Redis Sorted Set).
+    *   **B2 (Đẩy dữ liệu Realtime):** Service sử dụng lệnh `ZRANGE` để lấy ra Top 10 người chơi dẫn đầu và gửi dữ liệu cập nhật vào Message Broker (`/topic/rankings`), từ đó Broker chuyển tiếp qua kênh WebSocket để tự động đẩy về toàn bộ client đang theo dõi.
+    *   **REST Polling (Dự phòng):** Trình duyệt web có thể gọi định kỳ `GET /api/rankings/top/10` sau mỗi 30 giây để lấy dữ liệu tĩnh.
+
+```mermaid
+flowchart TD
+    subgraph Clients ["Trình duyệt & Người dùng (Clients)"]
+        User1["User 1<br/>(WS Subscribe /topic/ranking)"]
+        User2["User 2<br/>(WS Subscribe /topic/ranking)"]
+        User3["User 3<br/>(WS Subscribe /topic/ranking)"]
+        WebBrowser["Web Browser<br/>(REST Poll /api/rankings/top/10)"]
+    end
+
+    subgraph Infrastructure ["Hạ tầng & Routing"]
+        LB["Load Balancer"]
+    end
+
+    subgraph AppServer ["Hệ thống Backend (Ranking Service)"]
+        Controller["REST Ranking Controller"]
+        Service["Ranking Service<br/>(Xử lý ZADD / ZRANGE)"]
+    end
+
+    subgraph MessageQueue ["Message Broker"]
+        MQ["RabbitMQ"]
+    end
+
+    %% Client Interactions
+    User1 & User2 & User3 <-->|WebSocket Connection /ws| LB
+    WebBrowser -->|every 30s call REST API| Controller
+
+    %% HTTP & Routing Flow
+    User1 & User2 & User3 -->|POST /api/ranking/update| LB
+    LB --> Controller
+    Controller -->|POST /api/ranking/update| Service
+
+    %% Processing Flow
+    Service -->|B1: ZADD cập nhật điểm user| Service
+    Service -->|B2: ZRANGE lấy top 10| Service
+    
+    %% Broker Integration
+    Service -->|Query top 10 & gửi sang broker| MQ
+    MQ -->|Đẩy tin nhắn /topic/rankings| Service
+    Service <-->|"Giao thức STOMP"| LB
+    LB -.->|Push realtime update| User1 & User2 & User3
+```
+
+*   **Realtime Chat:** Ứng dụng phòng trò chuyện trực tuyến cho phép các client gửi nhận tin nhắn tức thời (giao tiếp Peer-to-Peer hoặc Group Chat qua STOMP Destination Broker).
+
